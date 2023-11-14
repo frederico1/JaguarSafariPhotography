@@ -28,6 +28,12 @@ const routes = [
     name: "contact",
     component: () => import("../views/ContactView.vue"),
   },
+
+  {
+    path: "/jaguar-safari",
+    name: "jaguarsafari",
+    component: () => import("../views/JaguarSafariView.vue"),
+  },
 ];
 
 const router = createRouter({
