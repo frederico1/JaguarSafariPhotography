@@ -1,13 +1,14 @@
 <template>
-  <JaguarNavigation></JaguarNavigation>
-  <div>
+  <div class="p-3 md:p-10">
+    <JaguarNavigation></JaguarNavigation>
+
     <div class="pt-40">
       <h1 class="text-3xl font-bold text-center">
         Jaguar Safari in Porto Jofre
       </h1>
     </div>
     <div class="pt-10 flex justify-center items-center mx-auto text-center">
-      <p class="text-center">
+      <p class="text-center font-semibold text-[#000]">
         First, our company offers Pantanal jaguar safari photography starting in
         Cuiabá. However, we can start your Pantanal jaguar safari itinerary
         immediately upon your arrival. In fact, you have the possibility to stay
@@ -20,6 +21,9 @@
         in Porto Jofre. Certainly, the trip is interesting, you will see many
         wild animals.
       </p>
+    </div>
+    <div class="pt-10">
+      <h1 class="text-3xl font-bold text-center">Jaguar Tour Itinararies</h1>
     </div>
   </div>
 </template>

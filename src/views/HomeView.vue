@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-3 md:p-10">
     <!-- NAVIGATION -->
 
     <JaguarNavigation></JaguarNavigation>

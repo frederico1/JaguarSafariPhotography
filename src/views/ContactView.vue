@@ -1,7 +1,9 @@
 <template>
-  <JaguarNavigation></JaguarNavigation>
+  <div class="p-10">
+    <JaguarNavigation></JaguarNavigation>
 
-  <h1>Contact</h1>
+    <h1>Contact</h1>
+  </div>
 </template>
 
 <script>

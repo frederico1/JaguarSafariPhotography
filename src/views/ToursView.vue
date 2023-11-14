@@ -1,6 +1,8 @@
 <template>
-  <JaguarNavigation></JaguarNavigation>
-  <h1>Tours</h1>
+  <div class="p-10">
+    <JaguarNavigation></JaguarNavigation>
+    <h1>Tours</h1>
+  </div>
 </template>
 
 <script>
