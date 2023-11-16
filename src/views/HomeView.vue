@@ -31,10 +31,16 @@
       <div>
         <h1 class="font-bold text-3xl md:text-6xl">JAGUAR TOURS</h1>
       </div>
-      <div class="pt-10 sm:flex sm:flex-col md:grid md:grid-cols-3 gap-20">
-        <JaguarCard4></JaguarCard4>
-        <JaguarCard6></JaguarCard6>
-        <JaguarCard7></JaguarCard7>
+      <div class="pt-10 grid gap-7 md:grid md:grid-cols-3 md:gap-20">
+        <div>
+          <JaguarCard4></JaguarCard4>
+        </div>
+        <div>
+          <JaguarCard6></JaguarCard6>
+        </div>
+        <div>
+          <JaguarCard7></JaguarCard7>
+        </div>
       </div>
     </div>
 

@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="mx-auto drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]"
-    max-width="344"
+    width="344"
   >
     <v-img
       src="../assets/img/jaguar4nightscard.png"
