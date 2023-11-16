@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10">
+  <div class="md:p-8">
     <JaguarNavigation></JaguarNavigation>
     <h1>Tours</h1>
   </div>

@@ -1,7 +1,55 @@
 <template>
-  <div class="card">
+  <v-card
+    class="mx-auto drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]"
+    max-width="344"
+  >
+    <v-img
+      src="../assets/img/jaguar4nightscard.png"
+      height="300px"
+      cover
+    ></v-img>
+
+    <v-card-title> Jaguar tour 4 nights / 5 days </v-card-title>
+
+    <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+
+    <v-card-actions>
+      <router-link to="/jaguar-safari"
+        ><v-btn color="orange-lighten-1" variant="text">
+          Explore
+        </v-btn></router-link
+      >
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+        @click="show = !show"
+      ></v-btn>
+    </v-card-actions>
+
+    <v-expand-transition>
+      <div v-show="show">
+        <v-divider></v-divider>
+
+        <v-card-text>
+          I'm a thing. But, like most politicians, he promised more than he
+          could deliver. You won't have time for sleeping, soldier, not with all
+          the bed making you'll be doing. Then we'll go with that data file!
+          Hey, you add a one and two zeros to that or we walk! You're going to
+          do his laundry? I've got to find a way to escape.
+        </v-card-text>
+      </div>
+    </v-expand-transition>
+  </v-card>
+  <!--   <div class="card">
     <a class="card1" href="#">
-      <img src="../assets//img/oncapintada1.jpg" alt="" />
+      <v-img
+        max-width="350"
+        aspect-ratio="16/9"
+        cover
+        src="../assets/img/jaguar4nightscard.png"
+      ></v-img>
       <div class="flex flex-col gap-3">
         <p class="font-bold text-[#666] text-2xl pt-2">
           Jaguar tour 4 nights / 5 days
@@ -17,11 +65,15 @@
       </div>
     </a>
   </div>
+   -->
 </template>
 <script>
 /* eslint-disable */
 export default {
   name: "JaguarCard4",
+  data: () => ({
+    show: false,
+  }),
 };
 </script>
 <style scoped>
