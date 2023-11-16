@@ -36,7 +36,12 @@
         class="md:p-40 pt-10 md:pt-20 flex justify-center items-center mx-auto md:w-[1200px]"
       >
         <v-expansion-panels>
-          <v-expansion-panel>
+          <v-expansion-panel
+            style="
+              box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+            "
+          >
             <div>
               <v-img
                 class="flex justify-center items-center mx-auto"
@@ -44,7 +49,7 @@
                 max-height="200"
                 aspect-ratio="16/9"
                 cover
-                src="../assets/img/jaguar6nightscard.png"
+                src="../assets/img/jaguar4nightspanel.jpg"
               ></v-img>
             </div>
             <v-expansion-panel-title
@@ -52,7 +57,6 @@
               expand-icon="mdi-plus"
               collapse-icon="mdi-minus"
             >
-              <img src="../assets/img/jaguar4nightspanel.jpg" alt="" />
               Jaguar Safari 4 nights / 5 days First day . First, on this Jaguar
               safari photography, we will pick you up at the airport or hotel in
               Cuiabá and transfer to the Lodge. Generally, the trip takes 3
@@ -104,7 +108,22 @@
         class="md:p-40 pt-10 md:pt-20 flex justify-center items-center mx-auto md:w-[1200px]"
       >
         <v-expansion-panels>
-          <v-expansion-panel>
+          <v-expansion-panel
+            style="
+              box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+            "
+          >
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                max-width="1000"
+                max-height="200"
+                aspect-ratio="16/9"
+                cover
+                src="../assets/img/jaguar6nightspanel.jpg"
+              ></v-img>
+            </div>
             <v-expansion-panel-title
               class="font-semibold"
               expand-icon="mdi-plus"
@@ -180,13 +199,27 @@
         class="md:p-40 pt-10 md:pt-20 flex justify-center items-center mx-auto md:w-[1200px]"
       >
         <v-expansion-panels>
-          <v-expansion-panel>
+          <v-expansion-panel
+            style="
+              box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+            "
+          >
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                max-width="1000"
+                max-height="200"
+                aspect-ratio="16/9"
+                cover
+                src="../assets/img/jaguar7nightspanel.jpg"
+              ></v-img>
+            </div>
             <v-expansion-panel-title
               class="font-semibold"
               expand-icon="mdi-plus"
               collapse-icon="mdi-minus"
             >
-              <img src="../assets/img/jaguar4nightspanel.jpg" alt="" />
               On the first day of our jaguar safari photography, our guide will
               pick you up at the airport or your hotel in Cuiabá. After that, He
               will take you to the lodge in the Pantanal. Meanwhile, on the
