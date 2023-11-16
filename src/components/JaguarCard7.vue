@@ -1,7 +1,11 @@
 <template>
   <v-card
-    class="mx-auto drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]"
+    class="mx-auto"
     max-width="344"
+    style="
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+        0 8px 10px -6px rgb(0 0 0 / 0.1);
+    "
   >
     <v-img
       src="../assets/img/jaguar7nightscard.png"
