@@ -11,7 +11,7 @@
       <div
         class="pt-10 flex justify-center items-center mx-auto text-center pb-10"
       >
-        <p class="text-center font-semibold text-[#000]">
+        <p class="text-center text-[#000] md:text-xl">
           First, our company offers Pantanal jaguar safari photography starting
           in Cuiabá. However, we can start your Pantanal jaguar safari itinerary
           immediately upon your arrival. In fact, you have the possibility to
@@ -47,6 +47,8 @@
             </div>
             <div class="max-w-[350px] md:w-full">
               <v-stepper
+                style="font-weight: 600"
+                color="orange-lighten-1"
                 class="w-full"
                 prev-text="Preview"
                 next-text="Next"
@@ -137,6 +139,8 @@
             </div>
             <div class="max-w-[350px] md:w-full">
               <v-stepper
+                style="font-weight: 600"
+                color="orange-lighten-1"
                 class="w-full"
                 prev-text="Preview"
                 next-text="Next"
@@ -249,6 +253,8 @@
             </div>
             <div class="max-w-[350px] md:w-full">
               <v-stepper
+                style="font-weight: 600"
+                color="orange-lighten-1"
                 class="w-full"
                 prev-text="Preview"
                 next-text="Next"
