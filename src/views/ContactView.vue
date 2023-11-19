@@ -1,24 +1,149 @@
 <template>
-  <div class="md:p-8">
+  <div class="md:p-8 p-2">
     <JaguarNavigation></JaguarNavigation>
+    <div class="pt-8 flex flex-col gap-2 text-center">
+      <h1 class="text-2xl font-bold text-[#21209c]">
+        Pantanal trip photography.
+      </h1>
+      <p class="">
+        If you wish to make a Pantanal trip photography, you are in the right
+        page. In fact, Silva Tour Pantanal is organizing naturalistic tours
+        since 2014. If you have any questions about the trip, forthwith, we will
+        answer and try clarify your doubts. By and large, we give all
+        information about booking hotels, transfers and guides. thus, do not
+        hesitate to get in touch with us.
+      </p>
+    </div>
+
+    <!-- FORM -->
+    <div class="pt-8">
+      <form @submit.prevent="submit">
+        <v-text-field
+          v-model="name.value.value"
+          :counter="10"
+          :error-messages="name.errorMessage.value"
+          label="Name"
+        ></v-text-field>
+
+        <v-text-field
+          v-model="phone.value.value"
+          :counter="7"
+          :error-messages="phone.errorMessage.value"
+          label="Phone Number"
+        ></v-text-field>
+
+        <v-text-field
+          v-model="email.value.value"
+          :error-messages="email.errorMessage.value"
+          label="E-mail"
+        ></v-text-field>
+        <div class="pt-3">
+          <v-btn class="me-4" type="submit"> submit </v-btn>
+        </div>
+      </form>
+    </div>
+
+    <!-- CONTACT  -->
+    <div class="pt-8">
+      <div class="">
+        <h1 class="text-2xl font-bold text-[#21209c]">Contact US</h1>
+      </div>
+      <div class="pt-4">
+        <p>
+          For a Pantanal trip photography or suggestions, contact us by e-mail,
+          phone or fill in the formular.
+        </p>
+      </div>
+      <div class="pt-4 flex flex-col gap-4">
+        <div class="flex items-center gap-2">
+          <Icon icon="game-icons:smartphone" width="24" height="24" />
+          <a>65 99276-4968</a>
+        </div>
+        <div class="flex items-center gap-2">
+          <Icon icon="ic:baseline-whatsapp" width="24" height="24" />
+          <a
+            href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+          >
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-mobile-alt"></i>
+            </span>
+            <span class="elementor-icon-list-text">+55 65 99276-4968</span>
+          </a>
+        </div>
+        <div class="flex items-center gap-2">
+          <Icon icon="ic:outline-email" width="24" height="24" />
+          <a
+            class="hover:[#21209c]"
+            href="http://jaguarsafariphotograph@gmail.com"
+            >jaguarsafariphotograph@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 /* eslint-disable */
 import { Icon } from "@iconify/vue";
-import { ref } from "vue";
-import { useField, useForm } from "vee-validate";
-import { Form, Field, ErrorMessage } from "vee-validate";
 
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 
+import { ref } from "vue";
+import { useField, useForm } from "vee-validate";
+
 export default {
   components: {
+    Icon,
     JaguarNavigation,
   },
+  setup() {
+    const { handleSubmit } = useForm({
+      validationSchema: {
+        name(value) {
+          if (value?.length >= 2) return true;
+          return "Name needs to be at least 2 characters.";
+        },
+        phone(value) {
+          if (value?.length > 9 && /[0-9-]+/.test(value)) return true;
+          return "Phone number needs to be at least 9 digits.";
+        },
+        email(value) {
+          if (/^[a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(value)) return true;
+          return "Must be a valid e-mail.";
+        },
+      },
+    });
+
+    const name = useField("name");
+    const phone = useField("phone");
+    const email = useField("email");
+    const select = useField("select");
+    const checkbox = useField("checkbox");
+
+    const items = ref(["Item 1", "Item 2", "Item 3", "Item 4"]);
+
+    const submit = handleSubmit((values) => {
+      alert(JSON.stringify(values, null, 2));
+    });
+
+    return {
+      name,
+      phone,
+      email,
+      select,
+      checkbox,
+      items,
+      submit,
+    };
+  },
 };
+
 /* eslint-disable */
 </script>
 
-<style></style>
+<style scoped>
+a:hover {
+  color: #21209c;
+}
+</style>

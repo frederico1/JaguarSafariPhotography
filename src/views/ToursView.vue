@@ -11,6 +11,7 @@
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 export default {
   components: {
+    Icon,
     JaguarNavigation,
   },
 };

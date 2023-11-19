@@ -4,9 +4,14 @@
   <!-- MOBILE NAVIGATION -->
 
   <!-- NAVIGATION TABLET >>>>  -->
-  <div class="pt-5 md:flex md:justify-around md:items-center">
-    <div class="pt-0 md:mt-5">
-      <h1>LOGO AQUI</h1>
+  <div class="md:grid md:grid-cols-3 md:place-items-center w-full">
+    <div class="pt-0 md:mt-5 flex">
+      <v-img
+        class="w-72"
+        src="../assets/img/Logo.png"
+        height="250px"
+        cover
+      ></v-img>
     </div>
 
     <!-- NAV -->
@@ -81,7 +86,7 @@ export default {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #21209c;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
