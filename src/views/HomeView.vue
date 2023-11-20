@@ -1,15 +1,19 @@
 <template>
-  <div class="p-3 md:p-8">
+  <div class="">
     <!-- NAVIGATION -->
 
     <JaguarNavigation></JaguarNavigation>
     <!-- NAVIGATION -->
 
     <!-- Carousel -->
-    <div
-      class="hidden md:block pt-20 drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]"
-    >
-      <v-carousel hide-delimiters progress="green" height="650" cycle>
+    <div class="hidden md:block drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]">
+      <v-carousel
+        hide-delimiters
+        progress="#41bc3f"
+        width=""
+        height="650"
+        cycle
+      >
         <v-carousel-item src="../assets/img/jaguar6nightscard.png" cover>
         </v-carousel-item>
         <v-carousel-item
@@ -27,11 +31,11 @@
 
     <!-- CARDS -->
 
-    <div class="pt-20 flex flex-col justify-center items-center mx-auto">
+    <div class="pt-20 flex flex-col justify-center items-center mx-auto pb-10">
       <div>
         <h1 class="font-bold text-3xl md:text-6xl">JAGUAR TOURS</h1>
       </div>
-      <div class="pt-10 grid gap-7 md:grid md:grid-cols-3 md:gap-20">
+      <div class="pt-10 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
           <JaguarCard4></JaguarCard4>
         </div>

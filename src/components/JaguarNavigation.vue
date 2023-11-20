@@ -17,7 +17,7 @@
     <!-- NAV -->
 
     <div
-      class="flex pt-5 gap-4 justify-around text-md font-semibold md:text-xl"
+      class="flex gap-6 pt-5 justify-around text-md font-semibold md:text-xl"
     >
       <router-link class="underline" to="/">Home</router-link>
       <router-link class="underline" to="/about">About Us</router-link>
@@ -86,7 +86,7 @@ export default {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #21209c;
+  background-color: #1b6dc1;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;

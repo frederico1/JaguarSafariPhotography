@@ -1,5 +1,5 @@
 <template>
-  <div class="md:p-8">
+  <div class="">
     <JaguarNavigation></JaguarNavigation>
     <div>
       <h1>About</h1>

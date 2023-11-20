@@ -1,11 +1,16 @@
 <template>
-  <div class="md:p-8 p-2">
-    <JaguarNavigation></JaguarNavigation>
-    <div class="pt-8 flex flex-col gap-2 text-center">
-      <h1 class="text-2xl font-bold text-[#21209c]">
+  <!-- eslint-disable -->
+
+  <div><JaguarNavigation></JaguarNavigation></div>
+
+  <div class="p-2">
+    <div
+      class="pt-8 md:w-2/3 flex flex-col mx-auto gap-2 text-center leading-4"
+    >
+      <h1 class="text-3xl font-bold text-[#1b6dc1]">
         Pantanal trip photography.
       </h1>
-      <p class="">
+      <p class="leading-relaxed">
         If you wish to make a Pantanal trip photography, you are in the right
         page. In fact, Silva Tour Pantanal is organizing naturalistic tours
         since 2014. If you have any questions about the trip, forthwith, we will
@@ -23,6 +28,9 @@
           :counter="10"
           :error-messages="name.errorMessage.value"
           label="Name"
+          clearable
+          variant="outlined"
+          color="#1b6dc1"
         ></v-text-field>
 
         <v-text-field
@@ -30,15 +38,22 @@
           :counter="7"
           :error-messages="phone.errorMessage.value"
           label="Phone Number"
+          clearable
+          variant="outlined"
+          color="#1b6dc1"
         ></v-text-field>
 
         <v-text-field
           v-model="email.value.value"
           :error-messages="email.errorMessage.value"
           label="E-mail"
+          clearable
+          variant="outlined"
+          color="#1b6dc1"
         ></v-text-field>
         <div class="pt-3">
           <v-btn class="me-4" type="submit"> submit </v-btn>
+          <v-btn @click="handleReset"> clear </v-btn>
         </div>
       </form>
     </div>
@@ -46,7 +61,7 @@
     <!-- CONTACT  -->
     <div class="pt-8">
       <div class="">
-        <h1 class="text-2xl font-bold text-[#21209c]">Contact US</h1>
+        <h1 class="text-2xl font-bold text-[#1b6dc1]">Contact US</h1>
       </div>
       <div class="pt-4">
         <p>
@@ -73,7 +88,7 @@
         <div class="flex items-center gap-2">
           <Icon icon="ic:outline-email" width="24" height="24" />
           <a
-            class="hover:[#21209c]"
+            class="hover:[#1b6dc1]"
             href="http://jaguarsafariphotograph@gmail.com"
             >jaguarsafariphotograph@gmail.com</a
           >
@@ -89,7 +104,7 @@ import { Icon } from "@iconify/vue";
 
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 import { useField, useForm } from "vee-validate";
 
 export default {
@@ -98,7 +113,7 @@ export default {
     JaguarNavigation,
   },
   setup() {
-    const { handleSubmit } = useForm({
+    const { handleSubmit, handleReset } = useForm({
       validationSchema: {
         name(value) {
           if (value?.length >= 2) return true;
@@ -127,6 +142,15 @@ export default {
       alert(JSON.stringify(values, null, 2));
     });
 
+    const clear = () => {
+      handleReset();
+      for (const key in state) {
+        state[key].$pending = false;
+        state[key].$params = {};
+        state[key].$reset();
+      }
+    };
+
     return {
       name,
       phone,
@@ -135,6 +159,7 @@ export default {
       checkbox,
       items,
       submit,
+      clear,
     };
   },
 };
@@ -144,6 +169,6 @@ export default {
 
 <style scoped>
 a:hover {
-  color: #21209c;
+  color: #1b6dc1;
 }
 </style>
