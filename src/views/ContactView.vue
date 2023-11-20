@@ -23,34 +23,38 @@
     <!-- FORM -->
     <div class="pt-8">
       <form @submit.prevent="submit">
-        <v-text-field
-          v-model="name.value.value"
-          :counter="10"
-          :error-messages="name.errorMessage.value"
-          label="Name"
-          clearable
-          variant="outlined"
-          color="#1b6dc1"
-        ></v-text-field>
-
-        <v-text-field
-          v-model="phone.value.value"
-          :counter="7"
-          :error-messages="phone.errorMessage.value"
-          label="Phone Number"
-          clearable
-          variant="outlined"
-          color="#1b6dc1"
-        ></v-text-field>
-
-        <v-text-field
-          v-model="email.value.value"
-          :error-messages="email.errorMessage.value"
-          label="E-mail"
-          clearable
-          variant="outlined"
-          color="#1b6dc1"
-        ></v-text-field>
+        <div class="">
+          <v-text-field
+            v-model="name.value.value"
+            :counter="10"
+            :error-messages="name.errorMessage.value"
+            label="Name"
+            clearable
+            variant="outlined"
+            color="#1b6dc1"
+          ></v-text-field>
+        </div>
+        <div class="pt-5">
+          <v-text-field
+            v-model="phone.value.value"
+            :counter="7"
+            :error-messages="phone.errorMessage.value"
+            label="Phone Number"
+            clearable
+            variant="outlined"
+            color="#1b6dc1"
+          ></v-text-field>
+        </div>
+        <div class="pt-5">
+          <v-text-field
+            v-model="email.value.value"
+            :error-messages="email.errorMessage.value"
+            label="E-mail"
+            clearable
+            variant="outlined"
+            color="#1b6dc1"
+          ></v-text-field>
+        </div>
         <div class="pt-3">
           <v-btn class="me-4" type="submit"> submit </v-btn>
           <v-btn @click="handleReset"> clear </v-btn>

@@ -24,7 +24,7 @@
         </p>
       </div>
     </div>
-    <div class="md:pt-24 sm:pt-10">
+    <div class="pt-10">
       <div class="">
         <h1 class="text-3xl font-bold text-center text-[#1b6dc1]">
           Jaguar Tour Itinararies

@@ -4,7 +4,7 @@
   <!-- MOBILE NAVIGATION -->
 
   <!-- NAVIGATION TABLET >>>>  -->
-  <div class="md:grid md:grid-cols-3 md:place-items-center w-full">
+  <div class="md:grid md:grid-cols-3 md:place-items-center w-full p-3">
     <div class="pt-0 md:mt-5 flex">
       <v-img
         class="w-72"
