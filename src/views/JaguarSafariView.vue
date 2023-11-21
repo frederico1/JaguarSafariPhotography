@@ -8,8 +8,10 @@
           Jaguar Safari in Porto Jofre
         </h1>
       </div>
-      <div class="pt-10 flex justify-center items-center mx-auto text-center">
-        <p class="text-center md:text-xl">
+      <div
+        class="pt-10 md:w-2/3 flex justify-center items-center mx-auto text-center"
+      >
+        <p class="text-center md:text-xl leading-relaxed">
           First, our company offers Pantanal jaguar safari photography starting
           in Cuiabá. However, we can start your Pantanal jaguar safari itinerary
           immediately upon your arrival. In fact, you have the possibility to

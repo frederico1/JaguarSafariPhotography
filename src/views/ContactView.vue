@@ -3,23 +3,24 @@
 
   <div><JaguarNavigation></JaguarNavigation></div>
 
-  <div class="p-2">
-    <div
-      class="pt-8 md:w-2/3 flex flex-col mx-auto gap-2 text-center leading-4"
+  <div
+    class="p-2 pt-8 md:w-2/3 flex flex-col mx-auto gap-2 text-center leading-4"
+  >
+    <h1 class="text-3xl font-bold text-[#1b6dc1]">
+      Pantanal trip photography.
+    </h1>
+    <p
+      class="leading-relaxed md:w-2/3 text-center justify-center mx-auto md:text-lg"
     >
-      <h1 class="text-3xl font-bold text-[#1b6dc1]">
-        Pantanal trip photography.
-      </h1>
-      <p class="leading-relaxed">
-        If you wish to make a Pantanal trip photography, you are in the right
-        page. In fact, Silva Tour Pantanal is organizing naturalistic tours
-        since 2014. If you have any questions about the trip, forthwith, we will
-        answer and try clarify your doubts. By and large, we give all
-        information about booking hotels, transfers and guides. thus, do not
-        hesitate to get in touch with us.
-      </p>
-    </div>
-
+      If you wish to make a Pantanal trip photography, you are in the right
+      page. In fact, Silva Tour Pantanal is organizing naturalistic tours since
+      2014. If you have any questions about the trip, forthwith, we will answer
+      and try clarify your doubts. By and large, we give all information about
+      booking hotels, transfers and guides. thus, do not hesitate to get in
+      touch with us.
+    </p>
+  </div>
+  <div class="p-2 md:p-0 md:w-2/3 md:grid md:grid-cols-2 md:mx-auto md:gap-10">
     <!-- FORM -->
     <div class="pt-8">
       <form @submit.prevent="submit">
@@ -56,32 +57,44 @@
           ></v-text-field>
         </div>
         <div class="pt-3">
-          <v-btn class="me-4" type="submit"> submit </v-btn>
-          <v-btn @click="handleReset"> clear </v-btn>
+          <v-btn class="me-4" type="submit" color="#41bc3f"> submit </v-btn>
+          <v-btn @click="handleReset" color="#41bc3f"> clear </v-btn>
         </div>
       </form>
     </div>
 
     <!-- CONTACT  -->
-    <div class="pt-8">
+    <div class="pt-6">
       <div class="">
         <h1 class="text-2xl font-bold text-[#1b6dc1]">Contact US</h1>
       </div>
-      <div class="pt-4">
-        <p>
+      <div class="pt-1">
+        <p class="">
           For a Pantanal trip photography or suggestions, contact us by e-mail,
           phone or fill in the formular.
         </p>
       </div>
-      <div class="pt-4 flex flex-col gap-4">
+      <div class="pt-8 flex flex-col gap-4">
         <div class="flex items-center gap-2">
-          <Icon icon="game-icons:smartphone" width="24" height="24" />
-          <a>65 99276-4968</a>
+          <Icon
+            icon="game-icons:smartphone"
+            width="35"
+            height="35"
+            color="#1b6dc1"
+          />
+          <a href="tel:+55 65992764968">+55 65992764968 </a>
         </div>
+
         <div class="flex items-center gap-2">
-          <Icon icon="ic:baseline-whatsapp" width="24" height="24" />
+          <Icon
+            icon="ic:baseline-whatsapp"
+            width="35"
+            height="35"
+            color="#1b6dc1"
+          />
           <a
             href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+            target="_blanck"
           >
             <span class="elementor-icon-list-icon">
               <i aria-hidden="true" class="fas fa-mobile-alt"></i>
@@ -90,12 +103,53 @@
           </a>
         </div>
         <div class="flex items-center gap-2">
-          <Icon icon="ic:outline-email" width="24" height="24" />
+          <Icon
+            icon="ic:outline-email"
+            width="35"
+            height="35"
+            color="#1b6dc1"
+          />
           <a
             class="hover:[#1b6dc1]"
-            href="http://jaguarsafariphotograph@gmail.com"
-            >jaguarsafariphotograph@gmail.com</a
+            href="mailto:http://jaguarsafariphotograph@gmail.com"
+            target="_blanck"
+            >jaguarsafariphotograph@gmail.com
+          </a>
+        </div>
+      </div>
+      <div class="pt-10 flex gap-2 justify-center">
+        <div>
+          <a href="https://instagram.com/guitophotographs" target="_blanck">
+            <Icon icon="mdi:instagram" width="35" height="35" color="#1b6dc1" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+            target="_blanck"
           >
+            <Icon
+              icon="ic:baseline-whatsapp"
+              width="35"
+              height="35"
+              color="#1b6dc1"
+            />
+          </a>
+
+          <span class="elementor-icon-list-icon">
+            <i aria-hidden="true" class="fas fa-mobile-alt"></i>
+          </span>
+        </div>
+        <div>
+          <a href="https://www.tripadvisor.com.br" target="_blanck">
+            <Icon
+              class=""
+              icon="simple-icons:tripadvisor"
+              width="35"
+              height="35"
+              color="#1b6dc1"
+            />
+          </a>
         </div>
       </div>
     </div>
