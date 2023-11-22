@@ -1,5 +1,15 @@
-<template>
-  <router-view />
+<template class="h-screen">
+  <v-app class="">
+    <v-main>
+      <router-view />
+      <div class="hidden md:block bg-black h-20 md:mt-64"></div>
+      <div class="h-40">
+        <div>
+          <v-img></v-img>
+        </div>
+      </div>
+    </v-main>
+  </v-app>
 </template>
 <script>
 /* eslint-disable */
