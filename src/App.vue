@@ -2,17 +2,22 @@
   <v-app class="">
     <v-main>
       <router-view />
-      <div class="hidden md:block bg-black h-20 md:mt-64"></div>
-      <div class="h-40">
-        <div>
-          <v-img></v-img>
-        </div>
+      <div class="hidden md:block bg-black h-20 md:mt-96"></div>
+      <div>
+        <JaguarFooter></JaguarFooter>
       </div>
     </v-main>
   </v-app>
 </template>
 <script>
 /* eslint-disable */
+import JaguarFooter from "../src/components/JaguarFooter.vue";
+
+export default {
+  components: {
+    JaguarFooter,
+  },
+};
 </script>
 <style>
 #app {

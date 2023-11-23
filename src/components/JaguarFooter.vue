@@ -1,67 +1,63 @@
 <template>
-  <v-footer app fixed dark color="#000">
-    <v-container>
-      <!-- Seção de redes sociais -->
-      <v-row>
-        <v-col>
-          <div class="social-section">
-            <div class="social-title">Access our social networks</div>
-            <div class="social-icons">
-              <div>Facebook</div>
-              <div>Tripadvisor</div>
-              <div>Youtube</div>
-              <div>Whatsapp</div>
-              <div>Instagram</div>
-            </div>
-          </div>
-        </v-col>
-      </v-row>
+  <div class="hidden md:block h-40">
+    <div class="grid grid-cols-4 m-2 ml-40">
+      <div class="flex flex-col gap-2">
+        <v-img src="../assets/img/Logo.png" height="250px" width="250px">
+          ></v-img
+        >
+        <div class="font-semibold">
+          <p class="text-xl">Opening Hours</p>
+          <p class="text-xl">
+            Monday to Friday: 08:00 - 18:00<br />
+            Saturday: 08:00 - 12:00<br />
+            Sunday and Holiday: Closed
+          </p>
+        </div>
+      </div>
+      <div class="mt-40">
+        <div
+          class="flex flex-col gap-6 pt-5 justify-around text-md font-semibold md:text-xl"
+        >
+          <router-link class="underline" to="/">Home</router-link>
+          <router-link class="underline" to="/about">About Us</router-link>
+          <router-link class="underline" to="/jaguar-safari"
+            >Jaguar Tours</router-link
+          >
+          <router-link class="underline" to="/contact">Contact</router-link>
+        </div>
+      </div>
+      <div class="flex flex-col pt-40 w-52 text-lg font-semibold">
+        <span> Jaguar Safari Photography </span>
+        <span> CNPJ: 15.208.373/0001-20 Cadastur: 13.046489.10.0001-2 </span>
+        <span> Rua Papagaio, 01 Recanto dos Pássaros I,</span>
+        <span> Quadra 25 Cep 78.074-138 Cuiabá-MT | Brasil </span>
+      </div>
+      <div>4</div>
+    </div>
+    <div class="pt-20 flex justify-center items-center pb-8">
+      <p>© Jaguar Safari Photography 2023. Todos os direitos Reservados</p>
+    </div>
+  </div>
 
-      <!-- Seção de horário de funcionamento e informações de contato -->
-      <v-row>
-        <v-col>
-          <div class="contact-section">
-            <div class="contact-title">Opening hours</div>
-            <div>Monday to Friday: 08:00 - 18:00</div>
-            <div>Saturday: 08:00 - 12:00</div>
-            <div>Sunday and Holiday: Closed</div>
-            <div>55 (65) 99922-3295</div>
-            <div>silvapantanaltour@gmail.com</div>
-          </div>
-        </v-col>
-      </v-row>
+  <!-- MOBILE -->
 
-      <!-- Seção de links e informações da empresa -->
-      <v-row>
-        <v-col>
-          <div class="company-section">
-            <div class="company-links">
-              <div>Home</div>
-              <div>About Us</div>
-              <div>Tours</div>
-              <div>Lodges</div>
-              <div>News</div>
-              <div>Contact</div>
-              <div>Silva Tour Pantanal</div>
-            </div>
-            <div class="company-info">
-              <div>CNPJ: 15.208.373/0001-20</div>
-              <div>Cadastur: 13.046489.10.0001-2</div>
-              <div>Rua Papagaio, 01</div>
-              <div>Recanto dos Pássaros I, Quadra 25 Cep 78.074-138</div>
-              <div>Cuiabá-MT | Brasil</div>
-            </div>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-footer>
+  <div class="md:hidden">
+    <div
+      class="mt-20 pt-2 p-2 leading-relaxed flex justify-center items-center text-center text-xs bg-[#287926] text-[#fff] font-semibold"
+    >
+      <p>© Jaguar Safari Photography 2023. Todos os direitos Reservados</p>
+    </div>
+  </div>
 </template>
 <script>
 /* eslint-disable */
+import JaguarNavigation from "./JaguarNavigation.vue";
+
 export default {
+  components: { JaguarNavigation },
   name: "JaguarFooter",
 };
+/* eslint-disable */
 </script>
 <style scoped>
 /* Estilos específicos para este componente */
