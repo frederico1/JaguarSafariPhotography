@@ -33,7 +33,11 @@
 
     <div class="pt-20 flex flex-col justify-center items-center mx-auto pb-10">
       <div>
-        <h1 class="font-bold text-3xl md:text-6xl">JAGUAR TOURS</h1>
+        <h1
+          class="font-bold text-3xl md:text-6xl tracking-widest text-[#1b6dc1]"
+        >
+          JAGUAR TOURS
+        </h1>
       </div>
       <div class="pt-10 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>

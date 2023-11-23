@@ -1,13 +1,9 @@
-<template class="h-screen">
-  <v-app class="">
-    <v-main>
-      <router-view />
-      <div class="hidden md:block bg-black h-20 md:mt-96"></div>
-      <div>
-        <JaguarFooter></JaguarFooter>
-      </div>
-    </v-main>
-  </v-app>
+<template>
+  <router-view />
+  <div class="hidden md:block bg-[#1a2b5a] h-20 md:mt-96 shadow-2xl"></div>
+  <div>
+    <JaguarFooter></JaguarFooter>
+  </div>
 </template>
 <script>
 /* eslint-disable */

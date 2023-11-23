@@ -1,17 +1,19 @@
 <template>
-  <!-- eslint-disable -->
   <JaguarNavigation></JaguarNavigation>
+  <!-- eslint-disable -->
   <div class="p-2">
     <div class="mx-auto">
       <div class="pt-10 md:pt-0">
-        <h1 class="text-4xl font-bold text-center text-[#1b6dc1]">
+        <h1
+          class="lg:text-3xl md:text-2xl text-xl font-bold text-center text-[#1b6dc1] tracking-widest"
+        >
           Jaguar Safari in Porto Jofre
         </h1>
       </div>
       <div
-        class="pt-10 md:w-2/3 flex justify-center items-center mx-auto text-center"
+        class="pt-10 md:w-4/4 lg:w-3/4 flex justify-center items-center mx-auto text-center md:indent-8"
       >
-        <p class="text-center md:text-2xl leading-relaxed font-semibold">
+        <p class="md:text-xl leading-relaxed text-justify">
           First, our company offers Pantanal jaguar safari photography starting
           in Cuiabá. However, we can start your Pantanal jaguar safari itinerary
           immediately upon your arrival. In fact, you have the possibility to
@@ -28,7 +30,9 @@
     </div>
     <div class="pt-10">
       <div class="">
-        <h1 class="md:mt-20 text-4xl font-bold text-center text-[#1b6dc1]">
+        <h1
+          class="md:mt-20 lg:text-3xl md:text-2xl text-xl font-bold text-center text-[#1b6dc1] tracking-widest"
+        >
           Jaguar Tour Itinararies
         </h1>
       </div>
@@ -48,7 +52,7 @@
                 src="../assets/img/jaguar4nightspanel.jpg"
               ></v-img>
             </div>
-            <div class="w-[350px] md:max-w-[500px] md:w-full">
+            <div class="w-[350px] md:max-w-[700px] lg:max-w-[500px] md:w-full">
               <v-stepper
                 style="font-weight: 600"
                 color="#1b6dc1"
@@ -155,7 +159,7 @@
                 src="../assets/img/jaguar6nightspanel.jpg"
               ></v-img>
             </div>
-            <div class="w-[350px] md:max-w-[500px] md:w-full">
+            <div class="w-[350px] md:max-w-[700px] lg:max-w-[500px] md:w-full">
               <v-stepper
                 style="font-weight: 600"
                 color="#1b6dc1"
@@ -292,7 +296,7 @@
                 src="../assets/img/jaguar7nightspanel.jpg"
               ></v-img>
             </div>
-            <div class="w-[350px] md:max-w-[500px] md:w-full">
+            <div class="w-[350px] md:max-w-[700px] lg:max-w-[500px] md:w-full">
               <v-stepper
                 style="font-weight: 600"
                 color="#1b6dc1"

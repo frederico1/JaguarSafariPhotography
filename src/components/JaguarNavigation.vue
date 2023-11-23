@@ -4,7 +4,9 @@
   <!-- MOBILE NAVIGATION -->
 
   <!-- NAVIGATION TABLET >>>>  -->
-  <div class="md:grid md:grid-cols-3 md:place-items-center w-full p-3">
+  <div
+    class="lg:grid lg:grid-cols-3 lg:place-items-center w-full md:grid md:grid-cols-3 md:place-content-evenly place-items-center gap-10 p-2"
+  >
     <div class="pt-0 md:mt-5 flex">
       <v-img
         class="w-72"
@@ -17,7 +19,7 @@
     <!-- NAV -->
 
     <div
-      class="flex gap-6 pt-5 justify-around text-md font-semibold md:text-xl"
+      class="flex gap-6 pt-5 justify-around text-md font-semibold md:text-xl md:flex-wrap tracking-wider"
     >
       <router-link class="underline" to="/">Home</router-link>
       <router-link class="underline" to="/about">About Us</router-link>
@@ -86,6 +88,7 @@ export default {
   height: 2px;
   bottom: 0;
   left: 0;
+  top: 10;
   background-color: #1b6dc1;
   transform: scaleX(0);
   transform-origin: top left;

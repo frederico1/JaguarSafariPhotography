@@ -1,26 +1,26 @@
 <template>
-  <div class="p-1">
-    <JaguarNavigation></JaguarNavigation>
+  <JaguarNavigation></JaguarNavigation>
+  <div class="">
     <div
-      class="flex flex-col justify-center items-center md:w-2/3 mx-auto md:text-2xl"
+      class="p-2 flex flex-col justify-center items-center md:w-4/4 lg:w-3/4 mx-auto md:text-2xl"
     >
       <div>
-        <h1 class="pt-20 text-2xl font-bold text-[#1b6dc1] text-center">
+        <h1
+          class="pt-10 md:text-2xl lg:text-3xl text-xl font-bold text-[#1b6dc1] text-center tracking-widest"
+        >
           Jaguar Safari Photography Guide
         </h1>
       </div>
 
-      <div
-        class="pt-10 text-center indent-8 flex flex-col gap-4 leading-relaxed font-semibold"
-      >
-        <span class="font-bold text-lg mx-auto md:text-2xl">Creators:</span>
-        <p class="text-justify">
+      <div class="mt-10 text-center flex flex-col gap-4 leading-relaxed">
+        <span class="font-bold text-lg mx-auto md:text-xl">Creators:</span>
+        <p class="text-justify md:text-xl">
           This company was conceived by Diego Almeida, his mother Delma Silva,
           and stepfather Rizardo Silva with the aim of providing the best that a
           specialized Photography agency can offer to its clients.
         </p>
-        <span class="font-bold text-lg mx-auto md:text-2xl">Who We Are:</span>
-        <p class="text-justify">
+        <span class="font-bold text-lg mx-auto md:text-xl">Who We Are:</span>
+        <p class="text-justify md:text-xl">
           Jaguar Safari is an extension of Silva Tour Pantanal, a
           well-established company with a long history in the market and
           extensive knowledge of the Pantanal. Founded in 2014, the agency
@@ -31,8 +31,8 @@
           different; we are committed to providing everything a photographer and
           birdwatcher need.
         </p>
-        <span class="font-bold text-lg mx-auto md:text-2xl">Objective: </span>
-        <p class="text-justify">
+        <span class="font-bold text-lg mx-auto md:text-xl">Objective: </span>
+        <p class="text-justify md:text-xl">
           Jaguar Safari Photograph was created for all photography enthusiasts,
           whether they are professionals, amateurs, or those who view
           photography as a small hobby. We offer premium and differentiated

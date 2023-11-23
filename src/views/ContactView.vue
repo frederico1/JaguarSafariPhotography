@@ -1,16 +1,15 @@
 <template>
+  <JaguarNavigation></JaguarNavigation>
   <!-- eslint-disable -->
 
-  <div><JaguarNavigation></JaguarNavigation></div>
-
-  <div
-    class="p-2 pt-8 md:w-2/3 flex flex-col mx-auto gap-2 text-center leading-4"
-  >
-    <h1 class="text-4xl font-bold text-[#1b6dc1]">
+  <div class="p-2 pt-10 text-center leading-4 md:w-4/4 lg:w-3/4 mx-auto">
+    <h1
+      class="md:text-2xl lg:text-3xl text-xl font-bold text-[#1b6dc1] tracking-widest"
+    >
       Pantanal trip photography.
     </h1>
     <p
-      class="mt-8 leading-relaxed md:w-2/3 text-center justify-center mx-auto md:text-2xl font-semibold"
+      class="mt-8 leading-relaxed text-justify justify-center mx-auto md:text-xl indent-8"
     >
       If you wish to make a Pantanal trip photography, you are in the right
       page. In fact, Silva Tour Pantanal is organizing naturalistic tours since
@@ -20,7 +19,9 @@
       touch with us.
     </p>
   </div>
-  <div class="p-2 md:p-0 md:w-2/3 md:grid md:grid-cols-2 md:mx-auto md:gap-10">
+  <div
+    class="p-3 md:w-4/4 lg:w-3/4 md:grid md:grid-cols-2 md:mx-auto md:gap-10"
+  >
     <!-- FORM -->
     <div class="pt-8">
       <form @submit.prevent="submit">
@@ -66,10 +67,12 @@
     <!-- CONTACT  -->
     <div class="pt-6">
       <div class="">
-        <h1 class="text-2xl font-bold text-[#1b6dc1]">Contact US</h1>
+        <h1 class="text-2xl font-bold text-[#1b6dc1] tracking-widest">
+          Contact US
+        </h1>
       </div>
       <div class="pt-1">
-        <p class="font-semibold md:text-xl">
+        <p class="md:text-xl">
           For a Pantanal trip photography or suggestions, contact us by e-mail,
           phone or fill in the formular.
         </p>
