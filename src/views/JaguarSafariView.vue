@@ -1,11 +1,11 @@
 <template>
   <JaguarNavigation></JaguarNavigation>
   <!-- eslint-disable -->
-  <div class="p-2">
+  <div class="p-4">
     <div class="mx-auto">
       <div class="pt-10 md:pt-0">
         <h1
-          class="lg:text-3xl md:text-2xl text-xl font-bold text-center text-[#1b6dc1] tracking-widest"
+          class="lg:text-3xl md:text-2xl text-xl font-medium text-center text-[#1b6dc1] tracking-widest"
         >
           Jaguar Safari in Porto Jofre
         </h1>
@@ -31,7 +31,7 @@
     <div class="pt-10">
       <div class="">
         <h1
-          class="md:mt-20 lg:text-3xl md:text-2xl text-xl font-bold text-center text-[#1b6dc1] tracking-widest"
+          class="md:mt-20 lg:text-3xl md:text-2xl text-xl font-medium text-center text-[#1b6dc1] tracking-widest"
         >
           Jaguar Tour Itinararies
         </h1>

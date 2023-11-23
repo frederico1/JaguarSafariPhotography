@@ -19,7 +19,7 @@
     <!-- NAV -->
 
     <div
-      class="flex gap-6 pt-5 justify-around text-md font-semibold md:text-xl md:flex-wrap tracking-wider"
+      class="flex gap-6 pt-5 justify-around text-md font-medium md:text-xl md:flex-wrap tracking-wider"
     >
       <router-link class="underline" to="/">Home</router-link>
       <router-link class="underline" to="/about">About Us</router-link>

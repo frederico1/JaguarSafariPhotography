@@ -2,9 +2,9 @@
   <JaguarNavigation></JaguarNavigation>
   <!-- eslint-disable -->
 
-  <div class="p-2 pt-10 text-center leading-4 md:w-4/4 lg:w-3/4 mx-auto">
+  <div class="p-4 pt-10 text-center leading-4 md:w-4/4 lg:w-3/4 mx-auto">
     <h1
-      class="md:text-2xl lg:text-3xl text-xl font-bold text-[#1b6dc1] tracking-widest"
+      class="md:text-2xl lg:text-3xl text-xl font-semibold text-[#1b6dc1] tracking-widest"
     >
       Pantanal trip photography.
     </h1>
@@ -67,7 +67,7 @@
     <!-- CONTACT  -->
     <div class="pt-6">
       <div class="">
-        <h1 class="text-2xl font-bold text-[#1b6dc1] tracking-widest">
+        <h1 class="text-2xl font-medium text-[#1b6dc1] tracking-widest">
           Contact US
         </h1>
       </div>
@@ -85,9 +85,7 @@
             height="35"
             color="#1b6dc1"
           />
-          <a class="font-semibold md:text-xl" href="tel:+55 65992764968"
-            >+55 65992764968
-          </a>
+          <a class="md:text-xl" href="tel:+55 65992764968">+55 65992764968 </a>
         </div>
 
         <div class="flex items-center gap-2">
@@ -105,7 +103,9 @@
             <span class="elementor-icon-list-icon">
               <i aria-hidden="true" class="fas fa-mobile-alt"></i>
             </span>
-            <span class="elementor-icon-list-text">+55 65 99276-4968</span>
+            <span class="elementor-icon-list-text font-normal"
+              >+55 65 99276-4968</span
+            >
           </a>
         </div>
         <div class="flex items-center gap-2">
@@ -116,7 +116,7 @@
             color="#1b6dc1"
           />
           <a
-            class="hover:[#1b6dc1] font-semibold md:text-xl"
+            class="hover:[#1b6dc1] md:text-xl"
             href="mailto:http://jaguarsafariphotograph@gmail.com"
             target="_blanck"
             >jaguarsafariphotograph@gmail.com

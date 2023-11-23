@@ -5,16 +5,9 @@ import router from "./router";
 import store from "./store";
 import "./assets/style.css";
 import "@fontsource-variable/nunito";
-import "@fontsource-variable/montserrat";
-import "@mdi/font/css/materialdesignicons.css";
-import "@fontsource-variable/dosis";
-import "@fontsource/merriweather";
-import "@fontsource-variable/literata";
-import "@fontsource-variable/assistant";
-import "@fontsource/didact-gothic";
-import "@fontsource-variable/league-spartan";
-import "@fontsource/alegreya-sans";
-import "@fontsource/actor";
+import "@fontsource-variable/lora";
+import "@fontsource-variable/outfit";
+
 // Vuetify
 import "vuetify/styles";
 import { createVuetify } from "vuetify";

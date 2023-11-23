@@ -2,11 +2,11 @@
   <JaguarNavigation></JaguarNavigation>
   <div class="">
     <div
-      class="p-2 flex flex-col justify-center items-center md:w-4/4 lg:w-3/4 mx-auto md:text-2xl"
+      class="p-4 flex flex-col justify-center items-center md:w-4/4 lg:w-3/4 mx-auto md:text-2xl"
     >
       <div>
         <h1
-          class="pt-10 md:text-2xl lg:text-3xl text-xl font-bold text-[#1b6dc1] text-center tracking-widest"
+          class="pt-10 md:text-2xl lg:text-3xl text-xl font-medium text-[#1b6dc1] text-center tracking-widest"
         >
           Jaguar Safari Photography Guide
         </h1>
