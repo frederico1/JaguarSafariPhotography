@@ -17,7 +17,7 @@ export default {
 </script>
 <style>
 #app {
-  font-family: "Nunito Variable", sans-serif;
+  font-family: "Actor", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;

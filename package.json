@@ -8,7 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fontsource-variable/assistant": "^5.0.15",
+    "@fontsource-variable/dosis": "^5.0.17",
+    "@fontsource-variable/league-spartan": "^5.0.17",
+    "@fontsource-variable/literata": "^5.0.18",
+    "@fontsource-variable/montserrat": "^5.0.16",
     "@fontsource-variable/nunito": "^5.0.16",
+    "@fontsource/actor": "^5.0.8",
+    "@fontsource/alegreya-sans": "^5.0.8",
+    "@fontsource/didact-gothic": "^5.0.17",
+    "@fontsource/merriweather": "^5.0.8",
     "@mdi/font": "^7.3.67",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
