@@ -4,14 +4,14 @@
   <div class="p-2">
     <div class="mx-auto">
       <div class="pt-10 md:pt-0">
-        <h1 class="text-3xl font-bold text-center text-[#1b6dc1]">
+        <h1 class="text-4xl font-bold text-center text-[#1b6dc1]">
           Jaguar Safari in Porto Jofre
         </h1>
       </div>
       <div
         class="pt-10 md:w-2/3 flex justify-center items-center mx-auto text-center"
       >
-        <p class="text-center md:text-xl leading-relaxed">
+        <p class="text-center md:text-2xl leading-relaxed font-semibold">
           First, our company offers Pantanal jaguar safari photography starting
           in Cuiabá. However, we can start your Pantanal jaguar safari itinerary
           immediately upon your arrival. In fact, you have the possibility to
@@ -28,7 +28,7 @@
     </div>
     <div class="pt-10">
       <div class="">
-        <h1 class="text-3xl font-bold text-center text-[#1b6dc1]">
+        <h1 class="md:mt-20 text-4xl font-bold text-center text-[#1b6dc1]">
           Jaguar Tour Itinararies
         </h1>
       </div>
@@ -58,7 +58,10 @@
                 :items="['Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5']"
               >
                 <template v-slot:item.1>
-                  <v-card title="Step One" flat class="leading-normal"
+                  <v-card
+                    title="Step One"
+                    flat
+                    class="leading-normal md:text-xl"
                     >First, on this Jaguar safari photography, we will pick you
                     up at the airport or hotel in Cuiabá and transfer to the
                     Lodge. Generally, the trip takes 3 hours. In fact, we’ll
@@ -75,7 +78,10 @@
                 </template>
 
                 <template v-slot:item.2>
-                  <v-card title="Step Two" flat class="leading-normal"
+                  <v-card
+                    title="Step Two"
+                    flat
+                    class="leading-normal md:text-xl"
                     >Second day. This time you will make a morning walk in the
                     forest to watch the sunrise. Then breakfast, followed by
                     hiking in the forest. Thre, you may see some animals living
@@ -89,7 +95,10 @@
                 </template>
 
                 <template v-slot:item.3>
-                  <v-card title="Step Three" flat class="leading-normal"
+                  <v-card
+                    title="Step Three"
+                    flat
+                    class="leading-normal md:text-xl"
                     >Third day. Breakfast is at 06:00 am. Then, this is the
                     beginning of your jaguar safari itinerary. Once we’re ready,
                     we’ll make a boat drive in search of jaguars and giant
@@ -102,7 +111,10 @@
                   </v-card>
                 </template>
                 <template v-slot:item.4>
-                  <v-card title="Step Four" flat class="leading-normal"
+                  <v-card
+                    title="Step Four"
+                    flat
+                    class="leading-normal md:text-xl"
                     >Fourth day. Breakfast, transfer back to the lodge on the
                     Transpantaneira. Lunch and horseback ride or another boat
                     ride. Dinner at 7:00 pm followed by night safari. Generally,
@@ -113,7 +125,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.5>
-                  <v-card title="Step Five" flat class="leading-normal">
+                  <v-card
+                    title="Step Five"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     Fifth day. Morning walk in the forest to watch the sunrise.
                     Breakfast and transfer to the airport or hotel in Cuiabá.
                     This Jaguar safari itinerary includes, accommodation,
@@ -157,7 +173,10 @@
                 ]"
               >
                 <template v-slot:item.1>
-                  <v-card title="Step One" flat class="leading-normal"
+                  <v-card
+                    title="Step One"
+                    flat
+                    class="leading-normal md:text-xl"
                     >Eventually, on the first day of your Pantanal jaguar safari
                     expeditions and photography. Our guide will pick you up at
                     the Hotel in Cuiabá and take you to the lodge in the
@@ -170,7 +189,10 @@
                 </template>
 
                 <template v-slot:item.2>
-                  <v-card title="Step Two" flat class="leading-normal"
+                  <v-card
+                    title="Step Two"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the second day, you will go for a morning walk to the
                     tower to watch the sunrise. Breakfast at 07:00 am.
                     Afterwards, you go for a hike in the forests of the farm.
@@ -182,7 +204,10 @@
                 </template>
 
                 <template v-slot:item.3>
-                  <v-card title="Step Three" flat class="leading-normal"
+                  <v-card
+                    title="Step Three"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the third day, we start the jaguar safari Itinerary.
                     This time you will have breakfast at 6:00 am. After that,
                     you will make your first jaguar safari from 07:00 am to
@@ -194,7 +219,10 @@
                   </v-card>
                 </template>
                 <template v-slot:item.4>
-                  <v-card title="Step Four" flat class="leading-normal"
+                  <v-card
+                    title="Step Four"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the fourth day. In similar fashion, you will make a
                     jaguar trip for 10 hours, having lunch on the river and
                     returning to the lodge at 05:00 pm. Dinner and overnight. On
@@ -204,7 +232,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.5>
-                  <v-card title="Step Five" flat class="leading-normal">
+                  <v-card
+                    title="Step Five"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     Fifth day. This time, you will have breakfast. Thereafter,
                     our guide will drive you to a different lodge on the
                     Transpantaneira. Certainly, you will see lots of animals in
@@ -215,7 +247,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.6>
-                  <v-card title="Step Six" flat class="leading-normal">
+                  <v-card
+                    title="Step Six"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     On the sixth day, you will go for a morning walk to watch
                     the sunrise. Breakfast is at 07:00 am. Afterwards, you go on
                     a photo safari. Generally, tourists see many birds, mammals
@@ -226,7 +262,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.7>
-                  <v-card title="Step Seven" flat class="leading-normal">
+                  <v-card
+                    title="Step Seven"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     Finally, on the seventh day. You will watch animals on the
                     bird feeder. Breakfast is at 07:00. Then, our guide will
                     take you back to Cuiabá. On this jaguar trip we include,
@@ -271,7 +311,10 @@
                 ]"
               >
                 <template v-slot:item.1>
-                  <v-card title="Step One" flat class="leading-normal"
+                  <v-card
+                    title="Step One"
+                    flat
+                    cclass="leading-normal md:text-xl"
                     >On the first day of our jaguar safari expeditions and
                     photography, our guide will pick you up at the airport or
                     your hotel in Cuiabá. After that, He will take you to the
@@ -287,7 +330,10 @@
                 </template>
 
                 <template v-slot:item.2>
-                  <v-card title="Step Two" flat class="leading-normal"
+                  <v-card
+                    title="Step Two"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the second day. Soon, You will make a mornig walk to the
                     tower to watch the sunrise. Breakfast at 07:00 am. After
                     that, you will go for a hike in the forests. Usually, we see
@@ -298,7 +344,10 @@
                 </template>
 
                 <template v-slot:item.3>
-                  <v-card title="Step Three" flat class="leading-normal"
+                  <v-card
+                    title="Step Three"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the third day, is the beginning of your jaguar trip.
                     Breakfast at 06:00 am. After that, you start your jaguar
                     safari. Altogether, from 7:00 am to 05:00 pm, you will make
@@ -309,7 +358,10 @@
                   </v-card>
                 </template>
                 <template v-slot:item.4>
-                  <v-card title="Step Four" flat class="leading-normal"
+                  <v-card
+                    title="Step Four"
+                    flat
+                    cclass="leading-normal md:text-xl"
                     >On the fourth day. In the same way, you will go looking for
                     jaguars and Giant Otter on the river again. At noon, you
                     will make a picnic ont the river. After that, you will stay
@@ -318,7 +370,10 @@
                   </v-card>
                 </template>
                 <template v-slot:item.5>
-                  <v-card title="Step Five" flat class="leading-normal"
+                  <v-card
+                    title="Step Five"
+                    flat
+                    class="leading-normal md:text-xl"
                     >On the fifth day. In the same way, you will make the jaguar
                     trip by boat. In short, you will make ten hours boat drive
                     with picnic on the river. Dinner and overnight. In sum, On
@@ -327,7 +382,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.6>
-                  <v-card title="Step Six" flat class="leading-normal">
+                  <v-card
+                    title="Step Six"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     On the sixth day of your jaguar safari expeditions and
                     photography, you will start the last part of your tour.
                     After breakfast, your guide will drive you back to a third
@@ -339,7 +398,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.7>
-                  <v-card title="Step Seven" flat class="leading-normal">
+                  <v-card
+                    title="Step Seven"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     On the seventh day. You wull make a morning walk to watch
                     the sunrise, After breakfast, you will make a photo safari.
                     Then, you will have lunch at noon . After that, you will go
@@ -350,7 +413,11 @@
                   </v-card>
                 </template>
                 <template v-slot:item.8>
-                  <v-card title="Step Eight" flat class="leading-normal">
+                  <v-card
+                    title="Step Eight"
+                    flat
+                    class="leading-normal md:text-xl"
+                  >
                     On the eighth day. You will watch some animals eating at the
                     bird feeder. In fact, you can photograph them really close
                     to you. After breakfast, your guide will drop you off in

@@ -6,11 +6,11 @@
   <div
     class="p-2 pt-8 md:w-2/3 flex flex-col mx-auto gap-2 text-center leading-4"
   >
-    <h1 class="text-3xl font-bold text-[#1b6dc1]">
+    <h1 class="text-4xl font-bold text-[#1b6dc1]">
       Pantanal trip photography.
     </h1>
     <p
-      class="leading-relaxed md:w-2/3 text-center justify-center mx-auto md:text-lg"
+      class="mt-8 leading-relaxed md:w-2/3 text-center justify-center mx-auto md:text-2xl font-semibold"
     >
       If you wish to make a Pantanal trip photography, you are in the right
       page. In fact, Silva Tour Pantanal is organizing naturalistic tours since
@@ -69,7 +69,7 @@
         <h1 class="text-2xl font-bold text-[#1b6dc1]">Contact US</h1>
       </div>
       <div class="pt-1">
-        <p class="">
+        <p class="font-semibold md:text-xl">
           For a Pantanal trip photography or suggestions, contact us by e-mail,
           phone or fill in the formular.
         </p>
@@ -82,7 +82,9 @@
             height="35"
             color="#1b6dc1"
           />
-          <a href="tel:+55 65992764968">+55 65992764968 </a>
+          <a class="font-semibold md:text-xl" href="tel:+55 65992764968"
+            >+55 65992764968
+          </a>
         </div>
 
         <div class="flex items-center gap-2">
@@ -93,6 +95,7 @@
             color="#1b6dc1"
           />
           <a
+            class="font-semibold md:text-xl"
             href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
             target="_blanck"
           >
@@ -110,14 +113,14 @@
             color="#1b6dc1"
           />
           <a
-            class="hover:[#1b6dc1]"
+            class="hover:[#1b6dc1] font-semibold md:text-xl"
             href="mailto:http://jaguarsafariphotograph@gmail.com"
             target="_blanck"
             >jaguarsafariphotograph@gmail.com
           </a>
         </div>
       </div>
-      <div class="pt-10 flex gap-2 justify-center">
+      <div class="pt-10 flex gap-2 justify-center mt-3">
         <div>
           <a href="https://instagram.com/guitophotographs" target="_blanck">
             <Icon icon="mdi:instagram" width="35" height="35" color="#1b6dc1" />
@@ -140,7 +143,7 @@
             <i aria-hidden="true" class="fas fa-mobile-alt"></i>
           </span>
         </div>
-        <div>
+        <div class="">
           <a href="https://www.tripadvisor.com.br" target="_blanck">
             <Icon
               class=""

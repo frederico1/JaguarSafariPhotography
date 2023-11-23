@@ -1,7 +1,9 @@
 <template>
   <div class="p-1">
     <JaguarNavigation></JaguarNavigation>
-    <div class="flex flex-col justify-center items-center">
+    <div
+      class="flex flex-col justify-center items-center md:w-2/3 mx-auto md:text-2xl"
+    >
       <div>
         <h1 class="pt-20 text-2xl font-bold text-[#1b6dc1] text-center">
           Jaguar Safari Photography Guide
@@ -11,13 +13,13 @@
       <div
         class="pt-10 text-center indent-8 flex flex-col gap-4 leading-relaxed font-semibold"
       >
-        <span class="font-bold text-lg mx-auto">Creators:</span>
+        <span class="font-bold text-lg mx-auto md:text-2xl">Creators:</span>
         <p class="text-justify">
           This company was conceived by Diego Almeida, his mother Delma Silva,
           and stepfather Rizardo Silva with the aim of providing the best that a
           specialized Photography agency can offer to its clients.
         </p>
-        <span class="font-bold text-lg mx-auto">Who We Are:</span>
+        <span class="font-bold text-lg mx-auto md:text-2xl">Who We Are:</span>
         <p class="text-justify">
           Jaguar Safari is an extension of Silva Tour Pantanal, a
           well-established company with a long history in the market and
@@ -29,7 +31,7 @@
           different; we are committed to providing everything a photographer and
           birdwatcher need.
         </p>
-        <span class="font-bold text-lg mx-auto">Objective: </span>
+        <span class="font-bold text-lg mx-auto md:text-2xl">Objective: </span>
         <p class="text-justify">
           Jaguar Safari Photograph was created for all photography enthusiasts,
           whether they are professionals, amateurs, or those who view
