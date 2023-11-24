@@ -179,7 +179,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
-                data-aos-delay="1000"
+                data-aos-delay="750"
                 max-height="300"
                 aspect-ratio=""
                 cover
