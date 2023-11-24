@@ -2,7 +2,6 @@
   <div class="">
     <!-- NAVIGATION -->
 
-    <JaguarNavigation></JaguarNavigation>
     <!-- NAVIGATION -->
 
     <!-- Carousel -->

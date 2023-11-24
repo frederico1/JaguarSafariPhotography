@@ -36,9 +36,9 @@ const routes = [
   },
 
   {
-    path: "/tour4days",
+    path: "/tour4nights",
     name: "4days",
-    component: () => import("../views/TourFourDays.vue"),
+    component: () => import("../views/TourFourNights.vue"),
   },
 ];
 

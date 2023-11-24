@@ -1,13 +1,21 @@
 <template>
   <!-- eslint-disable -->
-
-  <div class="p-3">
+  <div>
     <!-- <JaguarNavigation></JaguarNavigation> -->
 
     <!-- MOBILE -->
-    <div class="md:hidden mt-10 p-3">
+    <div class="md:hidden p-3">
       <!-- MENU -->
-
+      <div class="">
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="tdesign:arrow-up" color="#000" width="30px" />
+        </button>
+      </div>
       <div>
         <h1 class="text-4xl text-center font-serif tracking-wide">
           Jaguar Expeditions in Porto Jofre
@@ -168,18 +176,69 @@
 
 <script>
 /* eslint-disable */
+
+import BackToTop from "../components/BackToTop.vue";
 import { Icon } from "@iconify/vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 
 export default {
   components: {
+    BackToTop,
     Icon,
     JaguarNavigation,
     JaguarDivider,
   },
+  data() {
+    return {
+      showBackToTopButton: false,
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.showBackToTopButton = window.scrollY > 20;
+    },
+    scrollToTop() {
+      // Adicionando uma transição suave ao rolar para o topo
+      const scrollDuration = 1500; // em milissegundos
+      const scrollStep = -window.scrollY / (scrollDuration / 15);
+      const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep);
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 1);
+    },
+  },
 };
+
 /* eslint-disable */
 </script>
 
-<style scoped></style>
+<style scoped>
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1px 1px;
+  border-radius: 5rem;
+  cursor: pointer;
+  z-index: 900;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
+}
+</style>
