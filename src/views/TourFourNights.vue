@@ -56,7 +56,7 @@
 
         <JaguarDivider />
 
-        <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
+        <div class="mt-10" data-aos="fade-up" data-aos-delay="250">
           <div>
             <h1 class="text-4xl text-center font-serif tracking-wide">
               Jaguar expeditions 4 nights / 5 days
@@ -157,7 +157,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-right"
-                data-aos-delay="200"
+                data-aos-delay="100"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -168,7 +168,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
-                data-aos-delay="700"
+                data-aos-delay="600"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -179,7 +179,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
-                data-aos-delay="800"
+                data-aos-delay="1000"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -189,7 +189,9 @@
           </div>
 
           <!--  -->
-          <JaguarDivider />
+          <div class="mt-40">
+            <JaguarDivider />
+          </div>
         </div>
       </div>
     </div>
