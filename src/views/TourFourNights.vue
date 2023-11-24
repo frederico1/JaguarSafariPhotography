@@ -214,7 +214,7 @@ export default {
         } else {
           clearInterval(scrollInterval);
         }
-      }, 1);
+      }, 1.2);
     },
   },
 };
