@@ -6,8 +6,9 @@
     <!-- MOBILE -->
     <div class="md:hidden p-3">
       <!-- MENU -->
-
-      <JaguarMenu></JaguarMenu>
+      <div>
+        <JaguarMenu></JaguarMenu>
+      </div>
 
       <div class="">
         <button
@@ -16,7 +17,7 @@
           @click="scrollToTop"
           v-show="showBackToTopButton"
         >
-          <Icon icon="tdesign:arrow-up" color="#000" width="30px" />
+          <Icon icon="tdesign:arrow-up" color="#000" width="36px" />
         </button>
       </div>
 

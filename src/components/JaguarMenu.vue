@@ -62,7 +62,7 @@ export default {
   left: 0;
   width: 100%;
   background-color: #1d1d1d;
-  padding: 7px;
+  padding: 10px;
   z-index: 1000;
   transition: background-color 0.3s;
 }
