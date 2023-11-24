@@ -34,6 +34,12 @@ const routes = [
     name: "jaguarsafari",
     component: () => import("../views/JaguarSafariView.vue"),
   },
+
+  {
+    path: "/tour4days",
+    name: "4days",
+    component: () => import("../views/TourFourDays.vue"),
+  },
 ];
 
 const router = createRouter({

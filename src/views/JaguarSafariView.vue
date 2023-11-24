@@ -37,6 +37,8 @@
         </h1>
       </div>
 
+      <JaguarDivider />
+
       <!-- 4 DAYS -->
       <div
         class="md:flex md:flex-col lg:grid lg:grid-cols-3 mx-auto place-content-center"
@@ -433,6 +435,10 @@
           </div>
         </div>
       </div>
+
+      <div class="">
+        <JaguarDivider />
+      </div>
     </div>
   </div>
 </template>
@@ -440,9 +446,11 @@
 <script>
 /* eslint-disable */
 import JaguarNavigation from "../components/JaguarNavigation.vue";
+import JaguarDivider from "../components/JaguarDivider.vue";
 export default {
   components: {
     JaguarNavigation,
+    JaguarDivider,
   },
 };
 /* eslint-disable */

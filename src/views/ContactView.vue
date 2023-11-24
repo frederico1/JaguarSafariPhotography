@@ -4,7 +4,7 @@
 
   <div class="p-4 pt-10 text-center leading-4 md:w-4/4 lg:w-3/4 mx-auto">
     <h1
-      class="md:text-2xl lg:text-3xl text-xl font-semibold text-[#1b6dc1] tracking-widest"
+      class="md:text-2xl lg:text-3xl text-xl font-semibold text-[#] tracking-widest"
     >
       Pantanal trip photography.
     </h1>
@@ -19,6 +19,9 @@
       touch with us.
     </p>
   </div>
+
+  <JaguarDivider />
+
   <div
     class="p-3 md:w-4/4 lg:w-3/4 md:grid md:grid-cols-2 md:mx-auto md:gap-10"
   >
@@ -58,18 +61,17 @@
           ></v-text-field>
         </div>
         <div class="pt-3">
-          <v-btn class="me-4" type="submit" color="#41bc3f"> submit </v-btn>
-          <v-btn @click="handleReset" color="#41bc3f"> clear </v-btn>
+          <v-btn class="me-4" type="submit" color="#000"> submit </v-btn>
+          <v-btn @click="handleReset" color="#000"> clear </v-btn>
         </div>
       </form>
     </div>
 
     <!-- CONTACT  -->
+
     <div class="pt-6">
       <div class="">
-        <h1 class="text-2xl font-medium text-[#1b6dc1] tracking-widest">
-          Contact US
-        </h1>
+        <h1 class="text-2xl font-medium text-[] tracking-widest">Contact US</h1>
       </div>
       <div class="pt-1">
         <p class="md:text-xl">
@@ -79,22 +81,12 @@
       </div>
       <div class="pt-8 flex flex-col gap-4">
         <div class="flex items-center gap-2">
-          <Icon
-            icon="game-icons:smartphone"
-            width="35"
-            height="35"
-            color="#1b6dc1"
-          />
+          <Icon icon="game-icons:smartphone" width="35" height="35" color="" />
           <a class="md:text-xl" href="tel:+55 65992764968">+55 65992764968 </a>
         </div>
 
         <div class="flex items-center gap-2">
-          <Icon
-            icon="ic:baseline-whatsapp"
-            width="35"
-            height="35"
-            color="#1b6dc1"
-          />
+          <Icon icon="ic:baseline-whatsapp" width="35" height="35" color="#" />
           <a
             class="font-semibold md:text-xl"
             href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
@@ -109,24 +101,24 @@
           </a>
         </div>
         <div class="flex items-center gap-2">
-          <Icon
-            icon="ic:outline-email"
-            width="35"
-            height="35"
-            color="#1b6dc1"
-          />
+          <Icon icon="ic:outline-email" width="35" height="35" color="#" />
           <a
-            class="hover:[#1b6dc1] md:text-xl"
+            class="hover:[#] md:text-xl"
             href="mailto:http://jaguarsafariphotograph@gmail.com"
             target="_blanck"
             >jaguarsafariphotograph@gmail.com
           </a>
         </div>
       </div>
+
+      <div class="">
+        <JaguarDivider />
+      </div>
+
       <div class="pt-10 flex gap-2 justify-center mt-3">
         <div>
           <a href="https://instagram.com/guitophotographs" target="_blanck">
-            <Icon icon="mdi:instagram" width="35" height="35" color="#1b6dc1" />
+            <Icon icon="mdi:instagram" width="35" height="35" color="#" />
           </a>
         </div>
         <div>
@@ -134,12 +126,7 @@
             href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
             target="_blanck"
           >
-            <Icon
-              icon="ic:baseline-whatsapp"
-              width="35"
-              height="35"
-              color="#1b6dc1"
-            />
+            <Icon icon="ic:baseline-whatsapp" width="35" height="35" color="" />
           </a>
 
           <span class="elementor-icon-list-icon">
@@ -153,7 +140,7 @@
               icon="simple-icons:tripadvisor"
               width="35"
               height="35"
-              color="#1b6dc1"
+              color=""
             />
           </a>
         </div>
@@ -167,6 +154,7 @@
 import { Icon } from "@iconify/vue";
 
 import JaguarNavigation from "../components/JaguarNavigation.vue";
+import JaguarDivider from "../components/JaguarDivider.vue";
 
 import { ref, reactive } from "vue";
 import { useField, useForm } from "vee-validate";
@@ -175,6 +163,7 @@ export default {
   components: {
     Icon,
     JaguarNavigation,
+    JaguarDivider,
   },
   setup() {
     const { handleSubmit, handleReset } = useForm({
@@ -214,7 +203,6 @@ export default {
         state[key].$reset();
       }
     };
-
     return {
       name,
       phone,

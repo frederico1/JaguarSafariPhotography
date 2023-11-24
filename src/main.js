@@ -7,6 +7,8 @@ import "./assets/style.css";
 import "@fontsource-variable/nunito";
 import "@fontsource-variable/lora";
 import "@fontsource-variable/outfit";
+import "@fontsource-variable/red-hat-text";
+import "@fontsource-variable/playfair-display";
 
 // Vuetify
 import "vuetify/styles";

@@ -17,7 +17,7 @@
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
     <v-card-actions>
-      <router-link to="/jaguar-safari"
+      <router-link to="/tour4days"
         ><v-btn color="#41bc3f" variant="text"> Explore </v-btn></router-link
       >
 

@@ -1,6 +1,6 @@
 <template>
-  <JaguarNavigation></JaguarNavigation>
   <div class="">
+    <JaguarNavigation></JaguarNavigation>
     <div
       class="p-4 flex flex-col justify-center items-center md:w-4/4 lg:w-3/4 mx-auto md:text-2xl"
     >

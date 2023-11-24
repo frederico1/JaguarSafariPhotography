@@ -1,9 +1,6 @@
 <template>
   <router-view />
-  <div class="hidden md:block bg-[#1a2b5a] h-20 md:mt-96 shadow-2xl"></div>
-  <div>
-    <JaguarFooter></JaguarFooter>
-  </div>
+  <!-- <div class="hidden md:block bg-[#1a2b5a] h-20 md:mt-96 shadow-2xl"></div>  -->
 </template>
 <script>
 /* eslint-disable */
@@ -17,7 +14,7 @@ export default {
 </script>
 <style>
 #app {
-  font-family: "Outfit Variable", sans-serif;
+  font-family: "Red Hat Text Variable", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
