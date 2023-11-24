@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-8 h-[0.5px] bg-grey w-4/4 flex justify-center items-center mx-auto"
+    class="mt-8 h-[1.3px] bg-grey w-4/4 flex justify-center items-center mx-auto"
   ></div>
 </template>
 

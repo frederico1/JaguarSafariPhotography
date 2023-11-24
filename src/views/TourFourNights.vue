@@ -6,6 +6,9 @@
     <!-- MOBILE -->
     <div class="md:hidden p-3">
       <!-- MENU -->
+
+      <JaguarMenu></JaguarMenu>
+
       <div class="">
         <button
           class="bg-#000"
@@ -16,7 +19,8 @@
           <Icon icon="tdesign:arrow-up" color="#000" width="30px" />
         </button>
       </div>
-      <div>
+
+      <div class="mt-20">
         <h1 class="text-4xl text-center font-serif tracking-wide">
           Jaguar Expeditions in Porto Jofre
         </h1>
@@ -181,6 +185,7 @@ import BackToTop from "../components/BackToTop.vue";
 import { Icon } from "@iconify/vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
+import JaguarMenu from "../components/JaguarMenu.vue";
 
 export default {
   components: {
@@ -188,6 +193,7 @@ export default {
     Icon,
     JaguarNavigation,
     JaguarDivider,
+    JaguarMenu,
   },
   data() {
     return {
