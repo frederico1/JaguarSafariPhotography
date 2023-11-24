@@ -1,17 +1,17 @@
-<!-- BackToTopButton.vue -->
-
 <template>
-  <v-btn
-    v-if="showButton"
-    :class="{ 'with-z-index': showButton }"
-    color="primary"
-    fab
-    bottom
-    right
-    @click="scrollToTop"
-  >
-    <v-icon>mdi-arrow-up</v-icon>
-  </v-btn>
+  <div>
+    <v-btn
+      v-if="showButton"
+      :class="{ 'with-z-index': showButton }"
+      color="primary"
+      fab
+      bottom
+      right
+      @click="scrollToTop"
+    >
+      <v-icon>mdi-arrow-up</v-icon>
+    </v-btn>
+  </div>
 </template>
 
 <script>
