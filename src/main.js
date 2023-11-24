@@ -5,10 +5,13 @@ import router from "./router";
 import store from "./store";
 import "./assets/style.css";
 import "@fontsource-variable/nunito";
-import "@fontsource-variable/lora";
 import "@fontsource-variable/outfit";
 import "@fontsource-variable/red-hat-text";
 import "@fontsource-variable/playfair-display";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import { MotionPlugin } from "@vueuse/motion";
 
 // Vuetify
 import "vuetify/styles";
@@ -21,4 +24,9 @@ const vuetify = createVuetify({
   directives,
 });
 
-createApp(App).use(store).use(router).use(vuetify).mount("#app");
+createApp(App)
+  .use(store)
+  .use(router)
+  .use(vuetify)
+  .use(MotionPlugin)
+  .mount("#app");

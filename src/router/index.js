@@ -1,6 +1,8 @@
 /* eslint-disable */
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const routes = [
   {
@@ -45,6 +47,11 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  AOS.init(); // Initialize AOS
+  next();
 });
 
 export default router;
