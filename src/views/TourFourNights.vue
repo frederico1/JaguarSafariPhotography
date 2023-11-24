@@ -11,15 +11,11 @@
         <JaguarMenu></JaguarMenu>
       </div>
 
-      <div
-        class=""
-        data-aos="fade-right"
-        data-aos-delay="200"
-        :once="true"
-        data-aos-anchor-placement="top-center"
-      >
+      <div class="">
         <div class="">
           <button
+            data-aos="fade-right"
+            data-aos-delay="200"
             class="bg-#000"
             id="backToTopBtn"
             @click="scrollToTop"
@@ -29,13 +25,13 @@
           </button>
         </div>
 
-        <div class="mt-20">
+        <div class="mt-20" data-aos="fade-right" data-aos-delay="200">
           <h1 class="text-4xl text-center font-serif tracking-wide">
             Jaguar Expeditions in Porto Jofre
           </h1>
         </div>
 
-        <div class="mt-10">
+        <div class="mt-10" data-aos="fade-right" data-aos-delay="200">
           <p class="text-justify indent-8 leading-relaxed text-lg">
             First, our company offers Pantanal jaguar expeditions and
             photography starting in Cuiabá. However, we can start your Pantanal
@@ -267,20 +263,11 @@ export default {
   padding: 1px 1px;
   border-radius: 5rem;
   cursor: pointer;
-  z-index: 900;
+  z-index: 1900;
   transition: opacity 0.3s ease-in-out;
 }
 
 #backToTopBtn.show {
   opacity: 1;
-}
-
-.slide-in-enter {
-  opacity: 0;
-  transform: scale(0.5);
-}
-
-.slide-in-enter-active {
-  transition: all 0.4s ease;
 }
 </style>
