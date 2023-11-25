@@ -70,7 +70,7 @@
               class=""
               prev-text="Preview"
               next-text="Next"
-              :items="['Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5']"
+              :items="['DAY 1', 'DAY 2', 'DAY 3', 'DAY 4', 'DAY 5']"
             >
               <template v-slot:item.1>
                 <v-card title="Day 1:" flat class="leading-relaxed"
@@ -90,47 +90,45 @@
 
               <template v-slot:item.2>
                 <v-card title="Day 2:" flat class="leading-relaxed"
-                  >Second day. This time you will make a morning walk in the
-                  forest to watch the sunrise. Then breakfast, followed by
-                  hiking in the forest. Thre, you may see some animals living in
-                  different habitats. We usually see monkeys, Deers,
-                  Woodcreepers. However, if you’re lucky. You may also see
-                  Trogons and Motmots. Lunch and transfer to the lodge in Porto
-                  Jofre. The drive will be 110 kilometers along the
-                  Transpantaneira until the end of the road. Dinner at 07:00 pm
-                  and Overnight.</v-card
+                  >This time you will make a morning walk in the forest to watch
+                  the sunrise. Then breakfast, followed by hiking in the forest.
+                  Thre, you may see some animals living in different habitats.
+                  We usually see monkeys, Deers, Woodcreepers. However, if
+                  you’re lucky. You may also see Trogons and Motmots. Lunch and
+                  transfer to the lodge in Porto Jofre. The drive will be 110
+                  kilometers along the Transpantaneira until the end of the
+                  road. Dinner at 07:00 pm and Overnight.</v-card
                 >
               </template>
 
               <template v-slot:item.3>
                 <v-card title="Day 3:" flat class="leading-relaxed"
-                  >Third day. Breakfast is at 06:00 am. Then, this is the
-                  beginning of your jaguar safari itinerary. Once we’re ready,
-                  we’ll make a boat drive in search of jaguars and giant otters
-                  along the Cuiabá River in the Pantanal State Park Encontro das
-                  Águas. Lunch is a picnic on the river at 12:00 pm followed by
-                  a short siesta. Then, we will make the second part of the tour
-                  until 05:00 pm. In total, it will be ten hours making this
-                  jaguar safari itinerary. Dinner and overnight.
+                  >Breakfast is at 06:00 am. Then, this is the beginning of your
+                  jaguar safari itinerary. Once we’re ready, we’ll make a boat
+                  drive in search of jaguars and giant otters along the Cuiabá
+                  River in the Pantanal State Park Encontro das Águas. Lunch is
+                  a picnic on the river at 12:00 pm followed by a short siesta.
+                  Then, we will make the second part of the tour until 05:00 pm.
+                  In total, it will be ten hours making this jaguar safari
+                  itinerary. Dinner and overnight.
                 </v-card>
               </template>
               <template v-slot:item.4>
                 <v-card title="Day 4:" flat class="leading-relaxed"
-                  >Fourth day. Breakfast, transfer back to the lodge on the
-                  Transpantaneira. Lunch and horseback ride or another boat
-                  ride. Dinner at 7:00 pm followed by night safari. Generally,
-                  on a night safari, we see foxes, Raccoons. If we are lucky, we
-                  may also, see Giant anteaters, Tapirs, or even Ocelots. We
-                  might also, see birds like, Owls, Night Hawks and Potoos.
-                  Overnight.
+                  >Breakfast, transfer back to the lodge on the Transpantaneira.
+                  Lunch and horseback ride or another boat ride. Dinner at 7:00
+                  pm followed by night safari. Generally, on a night safari, we
+                  see foxes, Raccoons. If we are lucky, we may also, see Giant
+                  anteaters, Tapirs, or even Ocelots. We might also, see birds
+                  like, Owls, Night Hawks and Potoos. Overnight.
                 </v-card>
               </template>
               <template v-slot:item.5>
                 <v-card title="Day 5:" flat class="leading-relaxed">
-                  Fifth day. Morning walk in the forest to watch the sunrise.
-                  Breakfast and transfer to the airport or hotel in Cuiabá. This
-                  Jaguar safari itinerary includes, accommodation, transfers,
-                  all meals,water and a naturalist tour guide. No beverages.
+                  Morning walk in the forest to watch the sunrise. Breakfast and
+                  transfer to the airport or hotel in Cuiabá. This Jaguar safari
+                  itinerary includes, accommodation, transfers, all meals,water
+                  and a naturalist tour guide. No beverages.
                 </v-card>
               </template>
             </v-stepper>
@@ -220,7 +218,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-down"
                 data-aos-delay="700"
-                max-height="300"
+                max-height="250"
                 aspect-ratio=""
                 cover
                 src="../assets/img/jaguar3.png"
@@ -235,12 +233,21 @@
 
           <!-- FOOTER -->
 
-          <div class="mt-10" data-aos="fade-left">
+          <div class="mt-10">
             <div
               class="uppercase text-xs flex flex-col justify-center items-center"
             >
               <p>© 2023 All rights reserved.</p>
               <p>Jaguar Safari Photography</p>
+            </div>
+
+            <div>
+              <button
+                id="instagram"
+                class="border-2 hover:border-0 border-pink-500 bg-gradient-to-b text-2xl hover:from-indigo-600 hover:via-pink-600 hover:to-yellow-500 min-w-wull hover:text-white bg-white text-pink-600 w-12 h-12 transform hover:-translate-y-3 rounded-full duration-500"
+              >
+                <i class="fab fa-instagram"></i>
+              </button>
             </div>
           </div>
         </div>
