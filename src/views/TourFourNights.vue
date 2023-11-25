@@ -26,7 +26,7 @@
         </div>
 
         <div class="mt-20" data-aos="fade-right" data-aos-delay="200">
-          <h1 class="text-4xl text-center font-serif tracking-wide">
+          <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
             Jaguar Expeditions in Porto Jofre
           </h1>
         </div>
@@ -54,7 +54,7 @@
 
         <div class="mt-10" data-aos="fade-up" data-aos-delay="250">
           <div>
-            <h1 class="text-4xl text-center font-serif tracking-wide">
+            <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
               Jaguar expeditions 4 nights / 5 days
             </h1>
           </div>
@@ -164,7 +164,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
-                data-aos-delay="300"
+                data-aos-delay="200"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -175,11 +175,55 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
-                data-aos-delay="450"
+                data-aos-delay="300"
                 max-height="300"
                 aspect-ratio=""
                 cover
                 src="../assets/img/jaguar7nightspanel.jpg"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/dsc.png"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-left"
+                data-aos-delay="500"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/jaguar1.png"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/jaguar2.png"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="700"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/jaguar3.png"
               ></v-img>
             </div>
           </div>
@@ -187,6 +231,17 @@
           <!--  -->
           <div class="mt-40">
             <JaguarDivider />
+          </div>
+
+          <!-- FOOTER -->
+
+          <div class="mt-10" data-aos="fade-left">
+            <div
+              class="uppercase text-xs flex flex-col justify-center items-center"
+            >
+              <p>© 2023 All rights reserved.</p>
+              <p>Jaguar Safari Photography</p>
+            </div>
           </div>
         </div>
       </div>
