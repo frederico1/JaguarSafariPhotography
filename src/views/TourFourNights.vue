@@ -243,9 +243,17 @@
           <div class="mt-10">
             <!-- ICONES -->
             <div class="flex justify-center items-center gap-5">
-              <Icon icon="iconoir:instagram" width="27" height="27" />
-              <Icon icon="la:whatsapp" width="27" height="27" />
-              <Icon icon="cib:tripadvisor" color="" width="27" height="27" />
+              <div class="border-b-2 h-8 border-[#E1306C]">
+                <Icon icon="iconoir:instagram" width="27" height="27" />
+              </div>
+
+              <div class="border-b-2 h-8 border-[#128C7E]">
+                <Icon icon="la:whatsapp" width="27" height="27" />
+              </div>
+
+              <div class="border-b-2 h-8 border-[#25D366]">
+                <Icon icon="cib:tripadvisor" color="" width="27" height="27" />
+              </div>
             </div>
 
             <div
