@@ -4,7 +4,7 @@
 
     <!-- NAVIGATION -->
 
-    <!-- Carousel -->
+    <!-- Carousel
     <div class="hidden md:block drop-shadow-[0_45px_45px_rgba(0,0,0,0.25)]">
       <v-carousel
         hide-delimiters
@@ -26,15 +26,13 @@
       </v-carousel>
     </div>
 
-    <!-- Carousel -->
+    -->
 
     <!-- CARDS -->
 
     <div class="pt-20 flex flex-col justify-center items-center mx-auto pb-10">
       <div>
-        <h1
-          class="font-bold text-3xl md:text-6xl tracking-widest text-[#1b6dc1]"
-        >
+        <h1 class="font-bold text-3xl md:text-5xl tracking-widest font-serif">
           JAGUAR TOURS
         </h1>
       </div>

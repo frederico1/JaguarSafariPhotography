@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="mx-auto shadow-xl md:w-[740px] lg:w-[344px]"
+    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px]"
     style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -18,7 +18,7 @@
 
     <v-card-actions>
       <router-link to="/jaguar-safari"
-        ><v-btn color="#41bc3f" variant="text"> Explore </v-btn></router-link
+        ><v-btn color="" variant="text"> Explore </v-btn></router-link
       >
 
       <v-spacer></v-spacer>
