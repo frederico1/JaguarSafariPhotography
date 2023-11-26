@@ -199,7 +199,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
-                data-aos-delay="500"
+                data-aos-delay="420"
                 max-width="350"
                 max-height="300"
                 aspect-ratio=""
@@ -211,7 +211,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
-                data-aos-delay="600"
+                data-aos-delay="440"
                 max-width="350"
                 max-height="300"
                 aspect-ratio=""
@@ -223,7 +223,7 @@
               <v-img
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-down"
-                data-aos-delay="700"
+                data-aos-delay="460"
                 max-width="350"
                 max-height="300"
                 aspect-ratio=""
@@ -240,7 +240,7 @@
 
           <!-- FOOTER -->
 
-          <div class="mt-10" data-aos="fade-down">
+          <div class="mt-10">
             <!-- ICONES -->
             <div class="flex justify-center items-center gap-5">
               <div class="border-b-2 h-8 border-[#E1306C]">
