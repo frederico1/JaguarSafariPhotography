@@ -152,6 +152,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-right"
                 data-aos-delay="100"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -163,6 +164,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
                 data-aos-delay="200"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -174,6 +176,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="300"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -185,6 +188,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-right"
                 data-aos-delay="400"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -196,6 +200,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
                 data-aos-delay="500"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -207,6 +212,7 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="600"
+                max-width="350"
                 max-height="300"
                 aspect-ratio=""
                 cover
@@ -218,7 +224,8 @@
                 class="flex justify-center items-center mx-auto"
                 data-aos="fade-down"
                 data-aos-delay="700"
-                max-height="250"
+                max-width="350"
+                max-height="300"
                 aspect-ratio=""
                 cover
                 src="../assets/img/jaguar3.png"
@@ -234,22 +241,21 @@
           <!-- FOOTER -->
 
           <div class="mt-10">
+            <!-- ICONES -->
+            <div class="flex justify-center items-center gap-5">
+              <Icon icon="iconoir:instagram" width="27" height="27" />
+              <Icon icon="la:whatsapp" width="27" height="27" />
+              <Icon icon="cib:tripadvisor" color="" width="27" height="27" />
+            </div>
+
             <div
-              class="uppercase text-xs flex flex-col justify-center items-center"
+              class="mt-6 uppercase text-xs flex flex-col justify-center items-center"
             >
               <p>© 2023 All rights reserved.</p>
               <p>Jaguar Safari Photography</p>
             </div>
-
-            <div>
-              <button
-                id="instagram"
-                class="border-2 hover:border-0 border-pink-500 bg-gradient-to-b text-2xl hover:from-indigo-600 hover:via-pink-600 hover:to-yellow-500 min-w-wull hover:text-white bg-white text-pink-600 w-12 h-12 transform hover:-translate-y-3 rounded-full duration-500"
-              >
-                <i class="fab fa-instagram"></i>
-              </button>
-            </div>
           </div>
+          <div></div>
         </div>
       </div>
     </div>
@@ -258,7 +264,6 @@
 
 <script>
 /* eslint-disable */
-
 import BackToTop from "../components/BackToTop.vue";
 import { Icon } from "@iconify/vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
