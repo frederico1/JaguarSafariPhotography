@@ -4,7 +4,7 @@
     <!-- <JaguarNavigation></JaguarNavigation> -->
 
     <!-- MOBILE -->
-    <div class="md:hidden p-3">
+    <div class="p-3">
       <!-- MENU -->
 
       <div>
