@@ -1,16 +1,12 @@
 <template>
   <v-card
-    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px]"
+    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px] max-w-min"
     style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     "
   >
-    <v-img
-      src="../assets/img/jaguar4nightscard.png"
-      height="300px"
-      cover
-    ></v-img>
+    <v-img src="../assets/img/jaguar1.png" height="300px" cover></v-img>
 
     <v-card-title> Jaguar tour 4 nights / 5 days </v-card-title>
 

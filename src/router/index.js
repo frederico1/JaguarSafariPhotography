@@ -42,6 +42,16 @@ const routes = [
     name: "4nights",
     component: () => import("../views/TourFourNights.vue"),
   },
+  {
+    path: "/tour6nights",
+    name: "6nights",
+    component: () => import("../views/TourSixNights.vue"),
+  },
+  {
+    path: "/tour7nights",
+    name: "7nights",
+    component: () => import("../views/TourSevenNights.vue"),
+  },
 ];
 
 const router = createRouter({

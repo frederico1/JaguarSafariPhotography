@@ -156,7 +156,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar6nightspanel.jpg"
+                src="../assets/img/4n.png"
               ></v-img>
             </div>
             <div>
@@ -168,7 +168,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar4nightspanel.jpg"
+                src="../assets/img/4n01.png"
               ></v-img>
             </div>
             <div>
@@ -180,7 +180,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar7nightspanel.jpg"
+                src="../assets/img/4n02.png"
               ></v-img>
             </div>
             <div>
@@ -192,7 +192,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/dsc.png"
+                src="../assets/img/4n03.png"
               ></v-img>
             </div>
             <div>
@@ -204,7 +204,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar1.png"
+                src="../assets/img/4n04.png"
               ></v-img>
             </div>
             <div>
@@ -216,7 +216,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar2.png"
+                src="../assets/img/4n05.png"
               ></v-img>
             </div>
             <div>
@@ -228,7 +228,7 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/jaguar3.png"
+                src="../assets/img/4n06.png"
               ></v-img>
             </div>
           </div>
@@ -252,7 +252,6 @@
 /* eslint-disable */
 import BackToTop from "../components/BackToTop.vue";
 import { Icon } from "@iconify/vue";
-import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
@@ -267,7 +266,6 @@ export default {
   components: {
     BackToTop,
     Icon,
-    JaguarNavigation,
     JaguarDivider,
     JaguarMenu,
     FooterMobile,

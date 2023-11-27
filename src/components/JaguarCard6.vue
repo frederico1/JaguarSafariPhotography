@@ -1,23 +1,19 @@
 <template>
   <v-card
-    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px]"
+    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px] max-w-min"
     style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     "
   >
-    <v-img
-      src="../assets/img/jaguar6nightscard.png"
-      height="300px"
-      cover
-    ></v-img>
+    <v-img src="../assets/img/jaguar2.png" height="300px" cover></v-img>
 
     <v-card-title> Jaguar tour 6 nights / 7 days </v-card-title>
 
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
     <v-card-actions>
-      <router-link to="/jaguar-safari"
+      <router-link to="/tour6nights"
         ><v-btn color="" variant="text"> Explore </v-btn></router-link
       >
 

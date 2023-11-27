@@ -9,6 +9,7 @@ import "@fontsource-variable/outfit";
 import "@fontsource-variable/red-hat-text";
 import "@fontsource-variable/playfair-display";
 import AOS from "aos";
+import "@mdi/font/css/materialdesignicons.css";
 import "aos/dist/aos.css";
 
 import { MotionPlugin } from "@vueuse/motion";
