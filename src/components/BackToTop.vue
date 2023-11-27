@@ -1,53 +1,25 @@
 <template>
-  <div>
-    <v-btn
-      v-if="showButton"
-      :class="{ 'with-z-index': showButton }"
-      color="primary"
-      fab
-      bottom
-      right
+  <div class="">
+    <button
+      data-aos="fade-right"
+      data-aos-delay="200"
+      class="bg-#000"
+      id="backToTopBtn"
       @click="scrollToTop"
+      v-show="showBackToTopButton"
     >
-      <v-icon>mdi-arrow-up</v-icon>
-    </v-btn>
+      <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+    </button>
   </div>
 </template>
 
 <script>
 /* eslint-disable */
 export default {
-  data() {
-    return {
-      showButton: false,
-    };
-  },
-  mounted() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  beforeDestroy() {
-    window.removeEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      const scrollPosition =
-        window.scrollY || document.documentElement.scrollTop;
-
-      this.showButton = scrollPosition > 100; // Ajuste o valor conforme necessário
-    },
-    scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    },
-  },
+  name: "BackToTop",
 };
 </script>
 
 <style scoped>
-.with-z-index {
-  z-index: 999;
-}
 /* Adicione estilos conforme necessário */
 </style>

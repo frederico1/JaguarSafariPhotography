@@ -114,37 +114,6 @@
       <div class="">
         <JaguarDivider />
       </div>
-
-      <div class="pt-10 flex gap-2 justify-center mt-3">
-        <div>
-          <a href="https://instagram.com/guitophotographs" target="_blanck">
-            <Icon icon="mdi:instagram" width="35" height="35" color="#" />
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-            target="_blanck"
-          >
-            <Icon icon="ic:baseline-whatsapp" width="35" height="35" color="" />
-          </a>
-
-          <span class="elementor-icon-list-icon">
-            <i aria-hidden="true" class="fas fa-mobile-alt"></i>
-          </span>
-        </div>
-        <div class="">
-          <a href="https://www.tripadvisor.com.br" target="_blanck">
-            <Icon
-              class=""
-              icon="simple-icons:tripadvisor"
-              width="35"
-              height="35"
-              color=""
-            />
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 </template>

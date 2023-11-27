@@ -1,18 +1,21 @@
 <template>
   <!-- <div class="hidden md:block bg-[#1a2b5a] h-20 md:mt-96 shadow-2xl"></div>  -->
 
+  <!-- MOBILE MENUS -->
+
   <router-view />
 </template>
 <script>
 /* eslint-disable */
-import JaguarFooter from "../src/components/JaguarFooter.vue";
-
+import JaguarMenu from "../src/components/JaguarMenu.vue";
 import JaguarAnimated from "../src/components/JaguarAnimated.vue";
+import FooterMobile from "../src/components/JaguarFooterMobile.vue";
 
 export default {
   components: {
-    JaguarFooter,
+    FooterMobile,
     JaguarAnimated,
+    JaguarMenu,
   },
 };
 </script>
