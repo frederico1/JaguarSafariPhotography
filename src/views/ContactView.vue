@@ -1,118 +1,134 @@
 <template>
-  <JaguarNavigation></JaguarNavigation>
   <!-- eslint-disable -->
 
-  <div class="p-4 pt-10 text-center leading-4 md:w-4/4 lg:w-3/4 mx-auto">
-    <h1
-      class="md:text-2xl lg:text-3xl text-xl font-semibold text-[#] tracking-widest"
-    >
-      Pantanal trip photography.
-    </h1>
-    <p
-      class="mt-8 leading-relaxed text-justify justify-center mx-auto md:text-xl indent-8"
-    >
-      If you wish to make a Pantanal trip photography, you are in the right
-      page. In fact, Silva Tour Pantanal is organizing naturalistic tours since
-      2014. If you have any questions about the trip, forthwith, we will answer
-      and try clarify your doubts. By and large, we give all information about
-      booking hotels, transfers and guides. thus, do not hesitate to get in
-      touch with us.
-    </p>
-  </div>
-
-  <JaguarDivider />
-
-  <div
-    class="p-3 md:w-4/4 lg:w-3/4 md:grid md:grid-cols-2 md:mx-auto md:gap-10"
-  >
-    <!-- FORM -->
-    <div class="pt-8">
-      <form @submit.prevent="submit">
-        <div class="">
-          <v-text-field
-            v-model="name.value.value"
-            :counter="10"
-            :error-messages="name.errorMessage.value"
-            label="Name"
-            clearable
-            variant="outlined"
-            color="#1b6dc1"
-          ></v-text-field>
-        </div>
-        <div class="pt-5">
-          <v-text-field
-            v-model="phone.value.value"
-            :counter="7"
-            :error-messages="phone.errorMessage.value"
-            label="Phone Number"
-            clearable
-            variant="outlined"
-            color="#1b6dc1"
-          ></v-text-field>
-        </div>
-        <div class="pt-5">
-          <v-text-field
-            v-model="email.value.value"
-            :error-messages="email.errorMessage.value"
-            label="E-mail"
-            clearable
-            variant="outlined"
-            color="#1b6dc1"
-          ></v-text-field>
-        </div>
-        <div class="pt-3">
-          <v-btn class="me-4" type="submit" color="#000"> submit </v-btn>
-          <v-btn @click="handleReset" color="#000"> clear </v-btn>
-        </div>
-      </form>
-    </div>
-
-    <!-- CONTACT  -->
-
-    <div class="pt-6">
-      <div class="">
-        <h1 class="text-2xl font-medium text-[] tracking-widest">Contact US</h1>
+  <!-- MOBILE -->
+  <div class="p-3">
+    <div class="">
+      <div>
+        <JaguarMenu />
       </div>
-      <div class="pt-1">
-        <p class="md:text-xl">
-          For a Pantanal trip photography or suggestions, contact us by e-mail,
-          phone or fill in the formular.
+      <div class="mt-20">
+        <h1 class="text-4xl font-serif text-center uppercase tracking-wider">
+          Pantanal trip photography.
+        </h1>
+        <p
+          class="mt-8 leading-relaxed text-justify justify-center mx-auto indent-8"
+        >
+          If you wish to make a Pantanal trip photography, you are in the right
+          page. In fact, Silva Tour Pantanal is organizing naturalistic tours
+          since 2014. If you have any questions about the trip, forthwith, we
+          will answer and try clarify your doubts. By and large, we give all
+          information about booking hotels, transfers and guides. thus, do not
+          hesitate to get in touch with us.
         </p>
       </div>
-      <div class="pt-8 flex flex-col gap-4">
-        <div class="flex items-center gap-2">
-          <Icon icon="game-icons:smartphone" width="35" height="35" color="" />
-          <a class="md:text-xl" href="tel:+55 65992764968">+55 65992764968 </a>
-        </div>
+    </div>
 
-        <div class="flex items-center gap-2">
-          <Icon icon="ic:baseline-whatsapp" width="35" height="35" color="#" />
-          <a
-            class="font-semibold md:text-xl"
-            href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-            target="_blanck"
-          >
-            <span class="elementor-icon-list-icon">
-              <i aria-hidden="true" class="fas fa-mobile-alt"></i>
-            </span>
-            <span class="elementor-icon-list-text font-normal"
-              >+55 65 99276-4968</span
-            >
-          </a>
-        </div>
-        <div class="flex items-center gap-2">
-          <Icon icon="ic:outline-email" width="35" height="35" color="#" />
-          <a
-            class="hover:[#] md:text-xl"
-            href="mailto:http://jaguarsafariphotograph@gmail.com"
-            target="_blanck"
-            >jaguarsafariphotograph@gmail.com
-          </a>
-        </div>
+    <JaguarDivider />
+
+    <div class="">
+      <!-- FORM -->
+      <div class="pt-8">
+        <form @submit.prevent="submit">
+          <div class="">
+            <v-text-field
+              v-model="name.value.value"
+              :counter="10"
+              :error-messages="name.errorMessage.value"
+              label="Name"
+              clearable
+              variant="outlined"
+            ></v-text-field>
+          </div>
+          <div class="pt-5">
+            <v-text-field
+              v-model="phone.value.value"
+              :counter="7"
+              :error-messages="phone.errorMessage.value"
+              label="Phone Number"
+              clearable
+              variant="outlined"
+            ></v-text-field>
+          </div>
+          <div class="pt-5">
+            <v-text-field
+              v-model="email.value.value"
+              :error-messages="email.errorMessage.value"
+              label="E-mail"
+              clearable
+              variant="outlined"
+            ></v-text-field>
+          </div>
+          <div class="pt-3">
+            <v-btn class="me-4" type="submit" color="#000"> submit </v-btn>
+          </div>
+        </form>
       </div>
 
-      <div class="">
-        <JaguarDivider />
+      <!-- CONTACT  -->
+
+      <div class="pt-6">
+        <div class="">
+          <h1 class="text-2xl font-serif font-medium tracking-widest">
+            Contact US
+          </h1>
+        </div>
+        <div class="pt-1">
+          <p class="text-base">
+            For a Pantanal trip photography or suggestions, contact us by
+            e-mail, phone or fill in the formular.
+          </p>
+        </div>
+        <div class="pt-8 flex flex-col gap-4">
+          <div class="flex items-center gap-2">
+            <Icon
+              icon="game-icons:smartphone"
+              width="35"
+              height="35"
+              color=""
+            />
+            <a class="text-sm" href="tel:+55 65992764968">+55 65992764968 </a>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <Icon
+              icon="ic:baseline-whatsapp"
+              width="35"
+              height="35"
+              color="#"
+            />
+            <a
+              class="font-semibold"
+              href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+              target="_blanck"
+            >
+              <span class="elementor-icon-list-icon">
+                <i aria-hidden="true" class="fas fa-mobile-alt"></i>
+              </span>
+              <span class="elementor-icon-list-text font-normal text-sm"
+                >+55 65 99276-4968</span
+              >
+            </a>
+          </div>
+          <div class="flex items-center gap-2">
+            <Icon icon="ic:outline-email" width="35" height="35" color="#" />
+            <a
+              class="hover:[#] text-sm"
+              href="mailto:http://jaguarsafariphotograph@gmail.com"
+              target="_blanck"
+              >jaguarsafariphotograph@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="">
+          <JaguarDivider />
+        </div>
+
+        <!-- FOOTER -->
+        <div class="mt-10">
+          <FooterMobile />
+        </div>
       </div>
     </div>
   </div>
@@ -121,9 +137,10 @@
 <script>
 /* eslint-disable */
 import { Icon } from "@iconify/vue";
-
+import JaguarMenu from "../components/JaguarMenu.vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
+import FooterMobile from "../components/JaguarFooterMobile.vue";
 
 import { ref, reactive } from "vue";
 import { useField, useForm } from "vee-validate";
@@ -133,6 +150,8 @@ export default {
     Icon,
     JaguarNavigation,
     JaguarDivider,
+    JaguarMenu,
+    FooterMobile,
   },
   setup() {
     const { handleSubmit, handleReset } = useForm({

@@ -65,7 +65,8 @@
         <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
           <div class="w-full">
             <v-stepper
-              style="font-weight: 400"
+              elevation="16"
+              mobile
               color="#000"
               class=""
               prev-text="Preview"
@@ -73,7 +74,7 @@
               :items="['DAY 1', 'DAY 2', 'DAY 3', 'DAY 4', 'DAY 5']"
             >
               <template v-slot:item.1>
-                <v-card title="Day 1:" flat class="leading-relaxed"
+                <v-card title="Day 1:" flat class="leading-relaxed font-sans"
                   >First, on this Jaguar safari photography, we will pick you up
                   at the airport or hotel in Cuiabá and transfer to the Lodge.
                   Generally, the trip takes 3 hours. In fact, we’ll take you 100
@@ -89,7 +90,7 @@
               </template>
 
               <template v-slot:item.2>
-                <v-card title="Day 2:" flat class="leading-relaxed"
+                <v-card title="Day 2:" flat class="leading-relaxed font-sans"
                   >This time you will make a morning walk in the forest to watch
                   the sunrise. Then breakfast, followed by hiking in the forest.
                   Thre, you may see some animals living in different habitats.
@@ -102,7 +103,7 @@
               </template>
 
               <template v-slot:item.3>
-                <v-card title="Day 3:" flat class="leading-relaxed"
+                <v-card title="Day 3:" flat class="leading-relaxed font-sans"
                   >Breakfast is at 06:00 am. Then, this is the beginning of your
                   jaguar safari itinerary. Once we’re ready, we’ll make a boat
                   drive in search of jaguars and giant otters along the Cuiabá
@@ -114,7 +115,7 @@
                 </v-card>
               </template>
               <template v-slot:item.4>
-                <v-card title="Day 4:" flat class="leading-relaxed"
+                <v-card title="Day 4:" flat class="leading-relaxed font-sans"
                   >Breakfast, transfer back to the lodge on the Transpantaneira.
                   Lunch and horseback ride or another boat ride. Dinner at 7:00
                   pm followed by night safari. Generally, on a night safari, we
@@ -124,7 +125,7 @@
                 </v-card>
               </template>
               <template v-slot:item.5>
-                <v-card title="Day 5:" flat class="leading-relaxed">
+                <v-card title="Day 5:" flat class="leading-relaxed font-sans">
                   Morning walk in the forest to watch the sunrise. Breakfast and
                   transfer to the airport or hotel in Cuiabá. This Jaguar safari
                   itinerary includes, accommodation, transfers, all meals,water

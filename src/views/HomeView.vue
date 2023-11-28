@@ -30,11 +30,15 @@
 
     <!-- CARDS -->
 
+    <!-- MOBILE -->
+
     <div class="pt-20 flex flex-col justify-center items-center mx-auto pb-10">
-      <div>
-        <h1 class="font-bold text-3xl md:text-5xl tracking-widest font-serif">
-          JAGUAR TOURS
-        </h1>
+      <div class="md:hidden">
+        <JaguarMenu />
+      </div>
+
+      <div class="mt-10">
+        <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class="pt-10 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
@@ -73,6 +77,7 @@ import JaguarCard7 from "../components/JaguarCard7.vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
+import JaguarMenu from "../components/JaguarMenu.vue";
 
 export default {
   components: {
@@ -83,6 +88,7 @@ export default {
     JaguarNavigation,
     FooterMobile,
     JaguarDivider,
+    JaguarMenu,
   },
 };
 /* eslint-disable */

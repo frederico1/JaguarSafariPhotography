@@ -67,6 +67,9 @@
       <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
         <div class="w-full">
           <v-stepper
+          elevation="16"
+
+            mobile
             style="font-weight: 400"
             color="#000"
             class=""
@@ -84,7 +87,7 @@
             ]"
           >
             <template v-slot:item.1>
-              <v-card title="Day 1:" flat class="leading-relaxed"
+              <v-card title="Day 1:" flat class="leading-relaxed font-sans"
                 >On the first day of our jaguar expeditions and photography, our
                 guide will pick you up at the airport or your hotel in Cuiabá.
                 After that, He will take you to the lodge in the Pantanal.
@@ -99,7 +102,7 @@
             </template>
 
             <template v-slot:item.2>
-              <v-card title="Day 2:" flat class="leading-relaxed"
+              <v-card title="Day 2:" flat class="leading-relaxed font-sans"
                 >On the second day. Soon, You will make a mornig walk to the
                 tower to watch the sunrise. Breakfast at 07:00 am. After that,
                 you will go for a hike in the forests. Usually, we see Monkeys,
@@ -110,7 +113,7 @@
             </template>
 
             <template v-slot:item.3>
-              <v-card title="Day 3:" flat class="leading-relaxed"
+              <v-card title="Day 3:" flat class="leading-relaxed font-sans"
                 >On the third day, is the beginning of your jaguar trip.
                 Breakfast at 06:00 am. After that, you start your jaguar safari.
                 Altogether, from 7:00 am to 05:00 pm, you will make a jaguar
@@ -121,7 +124,7 @@
               </v-card>
             </template>
             <template v-slot:item.4>
-              <v-card title="Day 4:" flat class="leading-relaxed"
+              <v-card title="Day 4:" flat class="leading-relaxed font-sans"
                 >On the fourth day. In the same way, you will go looking for
                 jaguars and Giant Otter on the river again. At noon, you will
                 make a picnic ont the river. After that, you will stay on the
@@ -130,7 +133,7 @@
               </v-card>
             </template>
             <template v-slot:item.5>
-              <v-card title="Day 5:" flat class="leading-relaxed">
+              <v-card title="Day 5:" flat class="leading-relaxed font-sans">
                 On the fifth day. In the same way, you will make the jaguar trip
                 by boat. In short, you will make ten hours boat drive with
                 picnic on the river. Dinner and overnight. <br />
@@ -139,7 +142,7 @@
               </v-card>
             </template>
             <template v-slot:item.6>
-              <v-card title="Day 6:" flat class="leading-relaxed">
+              <v-card title="Day 6:" flat class="leading-relaxed font-sans">
                 On the sixth day of your jaguar safari expeditions and
                 photography, you will start the last part of your tour. After
                 breakfast, your guide will drive you back to a third lodge on
@@ -150,7 +153,7 @@
               </v-card>
             </template>
             <template v-slot:item.7>
-              <v-card title="Day 7:" flat class="leading-relaxed">
+              <v-card title="Day 7:" flat class="leading-relaxed font-sans">
                 On the seventh day. You wull make a morning walk to watch the
                 sunrise, After breakfast, you will make a photo safari. Then,
                 you will have lunch at noon . After that, you will go to the
@@ -160,7 +163,7 @@
               </v-card>
             </template>
             <template v-slot:item.8>
-              <v-card title="Day 8:" flat class="leading-relaxed">
+              <v-card title="Day 8:" flat class="leading-relaxed font-sans">
                 On the eighth day. You will watch some animals eating at the
                 bird feeder. In fact, you can photograph them really close to
                 you. After breakfast, your guide will drop you off in Cuiabá.

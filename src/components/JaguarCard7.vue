@@ -17,9 +17,11 @@
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
     <v-card-actions>
-      <router-link to="/tour7nights"
-        ><v-btn color="" variant="text"> Explore </v-btn></router-link
-      >
+      <router-link class="flex justify-center items-center" to="/tour7nights">
+        <Icon icon="material-symbols-light:read-more" width="24" height="24" />
+        <v-btn color=""> Read More </v-btn>
+      </router-link>
+
       <v-spacer></v-spacer>
 
       <v-btn
@@ -34,7 +36,7 @@
           class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"
         ></div>
 
-        <v-card-text style="font-size: 17px">
+        <v-card-text style="font-size: 15px">
           It includes two nights Pantanal trip in a lodge in the Transpantaneira
           plus five nights in Porto Jofre. 40 hours jaguar safari.
         </v-card-text>
@@ -68,7 +70,12 @@
 </template>
 <script>
 /* eslint-disable */
+import { Icon } from "@iconify/vue";
+
 export default {
+  components: {
+    Icon,
+  },
   name: "JaguarCard4",
   data: () => ({
     show: false,

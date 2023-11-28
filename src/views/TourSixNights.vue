@@ -62,7 +62,8 @@
       <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
         <div class="w-full">
           <v-stepper
-            style="font-weight: 400"
+            elevation="16"
+            mobile
             color="#000"
             class=""
             prev-text="Preview"
@@ -78,7 +79,7 @@
             ]"
           >
             <template v-slot:item.1>
-              <v-card title="Day 1:" flat class="leading-relaxed"
+              <v-card title="Day 1:" flat class="leading-relaxed font-sans"
                 >Eventually, on the first day of your Pantanal jaguar
                 expeditions and photography. Our guide will pick you up at the
                 Hotel in Cuiabá and take you to the lodge in the Pantanal.
@@ -91,7 +92,7 @@
             </template>
 
             <template v-slot:item.2>
-              <v-card title="Day 2:" flat class="leading-relaxed"
+              <v-card title="Day 2:" flat class="leading-relaxed font-sans"
                 >On the second day, you will go for a morning walk to the tower
                 to watch the sunrise. Breakfast at 07:00 am. Afterwards, you go
                 for a hike in the forests of the farm. Certainly, you may see
@@ -102,7 +103,7 @@
             </template>
 
             <template v-slot:item.3>
-              <v-card title="Day 3:" flat class="leading-relaxed"
+              <v-card title="Day 3:" flat class="leading-relaxed font-sans"
                 >On the third day, we start the jaguar safari Itinerary. This
                 time you will have breakfast at 6:00 am. After that, you will
                 make your first jaguar safari from 07:00 am to 05:00 pm.
@@ -114,7 +115,7 @@
               </v-card>
             </template>
             <template v-slot:item.4>
-              <v-card title="Day 4:" flat class="leading-relaxed"
+              <v-card title="Day 4:" flat class="leading-relaxed font-sans"
                 >On the fourth day. In similar fashion, you will make a jaguar
                 trip for 10 hours, having lunch on the river and returning to
                 the lodge at 05:00 pm. Dinner and overnight.<br />
@@ -124,7 +125,7 @@
               </v-card>
             </template>
             <template v-slot:item.5>
-              <v-card title="Day 5:" flat class="leading-relaxed">
+              <v-card title="Day 5:" flat class="leading-relaxed font-sans">
                 This time, you will have breakfast. Thereafter, our guide will
                 drive you to a different lodge on the Transpantaneira.
                 Certainly, you will see lots of animals in the farm. For
@@ -135,7 +136,7 @@
               </v-card>
             </template>
             <template v-slot:item.6>
-              <v-card title="Day 6:" flat class="leading-relaxed">
+              <v-card title="Day 6:" flat class="leading-relaxed font-sans">
                 On the sixth day, you will go for a morning walk to watch the
                 sunrise. Breakfast is at 07:00 am. Afterwards, you go on a photo
                 safari. Generally, tourists see many birds, mammals and reptiles
@@ -146,7 +147,7 @@
               </v-card>
             </template>
             <template v-slot:item.7>
-              <v-card title="Day 7:" flat class="leading-relaxed">
+              <v-card title="Day 7:" flat class="leading-relaxed font-sans">
                 Finally, on the seventh day. You will watch animals on the bird
                 feeder. Breakfast is at 07:00. Then, our guide will take you
                 back to Cuiabá.

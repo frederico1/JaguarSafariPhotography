@@ -17,14 +17,14 @@
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
     <v-card-actions>
-      <router-link to="/tour4nights"
-        ><v-btn color="" variant="text"> Explore </v-btn></router-link
-      >
+      <router-link class="flex justify-center items-center" to="/tour4nights">
+        <Icon icon="material-symbols-light:read-more" width="24" height="24" />
+        <v-btn color="">Read More</v-btn>
+      </router-link>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        class="outlined"
         :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
         @click="show = !show"
       ></v-btn>
@@ -34,7 +34,7 @@
         <div
           class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"
         ></div>
-        <v-card-text style="font-size: 17px">
+        <v-card-text style="font-size: 15px">
           It includes one night Pantanal trip in a lodge in the Transpantaneira
           plus three nights in Porto Jofre. 20 hours jaguar safari.
         </v-card-text>
@@ -68,11 +68,14 @@
 </template>
 <script>
 /* eslint-disable */
+import { Icon } from "@iconify/vue";
+
 import JaguarDivider from "../components/JaguarDivider.vue";
 
 export default {
   components: {
     JaguarDivider,
+    Icon,
   },
   name: "JaguarCard4",
   data: () => ({
