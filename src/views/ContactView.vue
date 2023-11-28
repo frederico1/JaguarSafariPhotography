@@ -8,11 +8,23 @@
         <JaguarMenu />
       </div>
       <div class="mt-20">
+        <div class="">
+          <button
+            data-aos="fade-right"
+            data-aos-delay="200"
+            class="bg-#000"
+            id="backToTopBtn"
+            @click="scrollToTop"
+            v-show="showBackToTopButton"
+          >
+            <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+          </button>
+        </div>
         <h1 class="text-4xl font-serif text-center uppercase tracking-wider">
           Pantanal trip photography.
         </h1>
         <p
-          class="mt-8 leading-relaxed text-justify justify-center mx-auto indent-8"
+          class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans"
         >
           If you wish to make a Pantanal trip photography, you are in the right
           page. In fact, Silva Tour Pantanal is organizing naturalistic tours
@@ -30,37 +42,35 @@
       <!-- FORM -->
       <div class="pt-8">
         <form @submit.prevent="submit">
-          <div class="">
-            <v-text-field
-              v-model="name.value.value"
-              :counter="10"
-              :error-messages="name.errorMessage.value"
-              label="Name"
-              clearable
-              variant="outlined"
-            ></v-text-field>
-          </div>
-          <div class="pt-5">
-            <v-text-field
-              v-model="phone.value.value"
-              :counter="7"
-              :error-messages="phone.errorMessage.value"
-              label="Phone Number"
-              clearable
-              variant="outlined"
-            ></v-text-field>
-          </div>
-          <div class="pt-5">
-            <v-text-field
-              v-model="email.value.value"
-              :error-messages="email.errorMessage.value"
-              label="E-mail"
-              clearable
-              variant="outlined"
-            ></v-text-field>
-          </div>
-          <div class="pt-3">
-            <v-btn class="me-4" type="submit" color="#000"> submit </v-btn>
+          <v-text-field
+            variant="outlined"
+            v-model="name.value.value"
+            :counter="10"
+            :error-messages="name.errorMessage.value"
+            label="Name"
+          ></v-text-field>
+
+          <v-text-field
+            class="mt-3"
+            variant="outlined"
+            v-model="phone.value.value"
+            :counter="7"
+            :error-messages="phone.errorMessage.value"
+            label="Phone Number"
+          ></v-text-field>
+
+          <v-text-field
+            class="mt-3"
+            variant="outlined"
+            v-model="email.value.value"
+            :error-messages="email.errorMessage.value"
+            label="E-mail"
+          ></v-text-field>
+
+          <div class="mt-6">
+            <v-btn class="me-4" type="submit"> submit </v-btn>
+
+            <v-btn @click="handleReset"> clear </v-btn>
           </div>
         </form>
       </div>
@@ -69,12 +79,12 @@
 
       <div class="pt-6">
         <div class="">
-          <h1 class="text-2xl font-serif font-medium tracking-widest">
+          <h1 class="text-2xl font-medium tracking-widest font-sans">
             Contact US
           </h1>
         </div>
         <div class="pt-1">
-          <p class="text-base">
+          <p class="text-base font-sans">
             For a Pantanal trip photography or suggestions, contact us by
             e-mail, phone or fill in the formular.
           </p>
@@ -87,7 +97,9 @@
               height="35"
               color=""
             />
-            <a class="text-sm" href="tel:+55 65992764968">+55 65992764968 </a>
+            <a class="text-sm font-sans" href="tel:+55 65992764968"
+              >+55 65992764968
+            </a>
           </div>
 
           <div class="flex items-center gap-2">
@@ -98,22 +110,20 @@
               color="#"
             />
             <a
-              class="font-semibold"
+              class="font-sans text-sm"
               href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
               target="_blanck"
             >
               <span class="elementor-icon-list-icon">
                 <i aria-hidden="true" class="fas fa-mobile-alt"></i>
               </span>
-              <span class="elementor-icon-list-text font-normal text-sm"
-                >+55 65 99276-4968</span
-              >
+              <span class="elementor-icon-list-text">+55 65 99276-4968</span>
             </a>
           </div>
           <div class="flex items-center gap-2">
             <Icon icon="ic:outline-email" width="35" height="35" color="#" />
             <a
-              class="hover:[#] text-sm"
+              class="hover:[#] text-sm font-sans"
               href="mailto:http://jaguarsafariphotograph@gmail.com"
               target="_blanck"
               >jaguarsafariphotograph@gmail.com
@@ -141,6 +151,7 @@ import JaguarMenu from "../components/JaguarMenu.vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
+import BackToTop from "../components/BackToTop.vue";
 
 import { ref, reactive } from "vue";
 import { useField, useForm } from "vee-validate";
@@ -148,10 +159,40 @@ import { useField, useForm } from "vee-validate";
 export default {
   components: {
     Icon,
+    BackToTop,
     JaguarNavigation,
     JaguarDivider,
     JaguarMenu,
     FooterMobile,
+  },
+  data() {
+    return {
+      showBackToTopButton: false,
+      cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.showBackToTopButton = window.scrollY > 20;
+    },
+    scrollToTop() {
+      // Adicionando uma transição suave ao rolar para o topo
+      const scrollDuration = 1500; // em milissegundos
+      const scrollStep = -window.scrollY / (scrollDuration / 15);
+      const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep);
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 1.2);
+    },
   },
   setup() {
     const { handleSubmit, handleReset } = useForm({
@@ -208,7 +249,22 @@ export default {
 </script>
 
 <style scoped>
-a:hover {
-  color: #1b6dc1;
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1px 1px;
+  border-radius: 5rem;
+  cursor: pointer;
+  z-index: 1900;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
 }
 </style>

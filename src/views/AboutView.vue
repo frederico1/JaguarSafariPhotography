@@ -9,7 +9,9 @@
 
       <!-- MENU -->
       <div data-aos="fade-right" data-aos-delay="200">
-        <h1 class="pt-10 text-4xl font-serif tracking-widest text-center">
+        <h1
+          class="pt-10 text-4xl text-center font-serif tracking-wide uppercase"
+        >
           Jaguar Safari Photography Guide
         </h1>
       </div>
@@ -17,7 +19,7 @@
       <div class="mt-10 text-center flex flex-col gap-4 leading-relaxed">
         <div data-aos="fade-right" data-aos-delay="400">
           <span class="text-xl mx-auto font-serif">Creators:</span>
-          <p class="text-justify md:text-xl">
+          <p class="text-center font-sans">
             This company was conceived by Diego Almeida, his mother Delma Silva,
             and stepfather Rizardo Silva with the aim of providing the best that
             a specialized Photography agency can offer to its clients.
@@ -26,7 +28,7 @@
 
         <div class="mt-10" data-aos="fade-right" data-aos-delay="600">
           <span class="text-xl mx-auto font-serif">Who We Are:</span>
-          <p class="text-justify md:text-xl">
+          <p class="text-center font-sans">
             Jaguar Safari is an extension of Silva Tour Pantanal, a
             well-established company with a long history in the market and
             extensive knowledge of the Pantanal. Founded in 2014, the agency
@@ -41,7 +43,7 @@
 
         <div class="mt-10" data-aos="fade-down">
           <span class="text-xl mx-auto font-serif">Objective: </span>
-          <p class="text-justify md:text-xl">
+          <p class="text-center font-sans">
             Jaguar Safari Photograph was created for all photography
             enthusiasts, whether they are professionals, amateurs, or those who
             view photography as a small hobby. We offer premium and

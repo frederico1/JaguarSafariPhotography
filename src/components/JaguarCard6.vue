@@ -36,7 +36,7 @@
           class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"
         ></div>
 
-        <v-card-text style="font-size: 15px">
+        <v-card-text style="font-size: 15px; font-family: sans-serif">
           It includes two nights Pantanal trip in a lodge in the Transpantaneira
           plus four nights in Porto Jofre. 30 hours jaguar safari.
         </v-card-text>

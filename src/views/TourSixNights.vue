@@ -30,7 +30,7 @@
       </div>
 
       <div class="mt-10" data-aos="fade-right" data-aos-delay="200">
-        <p class="text-justify indent-8 leading-relaxed text-lg">
+        <p class="text-center font-sans leading-relaxed">
           First, our company offers Pantanal jaguar expeditions and photography
           starting in Cuiabá. However, we can start your Pantanal jaguar safari
           itinerary immediately upon your arrival. In fact, you have the

@@ -18,4 +18,4 @@ export default {
 /* eslint-disable */
 </script>
 
-<style></style>
+<style scoped></style>
