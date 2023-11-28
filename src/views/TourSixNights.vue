@@ -2,7 +2,7 @@
   <!-- eslint-disable -->
 
   <!-- MOBILE -->
-  <div class="md:hidden p-3">
+  <div class="p-3">
     <!-- MENU -->
     <div>
       <JaguarMenu />
@@ -290,6 +290,7 @@ export default {
     JaguarMenu,
     FooterMobile,
   },
+
   data() {
     return {
       showBackToTopButton: false,

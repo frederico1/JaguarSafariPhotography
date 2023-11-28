@@ -1,6 +1,8 @@
 <template>
   <v-card
-    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px] max-w-min"
+    hover
+    elevation="16"
+    class="mx-auto shadow-xl md:w-[740px] lg:w-[420px] w-[340px]"
     style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -8,7 +10,9 @@
   >
     <v-img src="../assets/img/jaguar2.png" height="300px" cover></v-img>
 
-    <v-card-title> Jaguar tour 6 nights / 7 days </v-card-title>
+    <v-card-title class="font-serif text-center">
+      Jaguar tour 6 nights / 7 days
+    </v-card-title>
 
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
@@ -27,14 +31,13 @@
 
     <v-expand-transition>
       <div v-show="show">
-        <v-divider></v-divider>
+        <div
+          class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"
+        ></div>
 
-        <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he
-          could deliver. You won't have time for sleeping, soldier, not with all
-          the bed making you'll be doing. Then we'll go with that data file!
-          Hey, you add a one and two zeros to that or we walk! You're going to
-          do his laundry? I've got to find a way to escape.
+        <v-card-text style="font-size: 17px">
+          It includes two nights Pantanal trip in a lodge in the Transpantaneira
+          plus four nights in Porto Jofre. 30 hours jaguar safari.
         </v-card-text>
       </div>
     </v-expand-transition>

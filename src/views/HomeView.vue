@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="p-3">
     <!-- NAVIGATION -->
 
     <!-- NAVIGATION -->
@@ -50,6 +50,16 @@
     </div>
 
     <!-- CARDS -->
+
+    <div>
+      <JaguarDivider />
+    </div>
+
+    <!-- HOME FOOTER MOBILE -->
+
+    <div class="md:hidden">
+      <FooterMobile />
+    </div>
   </div>
   <router-view />
 </template>
@@ -61,6 +71,8 @@ import JaguarCard4 from "../components/JaguarCard4.vue";
 import JaguarCard6 from "../components/JaguarCard6.vue";
 import JaguarCard7 from "../components/JaguarCard7.vue";
 import JaguarNavigation from "../components/JaguarNavigation.vue";
+import FooterMobile from "../components/JaguarFooterMobile.vue";
+import JaguarDivider from "../components/JaguarDivider.vue";
 
 export default {
   components: {
@@ -69,6 +81,8 @@ export default {
     JaguarCard6,
     JaguarCard7,
     JaguarNavigation,
+    FooterMobile,
+    JaguarDivider,
   },
 };
 /* eslint-disable */

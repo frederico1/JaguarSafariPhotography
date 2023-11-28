@@ -2,7 +2,7 @@
   <!-- eslint-disable -->
 
   <!-- MOBILE -->
-  <div class="md:hidden p-3">
+  <div class="p-3">
     <!-- MENU -->
     <div>
       <JaguarMenu />
@@ -49,7 +49,12 @@
 
       <JaguarDivider />
 
-      <div class="mt-10" data-aos="fade-up" data-aos-delay="250">
+      <div
+        class="mt-10"
+        data-aos="fade-up"
+        data-aos-delay="250"
+        data-aos-anchor-placement="center-center"
+      >
         <div>
           <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
             Jaguar expeditions 7 nights / 8 days
