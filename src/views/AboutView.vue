@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <!-- MOBILE -->
-    <div class="md:hidden mt-10 flex flex-col p-3">
+    <div class="mt-10 flex flex-col p-3">
       <!-- MENU -->
       <div>
         <JaguarMenu />
@@ -9,6 +9,18 @@
 
       <!-- MENU -->
       <div data-aos="fade-right" data-aos-delay="200">
+        <div class="">
+          <button
+            data-aos="fade-right"
+            data-aos-delay="200"
+            class="bg-#000"
+            id="backToTopBtn"
+            @click="scrollToTop"
+            v-show="showBackToTopButton"
+          >
+            <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+          </button>
+        </div>
         <h1
           class="pt-10 text-4xl text-center font-serif tracking-wide uppercase"
         >
@@ -19,39 +31,52 @@
       <div class="mt-10 text-center flex flex-col gap-4 leading-relaxed">
         <div data-aos="fade-right" data-aos-delay="400">
           <span class="text-xl mx-auto font-serif">Creators:</span>
-          <p class="text-center font-sans">
-            This company was conceived by Diego Almeida, his mother Delma Silva,
-            and stepfather Rizardo Silva with the aim of providing the best that
-            a specialized Photography agency can offer to its clients.
-          </p>
+          <div class="mt-2">
+            <p class="text-center font-sans">
+              This company was conceived by Diego Almeida, his mother Delma
+              Silva, and stepfather Rizardo Silva with the aim of providing the
+              best that a specialized Photography agency can offer to its
+              clients.
+            </p>
+          </div>
         </div>
 
-        <div class="mt-10" data-aos="fade-right" data-aos-delay="600">
+        <div class="mt-10 gap-4" data-aos="fade-right" data-aos-delay="600">
           <span class="text-xl mx-auto font-serif">Who We Are:</span>
-          <p class="text-center font-sans">
-            Jaguar Safari is an extension of Silva Tour Pantanal, a
-            well-established company with a long history in the market and
-            extensive knowledge of the Pantanal. Founded in 2014, the agency
-            continues to prove itself as one of the best, most active, and
-            reputable in the industry to this day. As a 100% family-owned
-            business, we always seek to convey comfort and security to every
-            family we serve. With Jaguar Safari Photograph, it will be no
-            different; we are committed to providing everything a photographer
-            and birdwatcher need.
-          </p>
+          <div class="mt-2">
+            <p class="text-center font-sans">
+              Jaguar Safari is an extension of
+              <a
+                class="text-[#1b6dc1] font-semibold cursor-pointer"
+                href="https://silvatourpantanal.com"
+                target="_blanck"
+              >
+                Silva Tour Pantanal </a
+              >, a well-established company with a long history in the market
+              and extensive knowledge of the Pantanal. Founded in 2014, the
+              agency continues to prove itself as one of the best, most active,
+              and reputable in the industry to this day. As a 100% family-owned
+              business, we always seek to convey comfort and security to every
+              family we serve. With Jaguar Safari Photograph, it will be no
+              different; we are committed to providing everything a photographer
+              and birdwatcher need.
+            </p>
+          </div>
         </div>
 
         <div class="mt-10" data-aos="fade-down">
           <span class="text-xl mx-auto font-serif">Objective: </span>
-          <p class="text-center font-sans">
-            Jaguar Safari Photograph was created for all photography
-            enthusiasts, whether they are professionals, amateurs, or those who
-            view photography as a small hobby. We offer premium and
-            differentiated service to all photography lovers. At Jaguar Safari,
-            all packages follow a premium line. Each package has a specific
-            detail to cater to you in the best possible way, providing the
-            utmost comfort and security.
-          </p>
+          <div class="mt-2">
+            <p class="text-center font-sans">
+              Jaguar Safari Photograph was created for all photography
+              enthusiasts, whether they are professionals, amateurs, or those
+              who view photography as a small hobby. We offer premium and
+              differentiated service to all photography lovers. At Jaguar
+              Safari, all packages follow a premium line. Each package has a
+              specific detail to cater to you in the best possible way,
+              providing the utmost comfort and security.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -74,6 +99,7 @@ import JaguarNavigation from "../components/JaguarNavigation.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
+import BackToTop from "../components/BackToTop.vue";
 
 import { onMounted } from "vue";
 import AOS from "aos";
@@ -84,11 +110,68 @@ onMounted(() => {
 
 export default {
   components: {
+    BackToTop,
     JaguarNavigation,
     JaguarMenu,
     FooterMobile,
     JaguarDivider,
   },
+  data() {
+    return {
+      showBackToTopButton: false,
+      cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.showBackToTopButton = window.scrollY > 20;
+    },
+    scrollToTop() {
+      // Adicionando uma transição suave ao rolar para o topo
+      const scrollDuration = 1500; // em milissegundos
+      const scrollStep = -window.scrollY / (scrollDuration / 15);
+      const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep);
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 1.2);
+    },
+  },
+  mounted() {
+    AOS.init();
+  },
+  beforeRouteLeave(to, from, next) {
+    window.scrollTo(0, 0);
+    next();
+  },
 };
 /* eslint-disable */
 </script>
+<style scoped>
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1px 1px;
+  border-radius: 5rem;
+  cursor: pointer;
+  z-index: 1900;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
+}
+</style>

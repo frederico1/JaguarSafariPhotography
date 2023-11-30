@@ -36,7 +36,19 @@
       <div class="md:hidden">
         <JaguarMenu />
       </div>
-
+      <div class="">
+        <button
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-top"
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+        </button>
+      </div>
       <div class="mt-10">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
@@ -78,6 +90,7 @@ import JaguarNavigation from "../components/JaguarNavigation.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
+import BackToTop from "../components/BackToTop.vue";
 
 export default {
   components: {
@@ -89,7 +102,58 @@ export default {
     FooterMobile,
     JaguarDivider,
     JaguarMenu,
+    BackToTop,
+  },
+  data() {
+    return {
+      showBackToTopButton: false,
+      cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.showBackToTopButton = window.scrollY > 20;
+    },
+    scrollToTop() {
+      // Adicionando uma transição suave ao rolar para o topo
+      const scrollDuration = 1500; // em milissegundos
+      const scrollStep = -window.scrollY / (scrollDuration / 15);
+      const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+          window.scrollBy(0, scrollStep);
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 1.2);
+    },
   },
 };
 /* eslint-disable */
 </script>
+
+<style scoped>
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1px 1px;
+  border-radius: 5rem;
+  cursor: pointer;
+  z-index: 1900;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
+}
+</style>

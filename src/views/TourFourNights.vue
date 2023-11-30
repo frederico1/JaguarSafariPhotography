@@ -4,7 +4,7 @@
     <!-- <JaguarNavigation></JaguarNavigation> -->
 
     <!-- MOBILE -->
-    <div class="p-3">
+    <div class="md:hidden p-3">
       <!-- MENU -->
 
       <div>
@@ -244,6 +244,136 @@
             <FooterMobile />
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- TABLET  -->
+    <div class="">
+      <div class="mt-20" data-aos="fade-right" data-aos-delay="200">
+        <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
+          Jaguar Expeditions in Porto Jofre
+        </h1>
+      </div>
+
+      <!--  -->
+
+      <div
+        class="mt-16 w-2/4 md:w-3/4 flex mx-auto"
+        data-aos="fade-right"
+        data-aos-delay="200"
+      >
+        <p class="text-center leading-relaxed font-sans">
+          First, our company offers Pantanal jaguar expeditions and photography
+          starting in Cuiabá. However, we can start your Pantanal jaguar safari
+          itinerary immediately upon your arrival. In fact, you have the
+          possibility to stay overnight in a hotel in the city. In this case,
+          our Tour Agency will pick you up the next day at 8:00 am to take you
+          to the lodge. Also, we’ll take you a hundred kilometers to a small
+          town called Poconé. Therefore, this city is at the end of
+          civilization, it is the beginning of the Estrada Parque
+          Transpantaneira. Subsequently, the path will be one hundred and fifty
+          kilometers on a dirt road. This time, to the lodge in Porto Jofre.
+          Certainly, the trip is interesting, you will see many wild animals.
+        </p>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="mt-16 w-2/4 md:w-3/4 mx-auto">
+        <JaguarDivider />
+      </div>
+
+      <!-- TIMELINE JAGUAR TOUR -->
+
+      <div class="w-2/4 md:w-3/4 mx-auto">
+        <v-timeline>
+          <v-timeline-item dot-color="grey" fill-dot>
+            <v-card>
+              <v-card-title class="bg-grey">
+                <h2 class="font-weight-light">Day One</h2>
+              </v-card-title>
+              <v-card-text class="leading-relaxed">
+                First, on this Jaguar safari photography, we will pick you up at
+                the airport or hotel in Cuiabá and transfer to the Lodge.
+                Generally, the trip takes 3 hours. In fact, we’ll take you 100
+                kilometers on a paved road, plus 40 kilometers on the
+                Transpantaneira. Certainly, you will see birds, mammals and
+                reptiles. You will arrive at the lodge for lunch and then make a
+                boat ride. On the boat, we usually see hawks, kingfishers,
+                anhingas, and Giant otters. You may also see jaguars and various
+                other types of animals. Dinner will be at 07:00 pm at the Lodge,
+                then at 08:00 pm. We will go on a nightafari to observe some of
+                the nocturnal animals. Overnight.
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+
+          <v-timeline-item dot-color="amber-lighten-1" fill-dot size="x-small">
+            <v-card>
+              <v-card-title class="bg-amber-lighten-1 justify-end">
+                <h2 class="me-4 font-weight-light">Title 2</h2>
+                <v-icon size="large" icon="mdi-home-outline"></v-icon>
+              </v-card-title>
+              <v-card-text>
+                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
+                scaevola imperdiet nec ut, sed euismod convenire principes at.
+                Est et nobis iisque percipit.
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+
+          <v-timeline-item dot-color="cyan-lighten-1" fill-dot>
+            <v-card>
+              <v-card-title class="bg-cyan-lighten-1">
+                <v-icon
+                  class="me-4"
+                  size="large"
+                  icon="mdi-email-outline"
+                ></v-icon>
+                <h2 class="font-weight-light">Title 3</h2>
+              </v-card-title>
+              <v-card-text>
+                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
+                scaevola imperdiet nec ut, sed euismod convenire principes at.
+                Est et nobis iisque percipit.
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+
+          <v-timeline-item dot-color="red-lighten-1" fill-dot size="x-small">
+            <v-card>
+              <v-card-title class="bg-red-lighten-1 justify-end">
+                <h2 class="me-4 font-weight-light">Title 4</h2>
+                <v-icon
+                  size="large"
+                  icon="mdi-account-multiple-outline"
+                ></v-icon>
+              </v-card-title>
+              <v-card-text>
+                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
+                scaevola imperdiet nec ut, sed euismod convenire principes at.
+                Est et nobis iisque percipit.
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+
+          <v-timeline-item dot-color="green-lighten-1" fill-dot>
+            <v-card>
+              <v-card-title class="bg-green-lighten-1">
+                <v-icon
+                  class="me-4"
+                  size="large"
+                  icon="mdi-phone-in-talk"
+                ></v-icon>
+                <h2 class="font-weight-light">Title 5</h2>
+              </v-card-title>
+              <v-card-text>
+                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
+                scaevola imperdiet nec ut, sed euismod convenire principes at.
+                Est et nobis iisque percipit.
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
       </div>
     </div>
   </div>

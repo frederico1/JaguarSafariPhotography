@@ -10,8 +10,6 @@
       <div class="mt-20">
         <div class="">
           <button
-            data-aos="fade-right"
-            data-aos-delay="200"
             class="bg-#000"
             id="backToTopBtn"
             @click="scrollToTop"
@@ -43,7 +41,6 @@
       <div class="pt-8">
         <form @submit.prevent="submit">
           <v-text-field
-            variant="outlined"
             v-model="name.value.value"
             :counter="10"
             :error-messages="name.errorMessage.value"
@@ -52,7 +49,6 @@
 
           <v-text-field
             class="mt-3"
-            variant="outlined"
             v-model="phone.value.value"
             :counter="7"
             :error-messages="phone.errorMessage.value"
@@ -61,7 +57,6 @@
 
           <v-text-field
             class="mt-3"
-            variant="outlined"
             v-model="email.value.value"
             :error-messages="email.errorMessage.value"
             label="E-mail"
