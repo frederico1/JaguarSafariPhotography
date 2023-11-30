@@ -11,7 +11,7 @@ import "@fontsource-variable/playfair-display";
 import AOS from "aos";
 import "@mdi/font/css/materialdesignicons.css";
 import "aos/dist/aos.css";
-
+import PrimeVue from "primevue/config";
 import { MotionPlugin } from "@vueuse/motion";
 
 // Vuetify
@@ -30,4 +30,5 @@ createApp(App)
   .use(router)
   .use(vuetify)
   .use(MotionPlugin)
+  .use(PrimeVue)
   .mount("#app");

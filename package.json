@@ -32,6 +32,7 @@
     "flowbite": "^2.2.0",
     "flowbite-vue": "^0.1.0",
     "material-design-icons-iconfont": "^6.7.0",
+    "primevue": "^3.42.0",
     "vee-validate": "^4.11.8",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
