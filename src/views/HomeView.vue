@@ -37,22 +37,24 @@
         <JaguarMenu />
       </div>
       <div class="">
-        <button
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-anchor-placement="top-top"
-          class="bg-#000"
-          id="backToTopBtn"
-          @click="scrollToTop"
-          v-show="showBackToTopButton"
-        >
+        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
+          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
           <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
         </button>
       </div>
-      <div class="mt-10">
+
+      <!-- MENU -->
+
+      <div>
+        <div class="flex gap-20">
+          <span>HOME</span><span>ABOUT</span><span>GALLERY</span><span>CONTACT</span>
+        </div>
+      </div>
+
+      <div class="mt-36">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
-      <div class="pt-10 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
+      <div class="pt-32 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
           <JaguarCard4></JaguarCard4>
         </div>

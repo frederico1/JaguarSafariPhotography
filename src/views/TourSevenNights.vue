@@ -2,7 +2,7 @@
   <!-- eslint-disable -->
 
   <!-- MOBILE -->
-  <div class="p-3">
+  <div class="md:hidden p-3">
     <!-- MENU -->
     <div>
       <JaguarMenu />
@@ -10,15 +10,8 @@
 
     <div class="">
       <div class="">
-        <button
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-anchor-placement="top-top"
-          class="bg-#000"
-          id="backToTopBtn"
-          @click="scrollToTop"
-          v-show="showBackToTopButton"
-        >
+        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
+          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
           <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
         </button>
       </div>
@@ -49,15 +42,10 @@
 
       <JaguarDivider />
 
-      <div
-        class="mt-10"
-        data-aos="fade-up"
-        data-aos-delay="250"
-        data-aos-anchor-placement="center-center"
-      >
+      <div class="mt-10" data-aos="fade-up" data-aos-delay="250" data-aos-anchor-placement="center-center">
         <div>
-          <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
-            Jaguar expeditions 7 nights / 8 days
+          <h1 class="text-3xl text-center font-serif tracking-wide uppercase">
+            Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
           </h1>
         </div>
       </div>
@@ -66,116 +54,126 @@
 
       <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
         <div class="w-full">
-          <v-stepper
-            elevation="16"
-            mobile
-            style="font-weight: 400"
-            color="#000"
-            class=""
-            prev-text="Preview"
-            next-text="Next"
-            :items="[
-              'DAY 1',
-              'DAY 2',
+          <v-stepper elevation="16" mobile style="font-weight: 400" color="#000" class="" prev-text="Preview"
+            next-text="Next" :items="[
+              '',
+              '',
               'DAY 3',
               'DAY 4',
               'DAY 5',
               'DAY 6',
               'DAY 7',
-              'DAY 8',
-            ]"
-          >
+            ]">
             <template v-slot:item.1>
-              <v-card title="Day 1:" flat class="leading-relaxed font-sans"
-                >On the first day of our jaguar expeditions and photography, our
-                guide will pick you up at the airport or your hotel in Cuiabá.
-                After that, He will take you to the lodge in the Pantanal.
-                Meanwhile, on the Transpantaneira park road, you will see
-                mammals and reptiles and birds of many kinds. Afterwards, you
-                will arrive at the lodge for lunch. After that, you will make a
-                boat ride on the river. Generally, you may see Hawks,
-                Kingfishers and Giant Otters, and if you are lucky, you may even
-                see jaguars on the river banks of the Rio Pixaim. Dinner is at
-                07:00 pm, followed by night safari. Overnight.</v-card
-              >
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Your Unique Photographic Journey: </p>
+                <p class="mt-2">
+                  Embark on a week of adventures starting in Cuiabá, where our personal guide will be ready to meet you at
+                  the most convenient location, be it the airport or your preferred hotel. The Transpantaneira stretches
+                  before us, promising fascinating sightings of birds, mammals, and reptiles. After a refined lunch, the
+                  day
+                  continues with a serene boat ride, offering the chance to capture stunning images of the local fauna.
+                  The
+                  night arrives with a carefully planned safari, providing an opportunity to explore the nocturnal life of
+                  nature.
+                </p>
+              </v-card>
             </template>
 
             <template v-slot:item.2>
-              <v-card title="Day 2:" flat class="leading-relaxed font-sans"
-                >On the second day. Soon, You will make a mornig walk to the
-                tower to watch the sunrise. Breakfast at 07:00 am. After that,
-                you will go for a hike in the forests. Usually, we see Monkeys,
-                Trogons and Motmots in the trails of the farm. Lunch is at noon,
-                then,your tour guide will drive you to the lodge in Porto Jofre.
-                Dinner and overnight.</v-card
-              >
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Explore Your Way:
+                </p>
+                <p class="mt-2">
+                  Enjoy serene mornings and explore charming forests at your leisure. Witness sunrise in intimate moments
+                  and delight in gourmet meals amidst nature. Exclusive areas and luxurious accommodations ensure a
+                  relaxing experience, personalized according to your wishes.
+                </p>
+              </v-card>
             </template>
 
             <template v-slot:item.3>
-              <v-card title="Day 3:" flat class="leading-relaxed font-sans"
-                >On the third day, is the beginning of your jaguar trip.
-                Breakfast at 06:00 am. After that, you start your jaguar safari.
-                Altogether, from 7:00 am to 05:00 pm, you will make a jaguar
-                trip by boat in the Pantanal state park Encontro das Águas. At
-                noon, you will make a picnic, on the river. After that, you
-                return to the lodge. In fact, you will make a jaguar trip for
-                ten hours. Dinner and overnight.
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Flexible Jaguar Photography Safari:
+
+                </p>
+                <p class="mt-2">
+                  Safaris begin at dawn, but flexibility is key. Navigate rivers in search of jaguars and giant otters,
+                  enjoying picnics by the river. End each day with gourmet dinners and comfortable accommodations,
+                  maintaining the freedom to decide how to make the most of your time.
+
+                </p>
               </v-card>
             </template>
             <template v-slot:item.4>
-              <v-card title="Day 4:" flat class="leading-relaxed font-sans"
-                >On the fourth day. In the same way, you will go looking for
-                jaguars and Giant Otter on the river again. At noon, you will
-                make a picnic ont the river. After that, you will stay on the
-                river until 05:00 pm. Then, you return to the lodge for Dinner
-                and overnight.
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Discoveries Along the Transpantaneira:
+                </p>
+                <p class="mt-2">
+                  Explore exclusive lodges, capturing images of tapirs, anteaters, and a variety of birds. Walk through
+                  enchanting forests, join night safaris, and relax in luxurious environments, free from the constraints
+                  of a fixed schedule.
+                </p>
               </v-card>
             </template>
             <template v-slot:item.5>
-              <v-card title="Day 5:" flat class="leading-relaxed font-sans">
-                On the fifth day. In the same way, you will make the jaguar trip
-                by boat. In short, you will make ten hours boat drive with
-                picnic on the river. Dinner and overnight. <br />
-                In sum, On this Jaguar trip you will be 30 hours on the river
-                looking for these beautiful Jaguars.
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Morning Walks and Free Exploration:
+                </p>
+                <p class="mt-2">
+                  Participate in morning walks and explore diverse landscapes, capturing unique images of wildlife. End
+                  each day with night safaris, refined dinners, and luxurious accommodations, maintaining the freedom to
+                  decide how to make the most of your time.
+                </p>
               </v-card>
             </template>
             <template v-slot:item.6>
-              <v-card title="Day 6:" flat class="leading-relaxed font-sans">
-                On the sixth day of your jaguar safari expeditions and
-                photography, you will start the last part of your tour. After
-                breakfast, your guide will drive you back to a third lodge on
-                the Transpantaneira. In this new farm, you may see many animals
-                too. Such, as Tapirs, Anteaters, Peccaries, Ocelots and lots of
-                birds of many kinds. After lunch, you will make a walk in the
-                forests of the farm. Dinner followed by night safari. Overnight.
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">Personalized Farewell:
+
+                </p>
+                <p class="mt-2">
+                  Enjoy bird watching at the feeder before bidding farewell. The return to Cuiabá with our guide marks the
+                  end of this unique photographic experience, but the memories and captured images will endure.
+
+                </p>
               </v-card>
             </template>
             <template v-slot:item.7>
-              <v-card title="Day 7:" flat class="leading-relaxed font-sans">
-                On the seventh day. You wull make a morning walk to watch the
-                sunrise, After breakfast, you will make a photo safari. Then,
-                you will have lunch at noon . After that, you will go to the
-                Tapirs’ hide. Generally, Tayras, Peccaries and many birds will
-                come around the hide to drink water in a pond. At dusk, you
-                return to the lodge making a night safari. Dinner and overnight.
+              <v-card title="" flat class="leading-relaxed font-sans">
+                <p class="font-semibold">What's Included in Your Premium Photography Experience:
+                </p>
+                <p class="mt-2">Luxury accommodations
+                </p>
+                <p>VIP transfers
+                </p>
+                <p>Gourmet meals
+                </p>
+                <p>Inclusive beverages</p>
+                <p>Expert naturalist guide
+                </p>
+                <p>Complimentary gifts: hats, pouches, T-shirts, and sunscreen.
+                </p>
+                <p>This itinerary is open for customization. Together, we will shape each day according to your interests
+                  and preferences, ensuring a truly unique and unforgettable experience.</p>
               </v-card>
             </template>
-            <template v-slot:item.8>
-              <v-card title="Day 8:" flat class="leading-relaxed font-sans">
-                On the eighth day. You will watch some animals eating at the
-                bird feeder. In fact, you can photograph them really close to
-                you. After breakfast, your guide will drop you off in Cuiabá.
-              </v-card>
-            </template>
+
           </v-stepper>
         </div>
-
-        <div class="mt-10" data-aos="fade-up">
-          <p class="leading-relaxed text-sm font-normal italic">
-            *This Jaguar safari itinerary includes, accommodation, transfers,
-            all meals, water and a naturalist tour guide. No beverages.
+        <div class="mt-10 flex flex-col leading-relaxed text-sm font-normal italic" data-aos="fade-up">
+          <p class="font-semibold not-italic text-lg text-center">
+            Included in the Premium Jaguar Expedition for Photographers:
           </p>
+          <p class="mt-2">Accommodation in a luxury environment;</p>
+          <p> VIP transfer services;</p>
+          <p>All gourmet meals;</p>
+          <p> Water;</p>
+          <p> Beverages included;</p>
+          <p> Naturalistic guide specialized in photography;</p>
+          <p> As bonuses, we provide caps, pouches, T-shirts, and sunscreens throughout the experience, adding an extra
+            touch of comfort and convenience.</p>
+
         </div>
 
         <!--  -->
@@ -185,88 +183,32 @@
         <!-- FOTOS  -->
         <div class="mt-10 flex flex-col gap-4">
           <div class="">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-right"
-              data-aos-delay="100"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="100"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-left"
-              data-aos-delay="200"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n01.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="200"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n01.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n05.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="300"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n05.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-right"
-              data-aos-delay="400"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n02.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="400"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n02.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-left"
-              data-aos-delay="420"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n03.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="420"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n03.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-up"
-              data-aos-delay="440"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n04.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="440"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n04.png"></v-img>
           </div>
           <div>
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-down"
-              data-aos-delay="460"
-              max-width="350"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/7n06.png"
-            ></v-img>
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="460"
+              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n06.png"></v-img>
           </div>
         </div>
 
@@ -279,6 +221,211 @@
         <div>
           <FooterMobile />
         </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <!-- TABLET E DESKTOP -->
+  <div class="hidden md:block lg:block p-4">
+    <div class="mt-20" data-aos="fade-right" data-aos-delay="200">
+      <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
+        Jaguar Expeditions in Porto Jofre
+      </h1>
+    </div>
+
+    <!--  -->
+
+    <div class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto" data-aos="fade-right" data-aos-delay="200">
+      <p class="text-center leading-relaxed font-sans">
+        First, our company offers Pantanal jaguar expeditions and photography
+        starting in Cuiabá. However, we can start your Pantanal jaguar safari
+        itinerary immediately upon your arrival. In fact, you have the
+        possibility to stay overnight in a hotel in the city. In this case,
+        our Tour Agency will pick you up the next day at 8:00 am to take you
+        to the lodge. Also, we’ll take you a hundred kilometers to a small
+        town called Poconé. Therefore, this city is at the end of
+        civilization, it is the beginning of the Estrada Parque
+        Transpantaneira. Subsequently, the path will be one hundred and fifty
+        kilometers on a dirt road. This time, to the lodge in Porto Jofre.
+        Certainly, the trip is interesting, you will see many wild animals.
+      </p>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="mt-16 lg:w-3/5 md:w-4/4 mx-auto">
+      <JaguarDivider />
+    </div>
+
+    <!-- TIMELINE JAGUAR TOUR -->
+
+    <div class="mt-10 md:p-4" data-aos="fade-up" data-aos-delay="250">
+      <div class="w-2/5 mx-auto">
+        <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
+          Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
+        </h1>
+      </div>
+    </div>
+
+    <div class="mt-10 md:p-4 lg:w-2/4 md:w-4/4 mx-auto leading-relaxed">
+      <v-timeline align="start">
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div>
+            <p class="font-semibold text-lg">Your Unique Photographic Journey: </p>
+            <p class="mt-4">
+              Embark on a week of adventures starting in Cuiabá, where our personal guide will be ready to meet you at
+              the most convenient location, be it the airport or your preferred hotel. The Transpantaneira stretches
+              before us, promising fascinating sightings of birds, mammals, and reptiles. After a refined lunch, the
+              day
+              continues with a serene boat ride, offering the chance to capture stunning images of the local fauna.
+              The
+              night arrives with a carefully planned safari, providing an opportunity to explore the nocturnal life of
+              nature.
+            </p>
+          </div>
+        </v-timeline-item>
+
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <template v-slot:opposite> </template>
+          <div data-aos="fade-right" data-aos-delay="100">
+
+            <p class="font-semibold text-lg">Explore Your Way:
+            </p>
+            <p class="mt-2">
+              Enjoy serene mornings and explore charming forests at your leisure. Witness sunrise in intimate moments
+              and delight in gourmet meals amidst nature. Exclusive areas and luxurious accommodations ensure a
+              relaxing experience, personalized according to your wishes.
+            </p>
+          </div>
+        </v-timeline-item>
+
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div data-aos="fade-left" data-aos-delay="250">
+            <p class="font-semibold text-lg">Flexible Jaguar Photography Safari:
+
+            </p>
+            <p class="mt-2">
+              Safaris begin at dawn, but flexibility is key. Navigate rivers in search of jaguars and giant otters,
+              enjoying picnics by the river. End each day with gourmet dinners and comfortable accommodations,
+              maintaining the freedom to decide how to make the most of your time.
+
+            </p>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div data-aos="fade-right" data-aos-delay="300">
+            <p class="font-semibold text-lg">Discoveries Along the Transpantaneira:
+            </p>
+            <p class="mt-4">
+              Explore exclusive lodges, capturing images of tapirs, anteaters, and a variety of birds. Walk through
+              enchanting forests, join night safaris, and relax in luxurious environments, free from the constraints
+              of a fixed schedule.
+            </p>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div data-aos="fade-left" data-aos-delay="350">
+            <p class="font-semibold text-lg">Morning Walks and Free Exploration:
+            </p>
+            <p class="mt-4">
+              Participate in morning walks and explore diverse landscapes, capturing unique images of wildlife. End
+              each day with night safaris, refined dinners, and luxurious accommodations, maintaining the freedom to
+              decide how to make the most of your time.
+            </p>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div data-aos="fade-left" data-aos-delay="350">
+            <p class="font-semibold text-lg">Personalized Farewell:
+
+            </p>
+            <p class="mt-4">
+              Enjoy bird watching at the feeder before bidding farewell. The return to Cuiabá with our guide marks the
+              end of this unique photographic experience, but the memories and captured images will endure.
+
+            </p>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item class="mb-4" dot-color="grey" size="small">
+          <div data-aos="fade-left" data-aos-delay="350">
+            <p class="font-semibold text-lg">What's Included in Your Premium Photography Experience:
+            </p>
+            <p class="mt-4">Luxury accommodations
+            </p>
+            <p>VIP transfers
+            </p>
+            <p>Gourmet meals
+            </p>
+            <p>Inclusive beverages</p>
+            <p>Expert naturalist guide
+            </p>
+            <p>Complimentary gifts: hats, pouches, T-shirts, and sunscreen.
+            </p>
+            <p>This itinerary is open for customization. Together, we will shape each day according to your interests
+              and preferences, ensuring a truly unique and unforgettable experience.</p>
+          </div>
+        </v-timeline-item>
+      </v-timeline>
+
+      <!-- INCLUDES -->
+
+      <div class="mt-10 flex flex-col leading-relaxed text-md font-normal italic" data-aos="fade-up">
+        <p class="font-semibold not-italic text-xl text-center">
+          Included in the Premium Jaguar Expedition for Photographers:
+        </p>
+        <p class="mt-2">Accommodation in a luxury environment;</p>
+        <p> VIP transfer services;</p>
+        <p>All gourmet meals;</p>
+        <p> Water;</p>
+        <p> Beverages included;</p>
+        <p> Naturalistic guide specialized in photography;</p>
+        <p> As bonuses, we provide caps, pouches, T-shirts, and sunscreens throughout the experience, adding an extra
+          touch of comfort and convenience.</p>
+
+      </div>
+
+
+
+      <!-- DIVIDER -->
+
+      <div class="p-3 mx-auto">
+        <JaguarDivider />
+      </div>
+
+      <!-- FOTOS -->
+      <div class="mt-20 grid grid-cols-2 mx-auto gap-4">
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="100"
+            max-width="380" max-height="600" aspect-ratio="" cover src="../assets/img/4n.png"></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="200"
+            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/4n01.png"></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="300" max-width="400"
+            max-height="600" aspect-ratio="" cover src="../assets/img/4n02.png"></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="400"
+            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/4n03.png"></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="420"
+            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/4n04.png"></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="440" max-width="400"
+            max-height="300" aspect-ratio="" cover src="../assets/img/4n05.png"></v-img>
+        </div>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+        <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="460" max-width="400"
+          max-height="300" aspect-ratio="" cover src="../assets/img/4n06.png"></v-img>
       </div>
     </div>
   </div>
