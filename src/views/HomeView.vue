@@ -1,4 +1,6 @@
 <template>
+    <!-- eslint-disable -->
+
   <div class="p-3">
     <!-- NAVIGATION -->
 
@@ -32,7 +34,7 @@
 
     <!-- MOBILE -->
 
-    <div class="pt-20 flex flex-col justify-center items-center mx-auto pb-10">
+    <div class="md:pt-20 flex flex-col justify-center items-center mx-auto pb-10">
       <div class="md:hidden">
         <JaguarMenu />
       </div>
@@ -43,13 +45,21 @@
         </button>
       </div>
 
-      <!-- MENU -->
+      <!-- MENU DESKTOP -->
 
-      <div>
-        <div class="flex gap-20">
-          <span>HOME</span><span>ABOUT</span><span>GALLERY</span><span>CONTACT</span>
+       <!-- TABLET & DESKTOP -->
+  <div class="hidden md:block">
+    <div>
+        <div class="flex gap-20 uppercase font-serif tracking-wider">
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About Us</router-link>          
+          <router-link to="/contact">Gallery</router-link>          
+          <router-link to="/contact">Contact</router-link>          
         </div>
       </div>
+  </div>
+
+      
 
       <div class="mt-36">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
@@ -69,6 +79,8 @@
 
     <!-- CARDS -->
 
+
+    
     <div>
       <JaguarDivider />
     </div>
@@ -78,7 +90,15 @@
     <div class="md:hidden">
       <FooterMobile />
     </div>
+
+    <!-- HOME FOOTER DESKTOP -->
+    <div class="hidden md:block">
+      <JaguarFooter></JaguarFooter>
+
+    </div>
   </div>
+
+ 
   <router-view />
 </template>
 
@@ -93,6 +113,7 @@ import FooterMobile from "../components/JaguarFooterMobile.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
 import BackToTop from "../components/BackToTop.vue";
+import JaguarFooter from "../components/JaguarFooter.vue"
 
 export default {
   components: {
@@ -105,6 +126,7 @@ export default {
     JaguarDivider,
     JaguarMenu,
     BackToTop,
+    JaguarFooter,
   },
   data() {
     return {

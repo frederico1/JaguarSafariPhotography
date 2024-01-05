@@ -3,9 +3,9 @@
     <div class="lg:flex lg:justify-evenly p-3 mx-auto md:grid md:grid-cols-2">
       <div class="flex flex-col gap-2 lg:mb-32">
         <v-img src="../assets/img/Logo.png" height="" width="250px"> </v-img>
-        <div class="font-semibold">
-          <p class="text-xl">Opening Hours</p>
-          <p class="text-xl">
+        <div class="tracking-wider">
+          <p class="text-lg">Opening Hours</p>
+          <p class="text-lg">
             Monday to Friday: 08:00 - 18:00<br />
             Saturday: 08:00 - 12:00<br />
             Sunday and Holiday: Closed
@@ -14,7 +14,7 @@
       </div>
       <div class="mt-10">
         <div
-          class="mt-5 flex flex-col place-items-center gap-6 justify-around text-md font-semibold md:text-xl"
+          class="mt-5 flex flex-col place-items-center gap-6 justify-around text-md md:text-lg tracking-wider decoration-transparent"
         >
           <router-link class="underline" to="/">Home</router-link>
           <router-link class="underline" to="/about">About Us</router-link>
@@ -24,7 +24,7 @@
           <router-link class="underline" to="/contact">Contact</router-link>
         </div>
       </div>
-      <div class="lg:flex lg:flex-col lg:w-56 mt-14 text-lg font-semibold">
+      <div class="lg:flex lg:flex-col lg:w-56 mt-14 text-lg tracking-wider">
         <span> Jaguar Safari Photography </span>
         <span> CNPJ: 15.208.373/0001-20 Cadastur: 13.046489.10.0001-2 </span>
         <span> Rua Papagaio, 01 Recanto dos Pássaros I,</span>
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="md:mt-6 flex justify-center items-center pb-6 tracking-widest">
-      <p>© Jaguar Safari Photography 2023. Todos os direitos reservados.</p>
+      <p>© Jaguar Safari Photography 2024. Todos os direitos reservados.</p>
     </div>
   </div>
 

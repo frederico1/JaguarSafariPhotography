@@ -43,7 +43,7 @@
     class="mt-6 uppercase text-xs flex flex-col justify-center items-center tracking-wider"
   >
     <div class="">
-      <p class="font-sans text-xs">© 2023 All rights reserved.</p>
+      <p class="font-sans text-xs">© 2024 All rights reserved.</p>
     </div>
 
     <div>
