@@ -1,8 +1,6 @@
 <template>
   <div class="">
     <button
-      data-aos="fade-down"
-      data-aos-delay="100"
       class="bg-#000"
       id="backToTopBtn"
       @click="scrollToTop"
@@ -21,5 +19,4 @@ export default {
 </script>
 
 <style scoped>
-/* Adicione estilos conforme necessário */
 </style>

@@ -11,14 +11,12 @@
       <div data-aos="fade-right" data-aos-delay="200">
         <div class="">
           <button
-            data-aos="fade-right"
-            data-aos-delay="200"
             class="bg-#000"
             id="backToTopBtn"
             @click="scrollToTop"
             v-show="showBackToTopButton"
           >
-            <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
           </button>
         </div>
         <h1
@@ -102,18 +100,10 @@
         </div>
 
       <div data-aos="fade-right" data-aos-delay="200">
-        <div class="">
-          <button
-            data-aos="fade-right"
-            data-aos-delay="200"
-            class="bg-#000"
-            id="backToTopBtn"
-            @click="scrollToTop"
-            v-show="showBackToTopButton"
-          >
-            <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
-          </button>
-        </div>
+        <button  class="bg-#000"
+          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
+          <Icon icon="line-md:arrow-up" color="#454546" width="40px" /> 
+        </button>
       
         <div class="mt-36">
           <div>

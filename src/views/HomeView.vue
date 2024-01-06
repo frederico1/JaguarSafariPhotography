@@ -39,9 +39,9 @@
         <JaguarMenu />
       </div>
       <div class="">
-        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
+        <button  class="bg-#000"
           id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
-          <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+          <Icon icon="line-md:arrow-up" color="#454546" width="40px" /> 
         </button>
       </div>
 
@@ -73,11 +73,15 @@
         <JaguarMenu />
       </div>
       <div class="">
-        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
-          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
-          <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
-        </button>
-      </div>
+          <button
+            class="bg-#000"
+            id="backToTopBtn"
+            @click="scrollToTop"
+            v-show="showBackToTopButton"
+          >
+          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
+          </button>
+        </div>
 
       <!-- MENU DESKTOP -->
 
@@ -192,7 +196,7 @@ export default {
   right: 20px;
   color: #fff;
   border: none;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 1px 1px;
   border-radius: 5rem;
