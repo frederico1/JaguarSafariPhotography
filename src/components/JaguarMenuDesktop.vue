@@ -5,7 +5,7 @@
         <div class="flex gap-20 uppercase font-semibold tracking-widest">
           <router-link class="underline" to="/">Home</router-link>
           <router-link class="underline" to="/about">About Us</router-link>          
-          <router-link class="underline" to="/contact">Gallery</router-link>          
+          <router-link class="underline" to="/">Gallery</router-link>          
           <router-link class="underline" to="/contact">Contact</router-link>          
         </div>
       </div>
