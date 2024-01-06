@@ -187,8 +187,11 @@
     </div>
 
     <!-- TABLET E DESKTOP -->
-    <div class="hidden md:block lg:block p-4">
-      <div class="mt-20" data-aos="fade-right" data-aos-delay="200">
+    <div class="p-3">
+      <JaguarMenuDesktop></JaguarMenuDesktop>
+    </div>
+    <div class="hidden md:block lg:block">
+      <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
         <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
           Jaguar Expeditions in Porto Jofre
         </h1>
@@ -197,7 +200,7 @@
       <!--  -->
 
       <div class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto" data-aos="fade-right" data-aos-delay="200">
-        <p class="text-center leading-relaxed font-sans">
+        <p class="text-center leading-relaxed font-sans text-lg">
           First, our company offers Pantanal jaguar expeditions and photography
           starting in Cuiabá. However, we can start your Pantanal jaguar safari
           itinerary immediately upon your arrival. In fact, you have the
@@ -336,7 +339,7 @@
         </div>
 
         <!-- FOTOS -->
-        <div class="mt-20 grid grid-cols-2 mx-auto gap-4">
+        <div class="mt-20 grid grid-cols-3 mx-auto gap-4 shadow-xl">
           <div class="lg:w-[400px] md:w-[355px]">
             <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="100"
               max-width="380" max-height="600" aspect-ratio="" cover src="../assets/img/4n.png"></v-img>
@@ -361,12 +364,30 @@
             <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="440"
               max-width="400" max-height="300" aspect-ratio="" cover src="../assets/img/4n05.png"></v-img>
           </div>
+          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="480"
+              max-width="400" max-height="300" aspect-ratio="" cover src="../assets/img/4n06.png"></v-img>
+          </div>
+          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="500"
+              max-width="400" max-height="300" aspect-ratio="" cover src="../assets/img/4n07.jpg"></v-img>
+          </div>
+          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="520"
+              max-width="400" max-height="300" aspect-ratio="" cover src="../assets/img/4n08.jpg"></v-img>
+          </div>
         </div>
-        <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="460"
-            max-width="400" max-height="300" aspect-ratio="" cover src="../assets/img/4n06.png"></v-img>
-        </div>
+
+
       </div>
+      
+
+        <!-- DIVIDER -->
+        <div class="mt-56">
+        <JaguarDivider/>
+      </div>
+
+      <JaguarFooter></JaguarFooter>
     </div>
   </div>
 </template>
@@ -378,6 +399,8 @@ import { Icon } from "@iconify/vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
 import FooterMobile from "../components/JaguarFooterMobile.vue";
+import JaguarMenuDesktop from "../components/JaguarMenuDesktop.vue";
+import JaguarFooter from "../components/JaguarFooter.vue";
 import { onMounted } from "vue";
 import AOS from "aos";
 
@@ -392,6 +415,8 @@ export default {
     JaguarDivider,
     JaguarMenu,
     FooterMobile,
+    JaguarMenuDesktop,
+    JaguarFooter,
   },
   data() {
     return {

@@ -8,7 +8,7 @@
       </div>
 
       <!-- MENU -->
-      <div data-aos="fade-right" data-aos-delay="200">
+      <div >
         <div class="">
           <button
             class="bg-#000"
@@ -19,7 +19,7 @@
           <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
           </button>
         </div>
-        <h1
+        <h1 data-aos="fade-right" data-aos-delay="200"
           class="pt-10 text-4xl text-center font-serif tracking-wide uppercase"
         >
           Jaguar Safari Photography Guide
@@ -45,7 +45,7 @@
             <p class="text-center font-sans">
               Jaguar Safari is an extension of
               <a
-                class="text-[#1b6dc1] font-semibold cursor-pointer"
+                class="text-[#07396b] font-semibold cursor-pointer"
                 href="https://silvatourpantanal.com"
                 target="_blanck"
               >
@@ -99,7 +99,8 @@
           <JaguarMenuDesktop/>
         </div>
 
-      <div data-aos="fade-right" data-aos-delay="200">
+
+      <div >
         <button  class="bg-#000"
           id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
           <Icon icon="line-md:arrow-up" color="#454546" width="40px" /> 
@@ -107,7 +108,7 @@
       
         <div class="mt-36">
           <div>
-        <h1
+        <h1 data-aos="fade-right" data-aos-delay="200"
           class="text-4xl text-center font-serif tracking-wide uppercase"
         >
           Jaguar Safari Photography Guide
@@ -119,7 +120,7 @@
       <div class="w-2/5 mx-auto mt-10 text-center flex flex-col gap-4 leading-relaxed" data-aos="fade-left" data-aos-delay="400">
         <div class="mt-20" data-aos="fade-right" data-aos-delay="400">
           <span class="text-xl mx-auto font-serif">Creators:</span>
-          <div class="mt-2">
+          <div class="mt-2 text-lg">
             <p class="text-center font-sans">
               This company was conceived by Diego Almeida, his mother Delma
               Silva, and stepfather Rizardo Silva with the aim of providing the
@@ -131,11 +132,11 @@
 
         <div class="mt-10 gap-4" data-aos="fade-down" data-aos-delay="600">
           <span class="text-xl mx-auto font-serif">Who We Are:</span>
-          <div class="mt-2">
+          <div class="mt-2 text-lg">
             <p class="text-center font-sans">
               Jaguar Safari is an extension of
               <a
-                class="text-[#1b6dc1] font-semibold cursor-pointer"
+                class="text-[#07396b] font-semibold cursor-pointer"
                 href="https://silvatourpantanal.com"
                 target="_blanck"
               >
@@ -154,7 +155,7 @@
 
         <div class="mt-10" data-aos="fade-down">
           <span class="text-xl mx-auto font-serif">Objective: </span>
-          <div class="mt-2">
+          <div class="mt-2 text-lg">
             <p class="text-center font-sans">
               Jaguar Safari Photograph was created for all photography
               enthusiasts, whether they are professionals, amateurs, or those
@@ -169,7 +170,7 @@
       </div>
 
       <!--  -->
-      <div class="mt-20">
+      <div class="mt-56">
         <JaguarDivider />
       </div>
 

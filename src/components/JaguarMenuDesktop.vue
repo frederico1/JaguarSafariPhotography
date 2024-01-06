@@ -53,7 +53,7 @@ export default {
   bottom: 0;
   left: 0;
   top: 10;
-  background-color: #000;
+  background-color: #07396b;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
