@@ -7,7 +7,7 @@
 
     <v-card-title class="font-serif">
       <div >
-        <p class="md:text-lg text-xs text-start mt-2"> Customizable Photography Expedition in the Pantanal:</p>
+        <p class="md:text-lg text-xs text-start mt-2">Customizable Photography Expedition in the Pantanal:</p>
         <p></p>
 
       </div>

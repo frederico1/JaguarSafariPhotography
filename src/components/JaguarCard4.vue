@@ -1,5 +1,5 @@
 <template>
-  <v-card hover elevation="16" class="mx-auto shadow-xl md:w-[740px] lg:w-[520px] w-[340px]" style="
+  <v-card hover elevation="16" class="mx-auto md:w-[740px] lg:w-[520px] w-[340px]" style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     ">

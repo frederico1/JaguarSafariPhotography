@@ -270,7 +270,7 @@
       </div>
 
       <!-- DIVIDER -->
-      <div class="mt-56">
+      <div class="pt-56 shadow-md">
         <JaguarDivider/>
       </div>
 
