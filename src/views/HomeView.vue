@@ -32,9 +32,9 @@
 
     <!-- CARDS -->
 
-    <!-- MOBILE -->
+    <!-- DESKTOP E TABLET -->
 
-    <div class="md:pt-20 flex flex-col justify-center items-center mx-auto pb-10">
+    <div class="hidden md:flex flex-col justify-center items-center mx-auto ">
       <div class="md:hidden">
         <JaguarMenu />
       </div>
@@ -47,41 +47,63 @@
 
       <!-- MENU DESKTOP -->
 
-       <!-- TABLET & DESKTOP -->
-  <div class="hidden md:block">
-    <div>
-        <div class="flex gap-20 uppercase font-serif tracking-wider">
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About Us</router-link>          
-          <router-link to="/contact">Gallery</router-link>          
-          <router-link to="/contact">Contact</router-link>          
-        </div>
-      </div>
-  </div>
+      <JaguarMenuDesktop/>
 
-      
-
-      <div class="mt-36">
+      <div class="mt-36" data-aos="fade-right" data-aos-delay="200">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class="pt-32 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
-          <JaguarCard4></JaguarCard4>
+          <JaguarCard4 data-aos="fade-right" data-aos-delay="200"></JaguarCard4>
         </div>
         <div>
-          <JaguarCard6></JaguarCard6>
+          <JaguarCard6 data-aos="fade-down" data-aos-delay="200"></JaguarCard6>
         </div>
         <div>
-          <JaguarCard7></JaguarCard7>
+          <JaguarCard7 data-aos="fade-left" data-aos-delay="200"></JaguarCard7>
         </div>
       </div>
     </div>
 
+
+    <!-- MOBILE  -->
+
+    <div class=" md:hidden flex flex-col justify-center items-center mx-auto ">
+      <div class="">
+        <JaguarMenu />
+      </div>
+      <div class="">
+        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
+          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
+          <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+        </button>
+      </div>
+
+      <!-- MENU DESKTOP -->
+
+      <JaguarMenuDesktop/>
+
+      <div class=" mt-28" data-aos="fade-right" data-aos-delay="200">
+        <h1 class=" text-3xl tracking-widest font-serif">JAGUAR TOURS</h1>
+      </div>
+      <div class=" pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
+        <div>
+          <JaguarCard4 data-aos="fade-right" data-aos-delay="200"></JaguarCard4>
+        </div>
+        <div>
+          <JaguarCard6 data-aos="fade-down" data-aos-delay="200"></JaguarCard6>
+        </div>
+        <div>
+          <JaguarCard7 data-aos="fade-left" data-aos-delay="200"></JaguarCard7>
+        </div>
+      </div>
+    </div>
+    
     <!-- CARDS -->
 
 
     
-    <div>
+    <div class="mt-56">
       <JaguarDivider />
     </div>
 
@@ -113,7 +135,8 @@ import FooterMobile from "../components/JaguarFooterMobile.vue";
 import JaguarDivider from "../components/JaguarDivider.vue";
 import JaguarMenu from "../components/JaguarMenu.vue";
 import BackToTop from "../components/BackToTop.vue";
-import JaguarFooter from "../components/JaguarFooter.vue"
+import JaguarFooter from "../components/JaguarFooter.vue";
+import JaguarMenuDesktop from "../components/JaguarMenuDesktop.vue";
 
 export default {
   components: {
@@ -127,6 +150,7 @@ export default {
     JaguarMenu,
     BackToTop,
     JaguarFooter,
+    JaguarMenuDesktop,
   },
   data() {
     return {

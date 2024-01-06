@@ -5,9 +5,9 @@
     ">
     <v-img src="../assets/img/jaguar3.png" height="300px" cover></v-img>
 
-    <v-card-title class="font-serif text-center flex flex-wrap">
-      <div class="" style="font-size: 19px;">
-        <p> Customizable Photography Expedition in the Pantanal:</p>
+    <v-card-title class="font-serif text-center">
+      <div >
+        <p class="md:text-lg text-xs mt-2"> Customizable Photography Expedition in the Pantanal:</p>
         <p></p>
 
       </div>
