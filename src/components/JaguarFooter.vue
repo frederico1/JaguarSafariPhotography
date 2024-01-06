@@ -62,8 +62,6 @@
   <div>ddsadsadadada</div>
 
  </div>
-
-  
 </template>
 <script>
 /* eslint-disable */
