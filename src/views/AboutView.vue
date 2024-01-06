@@ -20,7 +20,7 @@
           </button>
         </div>
         <h1 data-aos="fade-right" data-aos-delay="200"
-          class="pt-10 text-4xl text-center font-serif tracking-wide uppercase"
+          class="pt-20 text-4xl text-center font-serif tracking-wide uppercase"
         >
           Jaguar Safari Photography Guide
         </h1>

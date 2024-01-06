@@ -68,7 +68,7 @@
 
     <!-- MOBILE  -->
 
-    <div class=" md:hidden flex flex-col justify-center items-center mx-auto ">
+    <div class="md:hidden flex flex-col justify-center items-center mx-auto ">
       <div class="">
         <JaguarMenu />
       </div>
@@ -87,7 +87,7 @@
 
       <JaguarMenuDesktop/>
 
-      <div class=" mt-28" data-aos="fade-right" data-aos-delay="200">
+      <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
         <h1 class=" text-3xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class=" pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">

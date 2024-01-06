@@ -18,9 +18,11 @@
           <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
           </button>
         </div>
+        <div class="mt-28">
         <h1 class="text-4xl font-serif text-center uppercase tracking-wider" data-aos="fade-right" data-aos-delay="200">
           Pantanal trip photography.
         </h1>
+      </div>
         <p data-aos="fade-right" data-aos-delay="200"
           class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans"
         >
