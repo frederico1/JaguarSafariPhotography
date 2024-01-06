@@ -40,7 +40,7 @@
 
   <!-- FOOTER FOOTER -->
   <div
-    class="mt-6 mb-6 uppercase text-xs flex flex-col justify-center items-center tracking-wider"
+    class="mt-16 mb-4 uppercase text-xs flex flex-col justify-center items-center tracking-wider"
   >
     <div class="">
       <p class="font-sans text-xs">© 2024 All rights reserved.</p>
