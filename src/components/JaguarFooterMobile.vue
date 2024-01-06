@@ -3,14 +3,14 @@
 
   <div class="mt-10">
     <!-- ICONES -->
-    <div class="flex justify-center items-center gap-5">
-      <div class="border-b-2 h-8 border-[#E1306C]">
+    <div class="flex justify-center items-center gap-5"  >
+      <div class="border-b-2 h-8 border-[#E1306C]" data-aos="fade-right" data-aos-delay="100">
         <a href="https://instagram.com/guitophotographs" target="_blanck">
           <Icon icon="iconoir:instagram" width="27" height="27" />
         </a>
       </div>
 
-      <div class="border-b-2 h-8 border-[#128C7E]">
+      <div class="border-b-2 h-8 border-[#128C7E]" data-aos="fade-up" data-aos-delay="100">
         <a
           href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
           target="_blanck"
@@ -19,14 +19,14 @@
         </a>
       </div>
 
-      <div class="border-b-2 h-8 border-[#25D366]">
+      <div class="border-b-2 h-8 border-[#25D366]" data-aos="fade-down" data-aos-delay="100">
         <a href="https://www.tripadvisor.com.br" target="_blanck">
           <Icon icon="cib:tripadvisor" color="" width="27" height="27" />
         </a>
       </div>
 
       <div>
-        <div class="border-b-2 h-8 border-[#4285F4]">
+        <div class="border-b-2 h-8 border-[#4285F4]" data-aos="fade-left" data-aos-delay="100">
           <a
             href="mailto:http://jaguarsafariphotograph@gmail.com"
             target="_blanck"
@@ -40,7 +40,7 @@
 
   <!-- FOOTER FOOTER -->
   <div
-    class="mt-6 uppercase text-xs flex flex-col justify-center items-center tracking-wider"
+    class="mt-6 mb-6 uppercase text-xs flex flex-col justify-center items-center tracking-wider"
   >
     <div class="">
       <p class="font-sans text-xs">© 2024 All rights reserved.</p>
