@@ -50,7 +50,7 @@
           ></v-text-field>
 
           <v-text-field
-            class="mt-3"
+            class="mt-3 ring-inset	--tw-ring-inset: inset;"
             v-model="phone.value.value"
             :counter="7"
             :error-messages="phone.errorMessage.value"
@@ -62,12 +62,12 @@
             v-model="email.value.value"
             :error-messages="email.errorMessage.value"
             label="E-mail"
+
           ></v-text-field>
 
           <div class="mt-6">
             <v-btn class="me-4" type="submit"> submit </v-btn>
 
-            <v-btn @click="handleReset"> clear </v-btn>
           </div>
         </form>
       </div>
@@ -179,7 +179,8 @@
       <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20" >
         <form @submit.prevent="submit" data-aos="fade-right" data-aos-delay="200">
           <v-text-field
-            v-model="name.value.value"
+          class="text-field"
+           v-model="name.value.value"
             :counter="10"
             :error-messages="name.errorMessage.value"
             label="Name"
@@ -412,4 +413,6 @@ export default {
 #backToTopBtn.show {
   opacity: 1;
 }
+
+
 </style>
