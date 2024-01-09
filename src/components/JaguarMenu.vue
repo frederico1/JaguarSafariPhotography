@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div class="header" :class="{ 'header-scrolled': scrolled }">
       <div class="menu-icon" @click="toggleMenu">
         <div class="bar" :class="{ 'bar-open': menuOpen }"></div>
