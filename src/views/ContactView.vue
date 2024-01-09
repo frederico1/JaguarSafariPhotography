@@ -50,10 +50,9 @@
             label="Name"
           ></v-text-field>
 
-         
           <v-text-field
             name="Phone Number"
-            class="mt-3 ring-inset	--tw-ring-inset: inset;"
+            class="mt-3"
             v-model="phone.value.value"
             :counter="7"
             :error-messages="phone.errorMessage.value"
@@ -64,13 +63,14 @@
             name="E-mail"
             class="mt-3"
             v-model="email.value.value"
-            :error-messages="email.errorMessage.value"
             label="E-mail"
-
           ></v-text-field>
+          
 
-          <div class="mt-3 p-3">
-          <v-textarea name="message" label="Message" variant="underlined"></v-textarea>
+          <div class="mt-3">
+          <v-textarea
+          clearable
+          clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
         </div>
         <div>
           <v-btn type="submit">Send</v-btn>
@@ -183,9 +183,10 @@
 
       <!-- FORM -->
       <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20" >
-        <form @submit.prevent="submit" data-aos="fade-right" data-aos-delay="200">
+        <form form action="https://formspree.io/f/xeqyqywn" method="POST"  data-aos="fade-right" data-aos-delay="200">
           <v-text-field
           class="text-field"
+           name="Nome"
            v-model="name.value.value"
             :counter="10"
             :error-messages="name.errorMessage.value"
@@ -193,6 +194,7 @@
           ></v-text-field>
 
           <v-text-field
+          name="Phone Number"
             class="mt-3"
             v-model="phone.value.value"
             :counter="7"
@@ -201,17 +203,20 @@
           ></v-text-field>
 
           <v-text-field
+          name="E-mail"
             class="mt-3"
             v-model="email.value.value"
-            :error-messages="email.errorMessage.value"
             label="E-mail"
           ></v-text-field>
-
           <div class="mt-6">
-            <v-btn class="me-4" type="submit"> submit </v-btn>
-
-            <v-btn @click="handleReset"> clear </v-btn>
-          </div>
+          <v-textarea
+          clearable
+          clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
+        </div>
+        <div>
+          
+          <v-btn type="submit">Send</v-btn>
+        </div>  
         </form>
         <!-- CONTACT  -->
   
@@ -322,6 +327,8 @@ export default {
       showBackToTopButton: false,
       cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
     };
+    
+    
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
