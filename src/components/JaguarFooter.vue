@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="mt-14 mb-6 text-sm flex justify-center items-center tracking-widest">
-      <p>© Jaguar Safari Photography 2024. Todos os direitos reservados.</p>
+      <p>© Jaguar Safari Photography 2024. All rights reserved.</p>
     </div>
   </div>
 
