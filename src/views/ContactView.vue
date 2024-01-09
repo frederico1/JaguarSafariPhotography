@@ -69,10 +69,11 @@
 
           <div class="mt-3">
           <v-textarea
+          variant="outlined"
           clearable
           clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
         </div>
-        <div>
+        <div class="p-1">
           <v-btn type="submit">Send</v-btn>
         </div>
         </form>
@@ -210,6 +211,7 @@
           ></v-text-field>
           <div class="mt-6">
           <v-textarea
+          variant="outlined"
           clearable
           clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
         </div>
