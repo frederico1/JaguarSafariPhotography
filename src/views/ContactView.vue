@@ -15,15 +15,21 @@
             @click="scrollToTop"
             v-show="showBackToTopButton"
           >
-          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
+            <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
           </button>
         </div>
         <div class="mt-28">
-        <h1 class="text-4xl font-serif text-center uppercase tracking-wider" data-aos="fade-right" data-aos-delay="200">
-          Pantanal trip photography.
-        </h1>
-      </div>
-        <p data-aos="fade-right" data-aos-delay="200"
+          <h1
+            class="text-4xl font-serif text-center uppercase tracking-wider"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            Pantanal trip photography.
+          </h1>
+        </div>
+        <p
+          data-aos="fade-right"
+          data-aos-delay="200"
           class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans"
         >
           If you wish to make a Pantanal trip photography, you are in the right
@@ -58,43 +64,44 @@
             :error-messages="phone.errorMessage.value"
             label="Phone Number"
           ></v-text-field>
- 
+
           <v-text-field
             name="E-mail"
             class="mt-3"
             v-model="email.value.value"
             label="E-mail"
           ></v-text-field>
-          
 
           <div class="mt-3">
-          <v-textarea
-          variant="outlined"
-          clearable
-          clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
-        </div>
-        <div>
-          <button>
-        <div class="svg-wrapper-1">
-          <div class="svg-wrapper">
-            <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        width="24"
-        height="24"
-      >
-        <path fill="none" d="M0 0h24v24H0z"></path>
-        <path
-          fill="currentColor"
-          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-        ></path>
-      </svg>
-        </div>
-        </div>
-        <span>Send</span>
-        </button>
-        </div>
-       
+            <v-textarea
+              variant="outlined"
+              clearable
+              clear-icon="mdi-close-circle"
+              name="message"
+              label="Message"
+            ></v-textarea>
+          </div>
+          <div>
+            <button>
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      fill="currentColor"
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Send</span>
+            </button>
+          </div>
         </form>
       </div>
 
@@ -167,55 +174,65 @@
   </div>
 
   <!-- TABLET & DESKTOP -->
-  <div class="hidden md:block " >
-
+  <div class="hidden md:block">
     <!-- MENU -->
-<div class="p-3">
-    <JaguarMenuDesktop/>
-  </div>
-  
-    <div class="mt-28 w-3/5 mx-auto">
-        <div class="">
-          <button
-            class="bg-#000"
-            id="backToTopBtn"
-            @click="scrollToTop"
-            v-show="showBackToTopButton"
-          >
-          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
-          </button>
-        </div>
-        <h1  class="text-4xl font-serif text-center uppercase tracking-wider" data-aos="fade-right" data-aos-delay="200" >
-          Pantanal trip photography.
-        </h1>
-        <p data-aos="fade-right" data-aos-delay="200"
-          class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-lg"
-        >
-          If you wish to make a Pantanal trip photography, you are in the right
-          page. In fact, Silva Tour Pantanal is organizing naturalistic tours
-          since 2014. If you have any questions about the trip, forthwith, we
-          will answer and try clarify your doubts. By and large, we give all
-          information about booking hotels, transfers and guides. thus, do not
-          hesitate to get in touch with us.
-        </p>
-      </div>
-      <div class="">
+    <div class="p-3">
+      <JaguarMenuDesktop />
+    </div>
 
+    <div class="mt-28 w-3/5 mx-auto">
+      <div class="">
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
+        </button>
+      </div>
+      <h1
+        class="text-4xl font-serif text-center uppercase tracking-wider"
+        data-aos="fade-right"
+        data-aos-delay="200"
+      >
+        Pantanal trip photography.
+      </h1>
+      <p
+        data-aos="fade-right"
+        data-aos-delay="200"
+        class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-lg"
+      >
+        If you wish to make a Pantanal trip photography, you are in the right
+        page. In fact, Silva Tour Pantanal is organizing naturalistic tours
+        since 2014. If you have any questions about the trip, forthwith, we will
+        answer and try clarify your doubts. By and large, we give all
+        information about booking hotels, transfers and guides. thus, do not
+        hesitate to get in touch with us.
+      </p>
+    </div>
+    <div class="">
       <!-- FORM -->
-      <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20" >
+      <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20">
         <!--  -->
-        <form form action="https://formspree.io/f/xeqyqywn" method="POST"  data-aos="fade-right" data-aos-delay="200">
+        <form
+          form
+          action="https://formspree.io/f/xeqyqywn"
+          method="POST"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
           <v-text-field
             class="text-field"
             name="Nome"
-           v-model="name.value.value"
+            v-model="name.value.value"
             :counter="10"
             :error-messages="name.errorMessage.value"
             label="Name"
           ></v-text-field>
 
           <v-text-field
-          name="Phone Number"
+            name="Phone Number"
             class="mt-3"
             v-model="phone.value.value"
             :counter="7"
@@ -224,42 +241,46 @@
           ></v-text-field>
 
           <v-text-field
-          name="E-mail"
+            name="E-mail"
             class="mt-3"
             v-model="email.value.value"
             label="E-mail"
           ></v-text-field>
           <div class="mt-6">
-          <v-textarea
-          variant="outlined"
-          clearable
-          clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
+            <v-textarea
+              variant="outlined"
+              clearable
+              clear-icon="mdi-close-circle"
+              name="message"
+              label="Message"
+            ></v-textarea>
           </div>
-       
-        <div>
-          <button>
-        <div class="svg-wrapper-1">
-          <div class="svg-wrapper">
-            <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        width="24"
-        height="24"
-      >
-        <path fill="none" d="M0 0h24v24H0z"></path>
-        <path
-          fill="currentColor"
-          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-        ></path>
-      </svg>
-    </div>
-        </div>
-        <span>Send</span>
-        </button>
-        </div>
+
+          <div>
+            <button>
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      fill="currentColor"
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Send</span>
+            </button>
+          </div>
         </form>
+
         <!-- CONTACT  -->
-  
+
         <div class="" data-aos="fade-left" data-aos-delay="200">
           <div class="">
             <h1 class="text-2xl font-medium tracking-widest font-sans">
@@ -284,7 +305,7 @@
                 >+55 65992764968
               </a>
             </div>
-  
+
             <div class="flex items-center gap-2">
               <Icon
                 icon="ic:baseline-whatsapp"
@@ -313,25 +334,23 @@
               </a>
             </div>
           </div>
-  
+
           <div class="">
             <JaguarDivider />
           </div>
-  
         </div>
       </div>
 
       <!-- DIVIDER -->
       <div class="pt-56">
-        <JaguarDivider/>
+        <JaguarDivider />
       </div>
 
       <!-- FOOTER -->
 
       <div>
-        <JaguarFooter/>
+        <JaguarFooter />
       </div>
-
     </div>
   </div>
 </template>
@@ -360,15 +379,12 @@ export default {
     FooterMobile,
     JaguarMenuDesktop,
     JaguarFooter,
-  
   },
   data() {
     return {
       showBackToTopButton: false,
       cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
     };
-    
-    
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
@@ -471,7 +487,7 @@ button {
   font-family: inherit;
   font-size: 15px;
   height: 37px;
-  background: #212121;  
+  background: #212121;
   color: #fff;
   padding: 0.7em 1em;
   padding-left: 0.9em;
@@ -520,7 +536,4 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
-
-
-
 </style>

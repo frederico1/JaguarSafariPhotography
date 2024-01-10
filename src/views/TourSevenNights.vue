@@ -10,8 +10,15 @@
 
     <div class="">
       <div class="">
-        <button data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-top" class="bg-#000"
-          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
+        <button
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-top"
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
           <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
         </button>
       </div>
@@ -42,10 +49,16 @@
 
       <JaguarDivider />
 
-      <div class="mt-10" data-aos="fade-up" data-aos-delay="250" data-aos-anchor-placement="center-center">
+      <div
+        class="mt-10"
+        data-aos="fade-up"
+        data-aos-delay="250"
+        data-aos-anchor-placement="center-center"
+      >
         <div>
           <h2 class="text-3xl text-center font-serif tracking-wide uppercase">
-            Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
+            Customizable Photography Expedition in the Pantanal: Explore
+            Wildlife on Your Terms
           </h2>
         </div>
       </div>
@@ -54,27 +67,29 @@
 
       <div class="mt-10" data-aos="fade-up" data-aos-delay="350">
         <div class="w-full">
-          <v-stepper elevation="16" mobile style="font-weight: 400" color="#000" class="" prev-text="Preview"
-            next-text="Next" :items="[
-              '',
-              '',
-              'DAY 3',
-              'DAY 4',
-              'DAY 5',
-              'DAY 6',
-              'DAY 7',
-            ]">
+          <v-stepper
+            elevation="16"
+            mobile
+            style="font-weight: 400"
+            color="#000"
+            class=""
+            prev-text="Preview"
+            next-text="Next"
+            :items="['', '', 'DAY 3', 'DAY 4', 'DAY 5', 'DAY 6', 'DAY 7']"
+          >
             <template v-slot:item.1>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Your Unique Photographic Journey: </p>
+                <p class="font-semibold">Your Unique Photographic Journey:</p>
                 <p class="mt-2">
-                  Embark on a week of adventures starting in Cuiabá, where our personal guide will be ready to meet you at
-                  the most convenient location, be it the airport or your preferred hotel. The Transpantaneira stretches
-                  before us, promising fascinating sightings of birds, mammals, and reptiles. After a refined lunch, the
-                  day
-                  continues with a serene boat ride, offering the chance to capture stunning images of the local fauna.
-                  The
-                  night arrives with a carefully planned safari, providing an opportunity to explore the nocturnal life of
+                  Embark on a week of adventures starting in Cuiabá, where our
+                  personal guide will be ready to meet you at the most
+                  convenient location, be it the airport or your preferred
+                  hotel. The Transpantaneira stretches before us, promising
+                  fascinating sightings of birds, mammals, and reptiles. After a
+                  refined lunch, the day continues with a serene boat ride,
+                  offering the chance to capture stunning images of the local
+                  fauna. The night arrives with a carefully planned safari,
+                  providing an opportunity to explore the nocturnal life of
                   nature.
                 </p>
               </v-card>
@@ -82,98 +97,105 @@
 
             <template v-slot:item.2>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Explore Your Way:
-                </p>
+                <p class="font-semibold">Explore Your Way:</p>
                 <p class="mt-2">
-                  Enjoy serene mornings and explore charming forests at your leisure. Witness sunrise in intimate moments
-                  and delight in gourmet meals amidst nature. Exclusive areas and luxurious accommodations ensure a
-                  relaxing experience, personalized according to your wishes.
+                  Enjoy serene mornings and explore charming forests at your
+                  leisure. Witness sunrise in intimate moments and delight in
+                  gourmet meals amidst nature. Exclusive areas and luxurious
+                  accommodations ensure a relaxing experience, personalized
+                  according to your wishes.
                 </p>
               </v-card>
             </template>
 
             <template v-slot:item.3>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Flexible Jaguar Photography Safari:
-
-                </p>
+                <p class="font-semibold">Flexible Jaguar Photography Safari:</p>
                 <p class="mt-2">
-                  Safaris begin at dawn, but flexibility is key. Navigate rivers in search of jaguars and giant otters,
-                  enjoying picnics by the river. End each day with gourmet dinners and comfortable accommodations,
-                  maintaining the freedom to decide how to make the most of your time.
-
+                  Safaris begin at dawn, but flexibility is key. Navigate rivers
+                  in search of jaguars and giant otters, enjoying picnics by the
+                  river. End each day with gourmet dinners and comfortable
+                  accommodations, maintaining the freedom to decide how to make
+                  the most of your time.
                 </p>
               </v-card>
             </template>
             <template v-slot:item.4>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Discoveries Along the Transpantaneira:
+                <p class="font-semibold">
+                  Discoveries Along the Transpantaneira:
                 </p>
                 <p class="mt-2">
-                  Explore exclusive lodges, capturing images of tapirs, anteaters, and a variety of birds. Walk through
-                  enchanting forests, join night safaris, and relax in luxurious environments, free from the constraints
-                  of a fixed schedule.
+                  Explore exclusive lodges, capturing images of tapirs,
+                  anteaters, and a variety of birds. Walk through enchanting
+                  forests, join night safaris, and relax in luxurious
+                  environments, free from the constraints of a fixed schedule.
                 </p>
               </v-card>
             </template>
             <template v-slot:item.5>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Morning Walks and Free Exploration:
-                </p>
+                <p class="font-semibold">Morning Walks and Free Exploration:</p>
                 <p class="mt-2">
-                  Participate in morning walks and explore diverse landscapes, capturing unique images of wildlife. End
-                  each day with night safaris, refined dinners, and luxurious accommodations, maintaining the freedom to
-                  decide how to make the most of your time.
+                  Participate in morning walks and explore diverse landscapes,
+                  capturing unique images of wildlife. End each day with night
+                  safaris, refined dinners, and luxurious accommodations,
+                  maintaining the freedom to decide how to make the most of your
+                  time.
                 </p>
               </v-card>
             </template>
             <template v-slot:item.6>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">Personalized Farewell:
-
-                </p>
+                <p class="font-semibold">Personalized Farewell:</p>
                 <p class="mt-2">
-                  Enjoy bird watching at the feeder before bidding farewell. The return to Cuiabá with our guide marks the
-                  end of this unique photographic experience, but the memories and captured images will endure.
-
+                  Enjoy bird watching at the feeder before bidding farewell. The
+                  return to Cuiabá with our guide marks the end of this unique
+                  photographic experience, but the memories and captured images
+                  will endure.
                 </p>
               </v-card>
             </template>
             <template v-slot:item.7>
               <v-card title="" flat class="leading-relaxed font-sans">
-                <p class="font-semibold">What's Included in Your Premium Photography Experience:
+                <p class="font-semibold">
+                  What's Included in Your Premium Photography Experience:
                 </p>
-                <p class="mt-2">Luxury accommodations
-                </p>
-                <p>VIP transfers
-                </p>
-                <p>Gourmet meals
-                </p>
+                <p class="mt-2">Luxury accommodations</p>
+                <p>VIP transfers</p>
+                <p>Gourmet meals</p>
                 <p>Inclusive beverages</p>
-                <p>Expert naturalist guide
+                <p>Expert naturalist guide</p>
+                <p>
+                  Complimentary gifts: hats, pouches, T-shirts, and sunscreen.
                 </p>
-                <p>Complimentary gifts: hats, pouches, T-shirts, and sunscreen.
+                <p>
+                  This itinerary is open for customization. Together, we will
+                  shape each day according to your interests and preferences,
+                  ensuring a truly unique and unforgettable experience.
                 </p>
-                <p>This itinerary is open for customization. Together, we will shape each day according to your interests
-                  and preferences, ensuring a truly unique and unforgettable experience.</p>
               </v-card>
             </template>
-
           </v-stepper>
         </div>
-        <div class="mt-10 flex flex-col leading-relaxed text-sm font-normal italic" data-aos="fade-up">
+        <div
+          class="mt-10 flex flex-col leading-relaxed text-sm font-normal italic"
+          data-aos="fade-up"
+        >
           <h3 class="font-semibold not-italic text-lg text-center">
             Included in the Premium Jaguar Expedition for Photographers:
           </h3>
           <p class="mt-2">Accommodation in a luxury environment;</p>
-          <p> VIP transfer services;</p>
+          <p>VIP transfer services;</p>
           <p>All gourmet meals;</p>
-          <p> Water;</p>
-          <p> Beverages included;</p>
-          <p> Naturalistic guide specialized in photography;</p>
-          <p> As bonuses, we provide caps, pouches, T-shirts, and sunscreens throughout the experience, adding an extra
-            touch of comfort and convenience.</p>
-
+          <p>Water;</p>
+          <p>Beverages included;</p>
+          <p>Naturalistic guide specialized in photography;</p>
+          <p>
+            As bonuses, we provide caps, pouches, T-shirts, and sunscreens
+            throughout the experience, adding an extra touch of comfort
+            and convenience.
+          </p>
         </div>
 
         <!--  -->
@@ -183,32 +205,88 @@
         <!-- FOTOS  -->
         <div class="mt-10 flex flex-col gap-4">
           <div class="">
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="120"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-right"
+              data-aos-delay="120"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="140"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n01.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-left"
+              data-aos-delay="140"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n01.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="160"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n05.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="160"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n05.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="180"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n02.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-right"
+              data-aos-delay="180"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n02.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="200"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n03.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n03.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="220"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n04.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="220"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n04.png"
+            ></v-img>
           </div>
           <div>
-            <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="240"
-              max-width="350" max-height="300" aspect-ratio="" cover src="../assets/img/7n06.png"></v-img>
+            <v-img
+              class="flex justify-center items-center mx-auto"
+              data-aos="fade-down"
+              data-aos-delay="240"
+              max-width="350"
+              max-height="300"
+              aspect-ratio=""
+              cover
+              src="../assets/img/7n06.png"
+            ></v-img>
           </div>
         </div>
 
@@ -223,19 +301,28 @@
         </div>
       </div>
     </div>
-
-
-
-
   </div>
-
 
   <!-- TABLET E DESKTOP -->
 
-<!-- MENU -->
-<div class="p-3">
-<JaguarMenuDesktop/>
-</div>
+  <!-- MENU -->
+  <div class="p-3">
+    <JaguarMenuDesktop />
+  </div>
+
+  <div class="">
+    <button
+      data-aos="fade-right"
+      data-aos-delay="200"
+      data-aos-anchor-placement="top-top"
+      class="bg-#000"
+      id="backToTopBtn"
+      @click="scrollToTop"
+      v-show="showBackToTopButton"
+    >
+      <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+    </button>
+  </div>
 
   <div class="hidden md:block lg:block">
     <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
@@ -246,19 +333,23 @@
 
     <!--  -->
 
-    <div class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto text-2xl" data-aos="fade-right" data-aos-delay="200">
+    <div
+      class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto text-2xl"
+      data-aos="fade-right"
+      data-aos-delay="200"
+    >
       <p class="text-center leading-relaxed font-sans">
         First, our company offers Pantanal jaguar expeditions and photography
         starting in Cuiabá. However, we can start your Pantanal jaguar safari
         itinerary immediately upon your arrival. In fact, you have the
-        possibility to stay overnight in a hotel in the city. In this case,
-        our Tour Agency will pick you up the next day at 8:00 am to take you
-        to the lodge. Also, we’ll take you a hundred kilometers to a small
-        town called Poconé. Therefore, this city is at the end of
-        civilization, it is the beginning of the Estrada Parque
-        Transpantaneira. Subsequently, the path will be one hundred and fifty
-        kilometers on a dirt road. This time, to the lodge in Porto Jofre.
-        Certainly, the trip is interesting, you will see many wild animals.
+        possibility to stay overnight in a hotel in the city. In this case, our
+        Tour Agency will pick you up the next day at 8:00 am to take you to the
+        lodge. Also, we’ll take you a hundred kilometers to a small town called
+        Poconé. Therefore, this city is at the end of civilization, it is the
+        beginning of the Estrada Parque Transpantaneira. Subsequently, the path
+        will be one hundred and fifty kilometers on a dirt road. This time, to
+        the lodge in Porto Jofre. Certainly, the trip is interesting, you will
+        see many wild animals.
       </p>
     </div>
 
@@ -272,7 +363,8 @@
     <div class="mt-10 md:p-4" data-aos="fade-up" data-aos-delay="250">
       <div class="w-2/5 mx-auto">
         <h2 class="text-4xl text-center font-serif tracking-wide uppercase">
-          Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
+          Customizable Photography Expedition in the Pantanal: Explore Wildlife
+          on Your Terms
         </h2>
       </div>
     </div>
@@ -281,16 +373,19 @@
       <v-timeline align="start">
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div>
-            <p class="font-semibold text-lg">Your Unique Photographic Journey: </p>
+            <p class="font-semibold text-lg">
+              Your Unique Photographic Journey:
+            </p>
             <p class="mt-4">
-              Embark on a week of adventures starting in Cuiabá, where our personal guide will be ready to meet you at
-              the most convenient location, be it the airport or your preferred hotel. The Transpantaneira stretches
-              before us, promising fascinating sightings of birds, mammals, and reptiles. After a refined lunch, the
-              day
-              continues with a serene boat ride, offering the chance to capture stunning images of the local fauna.
-              The
-              night arrives with a carefully planned safari, providing an opportunity to explore the nocturnal life of
-              nature.
+              Embark on a week of adventures starting in Cuiabá, where our
+              personal guide will be ready to meet you at the most convenient
+              location, be it the airport or your preferred hotel. The
+              Transpantaneira stretches before us, promising fascinating
+              sightings of birds, mammals, and reptiles. After a refined lunch,
+              the day continues with a serene boat ride, offering the chance to
+              capture stunning images of the local fauna. The night arrives with
+              a carefully planned safari, providing an opportunity to explore
+              the nocturnal life of nature.
             </p>
           </div>
         </v-timeline-item>
@@ -298,103 +393,110 @@
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <template v-slot:opposite> </template>
           <div data-aos="fade-right" data-aos-delay="100">
-
-            <p class="font-semibold text-lg">Explore Your Way:
-            </p>
+            <p class="font-semibold text-lg">Explore Your Way:</p>
             <p class="mt-2">
-              Enjoy serene mornings and explore charming forests at your leisure. Witness sunrise in intimate moments
-              and delight in gourmet meals amidst nature. Exclusive areas and luxurious accommodations ensure a
-              relaxing experience, personalized according to your wishes.
+              Enjoy serene mornings and explore charming forests at your
+              leisure. Witness sunrise in intimate moments and delight in
+              gourmet meals amidst nature. Exclusive areas and luxurious
+              accommodations ensure a relaxing experience, personalized
+              according to your wishes.
             </p>
           </div>
         </v-timeline-item>
 
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div data-aos="fade-left" data-aos-delay="250">
-            <p class="font-semibold text-lg">Flexible Jaguar Photography Safari:
-
+            <p class="font-semibold text-lg">
+              Flexible Jaguar Photography Safari:
             </p>
             <p class="mt-2">
-              Safaris begin at dawn, but flexibility is key. Navigate rivers in search of jaguars and giant otters,
-              enjoying picnics by the river. End each day with gourmet dinners and comfortable accommodations,
-              maintaining the freedom to decide how to make the most of your time.
-
+              Safaris begin at dawn, but flexibility is key. Navigate rivers in
+              search of jaguars and giant otters, enjoying picnics by the river.
+              End each day with gourmet dinners and comfortable accommodations,
+              maintaining the freedom to decide how to make the most of your
+              time.
             </p>
           </div>
         </v-timeline-item>
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div data-aos="fade-right" data-aos-delay="300">
-            <p class="font-semibold text-lg">Discoveries Along the Transpantaneira:
+            <p class="font-semibold text-lg">
+              Discoveries Along the Transpantaneira:
             </p>
             <p class="mt-4">
-              Explore exclusive lodges, capturing images of tapirs, anteaters, and a variety of birds. Walk through
-              enchanting forests, join night safaris, and relax in luxurious environments, free from the constraints
-              of a fixed schedule.
+              Explore exclusive lodges, capturing images of tapirs, anteaters,
+              and a variety of birds. Walk through enchanting forests, join
+              night safaris, and relax in luxurious environments, free from the
+              constraints of a fixed schedule.
             </p>
           </div>
         </v-timeline-item>
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div data-aos="fade-left" data-aos-delay="350">
-            <p class="font-semibold text-lg">Morning Walks and Free Exploration:
+            <p class="font-semibold text-lg">
+              Morning Walks and Free Exploration:
             </p>
             <p class="mt-4">
-              Participate in morning walks and explore diverse landscapes, capturing unique images of wildlife. End
-              each day with night safaris, refined dinners, and luxurious accommodations, maintaining the freedom to
-              decide how to make the most of your time.
+              Participate in morning walks and explore diverse landscapes,
+              capturing unique images of wildlife. End each day with night
+              safaris, refined dinners, and luxurious accommodations,
+              maintaining the freedom to decide how to make the most of your
+              time.
             </p>
           </div>
         </v-timeline-item>
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div data-aos="fade-left" data-aos-delay="350">
-            <p class="font-semibold text-lg">Personalized Farewell:
-
-            </p>
+            <p class="font-semibold text-lg">Personalized Farewell:</p>
             <p class="mt-4">
-              Enjoy bird watching at the feeder before bidding farewell. The return to Cuiabá with our guide marks the
-              end of this unique photographic experience, but the memories and captured images will endure.
-
+              Enjoy bird watching at the feeder before bidding farewell. The
+              return to Cuiabá with our guide marks the end of this unique
+              photographic experience, but the memories and captured images will
+              endure.
             </p>
           </div>
         </v-timeline-item>
         <v-timeline-item class="mb-4" dot-color="grey" size="small">
           <div data-aos="fade-left" data-aos-delay="350">
-            <p class="font-semibold text-lg">What's Included in Your Premium Photography Experience:
+            <p class="font-semibold text-lg">
+              What's Included in Your Premium Photography Experience:
             </p>
-            <p class="mt-4">Luxury accommodations
-            </p>
-            <p>VIP transfers
-            </p>
-            <p>Gourmet meals
-            </p>
+            <p class="mt-4">Luxury accommodations</p>
+            <p>VIP transfers</p>
+            <p>Gourmet meals</p>
             <p>Inclusive beverages</p>
-            <p>Expert naturalist guide
+            <p>Expert naturalist guide</p>
+            <p>Complimentary gifts: hats, pouches, T-shirts, and sunscreen.</p>
+            <p>
+              This itinerary is open for customization. Together, we will shape
+              each day according to your interests and preferences, ensuring a
+              truly unique and unforgettable experience.
             </p>
-            <p>Complimentary gifts: hats, pouches, T-shirts, and sunscreen.
-            </p>
-            <p>This itinerary is open for customization. Together, we will shape each day according to your interests
-              and preferences, ensuring a truly unique and unforgettable experience.</p>
           </div>
         </v-timeline-item>
       </v-timeline>
 
       <!-- INCLUDES -->
 
-      <div class="mt-10 flex flex-col leading-relaxed text-md font-normal italic" data-aos="fade-up">
+      <div
+        class="mt-10 flex flex-col leading-relaxed text-md font-normal italic"
+        data-aos="fade-up"
+      >
         <h3 class="font-semibold not-italic text-xl text-center">
           Included in the Premium Jaguar Expedition for Photographers:
         </h3>
         <p class="mt-2">Accommodation in a luxury environment;</p>
-        <p> VIP transfer services;</p>
+        <p>VIP transfer services;</p>
         <p>All gourmet meals;</p>
-        <p> Water;</p>
-        <p> Beverages included;</p>
-        <p> Naturalistic guide specialized in photography;</p>
-        <p> As bonuses, we provide caps, pouches, T-shirts, and sunscreens throughout the experience, adding an extra
-          touch of comfort and convenience.</p>
-
+        <p>Water;</p>
+        <p>Beverages included;</p>
+        <p>Naturalistic guide specialized in photography;</p>
+        <p>
+          As bonuses, we provide caps, pouches, T-shirts, and sunscreens
+          throughout the experience, adding an extra touch of comfort
+          and convenience.
+        </p>
       </div>
-
-
 
       <!-- DIVIDER -->
 
@@ -403,56 +505,127 @@
       </div>
 
       <!-- FOTOS -->
-      <div class="mt-20 grid grid-cols-3 mx-auto gap-4 shadow-xl">
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="100" 
-            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/7n.png"></v-img>
+      <div class="mt-20 grid grid-cols-3 mx-auto gap-6">
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="140"
-            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/7n01.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-left"
+            data-aos-delay="140"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n01.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-up" data-aos-delay="280" max-width="400"
-            max-height="600" aspect-ratio="" cover src="../assets/img/4n02.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="280"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/4n02.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="320"
-            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/7n02.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-right"
+            data-aos-delay="320"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n02.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="360"
-            max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/7n03.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-left"
+            data-aos-delay="360"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n03.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px]">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-left" data-aos-delay="300" max-width="400"
-            max-height="300" aspect-ratio="" cover src="../assets/img/7n04.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n04.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="440" max-width="400"
-            max-height="300" aspect-ratio="" cover src="../assets/img/7n05.png"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-down"
+            data-aos-delay="440"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n05.png"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="480" max-width="400"
-            max-height="300" aspect-ratio="" cover src="../assets/img/7n06.jpg"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-down"
+            data-aos-delay="480"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n06.jpg"
+          ></v-img>
         </div>
-        <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
-          <v-img class="flex justify-center items-center mx-auto" data-aos="fade-down" data-aos-delay="520" max-width="400"
-            max-height="300" aspect-ratio="" cover src="../assets/img/7n07.jpg"></v-img>
+        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <v-img
+            class="flex justify-center items-center mx-auto"
+            data-aos="fade-down"
+            data-aos-delay="520"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/7n07.jpg"
+          ></v-img>
         </div>
       </div>
 
       <!-- DIVIDER -->
-
     </div>
     <div class="pt-56">
-      <JaguarDivider/>
+      <JaguarDivider />
     </div>
 
     <!-- FOOTER -->
 
     <div>
-      <JaguarFooter/>
+      <JaguarFooter />
     </div>
   </div>
 </template>

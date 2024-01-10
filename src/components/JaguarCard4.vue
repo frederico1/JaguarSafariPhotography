@@ -1,8 +1,13 @@
 <template>
-  <v-card hover elevation="16" class="mx-auto md:w-[740px] lg:w-[520px] w-[340px]" style="
+  <v-card
+    hover
+    elevation="16"
+    class="mx-auto md:w-[740px] lg:w-[480px] w-[340px]"
+    style="
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
-    ">
+    "
+  >
     <v-img src="../assets/img/jaguar1.png" height="300px" cover></v-img>
 
     <v-card-title class="font-serif text-center">
@@ -19,12 +24,17 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'" @click="show = !show"></v-btn>
+      <v-btn
+        :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+        @click="show = !show"
+      ></v-btn>
     </v-card-actions>
     <v-expand-transition>
       <div v-show="show">
-        <div class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"></div>
-        <v-card-text style="font-size: 15px;">
+        <div
+          class="mt-8 h-[1.3px] bg-grey w-3/4 flex justify-center items-center mx-auto"
+        ></div>
+        <v-card-text style="font-size: 15px">
           It includes one night Pantanal trip in a lodge in the Transpantaneira
           plus three nights in Porto Jofre. 20 hours jaguar safari.
         </v-card-text>

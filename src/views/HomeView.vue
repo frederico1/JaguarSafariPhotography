@@ -1,5 +1,5 @@
 <template>
-    <!-- eslint-disable -->
+  <!-- eslint-disable -->
 
   <div class="p-3">
     <!-- NAVIGATION -->
@@ -34,20 +34,24 @@
 
     <!-- DESKTOP E TABLET -->
 
-    <div class="hidden md:flex flex-col justify-center items-center mx-auto ">
+    <div class="hidden md:flex flex-col justify-center items-center mx-auto">
       <div class="md:hidden">
         <JaguarMenu />
       </div>
       <div class="">
-        <button  class="bg-#000"
-          id="backToTopBtn" @click="scrollToTop" v-show="showBackToTopButton">
-          <Icon icon="line-md:arrow-up" color="#454546" width="40px" /> 
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="line-md:arrow-up" color="#454546" width="40px" />
         </button>
       </div>
 
       <!-- MENU DESKTOP -->
 
-      <JaguarMenuDesktop/>
+      <JaguarMenuDesktop />
 
       <div class="mt-36">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
@@ -65,32 +69,31 @@
       </div>
     </div>
 
-
     <!-- MOBILE  -->
 
-    <div class="md:hidden flex flex-col justify-center items-center mx-auto ">
+    <div class="md:hidden flex flex-col justify-center items-center mx-auto">
       <div class="">
         <JaguarMenu />
       </div>
       <div class="">
-          <button
-            class="bg-#000"
-            id="backToTopBtn"
-            @click="scrollToTop"
-            v-show="showBackToTopButton"
-          >
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
           <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
-          </button>
-        </div>
+        </button>
+      </div>
 
       <!-- MENU DESKTOP -->
 
-      <JaguarMenuDesktop/>
+      <JaguarMenuDesktop />
 
       <div class="mt-28">
-        <h1 class=" text-3xl tracking-widest font-serif">JAGUAR TOURS</h1>
+        <h1 class="text-3xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
-      <div class=" pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
+      <div class="pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
           <JaguarCard4 data-aos="fade-right" data-aos-delay="200"></JaguarCard4>
         </div>
@@ -102,11 +105,9 @@
         </div>
       </div>
     </div>
-    
+
     <!-- CARDS -->
 
-
-    
     <div class="pt-56">
       <JaguarDivider />
     </div>
@@ -120,11 +121,9 @@
     <!-- HOME FOOTER DESKTOP -->
     <div class="hidden md:block">
       <JaguarFooter></JaguarFooter>
-
     </div>
   </div>
 
- 
   <router-view />
 </template>
 
