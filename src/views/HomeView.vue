@@ -45,7 +45,7 @@
           @click="scrollToTop"
           v-show="showBackToTopButton"
         >
-          <Icon icon="line-md:arrow-up" color="#454546" width="40px" />
+          <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
         </button>
       </div>
 
@@ -82,7 +82,7 @@
           @click="scrollToTop"
           v-show="showBackToTopButton"
         >
-          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
+          <Icon icon="line-md:arrow-up" color="#454546" width="33px" />
         </button>
       </div>
 
