@@ -49,7 +49,7 @@
 
       <JaguarMenuDesktop/>
 
-      <div class="mt-36" data-aos="fade-right" data-aos-delay="100">
+      <div class="mt-36">
         <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class="pt-32 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
@@ -87,7 +87,7 @@
 
       <JaguarMenuDesktop/>
 
-      <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
+      <div class="mt-28">
         <h1 class=" text-3xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class=" pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">

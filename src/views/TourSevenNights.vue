@@ -44,9 +44,9 @@
 
       <div class="mt-10" data-aos="fade-up" data-aos-delay="250" data-aos-anchor-placement="center-center">
         <div>
-          <h1 class="text-3xl text-center font-serif tracking-wide uppercase">
+          <h2 class="text-3xl text-center font-serif tracking-wide uppercase">
             Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
-          </h1>
+          </h2>
         </div>
       </div>
 
@@ -162,9 +162,9 @@
           </v-stepper>
         </div>
         <div class="mt-10 flex flex-col leading-relaxed text-sm font-normal italic" data-aos="fade-up">
-          <p class="font-semibold not-italic text-lg text-center">
+          <h3 class="font-semibold not-italic text-lg text-center">
             Included in the Premium Jaguar Expedition for Photographers:
-          </p>
+          </h3>
           <p class="mt-2">Accommodation in a luxury environment;</p>
           <p> VIP transfer services;</p>
           <p>All gourmet meals;</p>
@@ -271,9 +271,9 @@
 
     <div class="mt-10 md:p-4" data-aos="fade-up" data-aos-delay="250">
       <div class="w-2/5 mx-auto">
-        <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
+        <h2 class="text-4xl text-center font-serif tracking-wide uppercase">
           Customizable Photography Expedition in the Pantanal: Explore Wildlife on Your Terms
-        </h1>
+        </h2>
       </div>
     </div>
 
@@ -380,9 +380,9 @@
       <!-- INCLUDES -->
 
       <div class="mt-10 flex flex-col leading-relaxed text-md font-normal italic" data-aos="fade-up">
-        <p class="font-semibold not-italic text-xl text-center">
+        <h3 class="font-semibold not-italic text-xl text-center">
           Included in the Premium Jaguar Expedition for Photographers:
-        </p>
+        </h3>
         <p class="mt-2">Accommodation in a luxury environment;</p>
         <p> VIP transfer services;</p>
         <p>All gourmet meals;</p>

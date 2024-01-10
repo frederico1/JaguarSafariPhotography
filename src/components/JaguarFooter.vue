@@ -36,9 +36,53 @@
         <span> Quadra 25 Cep 78.074-138 Cuiabá-MT | Brasil </span>
       </div>
 
+
+      <!-- NETWORKS -->
+
+      <div class="flex gap-4">
+      <div class="" >
+        <a href="https://instagram.com/guitophotographs" target="_blanck">
+          <Icon icon="iconoir:instagram" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="" >
+        <a
+          href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+          target="_blanck"
+        >
+          <Icon icon="la:whatsapp" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#128C7E] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="">
+        <a href="https://www.tripadvisor.com.br/Profile/jaguarsafarip" target="_blanck">
+          <Icon icon="cib:tripadvisor" color="" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+      
+      <div>
+        <div class="" >
+          <a
+            href="mailto:http://jaguarsafariphotograph@gmail.com"
+            target="_blanck"
+          >
+            <Icon icon="iconamoon:email-thin" width="28" height="28" />
+            <div class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto "></div>
+          </a>
+        </div>
+      
+      </div>
+      
+      </div>
       <!-- MAPA TABLET -->
 
       <!-- MAPA DESKTOP -->
+
+
 
       <div class="mt-14">
         <iframe
@@ -51,6 +95,8 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+
+    
     </div>
     <div class="mt-14 mb-6 text-sm flex justify-center items-center tracking-widest">
       <p>© Jaguar Safari Photography 2024. All rights reserved.</p>
@@ -66,9 +112,10 @@
 <script>
 /* eslint-disable */
 import JaguarNavigation from "./JaguarNavigation.vue";
+import { Icon } from '@iconify/vue';
 
 export default {
-  components: { JaguarNavigation },
+  components: { JaguarNavigation, Icon },
   name: "JaguarFooter",
 };
 /* eslint-disable */
