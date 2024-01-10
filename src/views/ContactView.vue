@@ -73,9 +73,28 @@
           clearable
           clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
         </div>
-        <div class="p-1">
-          <v-btn type="submit">Send</v-btn>
+        <div>
+          <button>
+        <div class="svg-wrapper-1">
+          <div class="svg-wrapper">
+            <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+      >
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path
+          fill="currentColor"
+          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+        ></path>
+      </svg>
         </div>
+        </div>
+        <span>Send</span>
+        </button>
+        </div>
+       
         </form>
       </div>
 
@@ -184,10 +203,11 @@
 
       <!-- FORM -->
       <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20" >
+        <!--  -->
         <form form action="https://formspree.io/f/xeqyqywn" method="POST"  data-aos="fade-right" data-aos-delay="200">
           <v-text-field
-          class="text-field"
-           name="Nome"
+            class="text-field"
+            name="Nome"
            v-model="name.value.value"
             :counter="10"
             :error-messages="name.errorMessage.value"
@@ -214,11 +234,29 @@
           variant="outlined"
           clearable
           clear-icon="mdi-close-circle" name="message" label="Message"></v-textarea>
-        </div>
+          </div>
+       
         <div>
-          
-          <v-btn type="submit">Send</v-btn>
-        </div>  
+          <button>
+        <div class="svg-wrapper-1">
+          <div class="svg-wrapper">
+            <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+      >
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path
+          fill="currentColor"
+          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+        ></path>
+      </svg>
+    </div>
+        </div>
+        <span>Send</span>
+        </button>
+        </div>
         </form>
         <!-- CONTACT  -->
   
@@ -428,6 +466,61 @@ export default {
 #backToTopBtn.show {
   opacity: 1;
 }
+
+button {
+  font-family: inherit;
+  font-size: 15px;
+  height: 37px;
+  background: #212121;  
+  color: #fff;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
 
 
 </style>
