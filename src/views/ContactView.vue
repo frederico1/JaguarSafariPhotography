@@ -7,17 +7,17 @@
       <div>
         <JaguarMenu />
       </div>
+      <div class="">
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="line-md:arrow-up" color="#454546" width="33px" />
+        </button>
+      </div>
       <div class="mt-20">
-        <div class="">
-          <button
-            class="bg-#000"
-            id="backToTopBtn"
-            @click="scrollToTop"
-            v-show="showBackToTopButton"
-          >
-            <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
-          </button>
-        </div>
         <div class="mt-28">
           <h1
             class="text-4xl font-serif text-center uppercase tracking-wider"
@@ -188,7 +188,7 @@
           @click="scrollToTop"
           v-show="showBackToTopButton"
         >
-          <Icon icon="line-md:arrow-up" color="#454546" width="30px" />
+          <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
         </button>
       </div>
       <h1

@@ -9,15 +9,12 @@
 
     <div class="">
       <button
-        data-aos="fade-right"
-        data-aos-delay="200"
-        data-aos-anchor-placement="top-top"
         class="bg-#000"
         id="backToTopBtn"
         @click="scrollToTop"
         v-show="showBackToTopButton"
       >
-        <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+        <Icon icon="tdesign:arrow-up" color="#000" width="33px" />
       </button>
     </div>
     <!-- MENU -->
@@ -103,15 +100,12 @@
 
     <div class="">
       <button
-        data-aos="fade-right"
-        data-aos-delay="200"
-        data-aos-anchor-placement="top-top"
         class="bg-#000"
         id="backToTopBtn"
         @click="scrollToTop"
         v-show="showBackToTopButton"
       >
-        <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+        <Icon icon="tdesign:arrow-up" color="#000" width="45px" />
       </button>
     </div>
 
