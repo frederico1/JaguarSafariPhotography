@@ -235,7 +235,7 @@
           <v-timeline-item class="mb-4" dot-color="grey" size="small">
             <div>
               <div class="text-h6">Day 1</div>
-              <p>
+              <p class="">
                 First Day of Capture. Upon your arrival in
                 Cuiabá, a city of wild contrasts, your exclusive photographic journey begins with a reception at the
                 airport or the exquisite chosen hotel. Our high-end transportation will take you on a three-hour
@@ -339,7 +339,7 @@
         </div>
 
         <!-- FOTOS -->
-        <div class="mt-20 grid grid-cols-3 mx-auto gap-4 shadow-xl">
+        <div class="mt-20 grid grid-cols-3 mx-auto gap-4 shadow-xl columns-3xs">
           <div class="lg:w-[400px] md:w-[355px]">
             <v-img class="flex justify-center items-center mx-auto" data-aos="fade-right" data-aos-delay="100"
               max-width="400" max-height="600" aspect-ratio="" cover src="../assets/img/4n.png"></v-img>
