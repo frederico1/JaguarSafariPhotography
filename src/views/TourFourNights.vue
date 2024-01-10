@@ -294,6 +294,20 @@
     <div class="p-3">
       <JaguarMenuDesktop></JaguarMenuDesktop>
     </div>
+
+    <div class="">
+      <button
+        data-aos="fade-right"
+        data-aos-delay="200"
+        data-aos-anchor-placement="top-top"
+        class="bg-#000"
+        id="backToTopBtn"
+        @click="scrollToTop"
+        v-show="showBackToTopButton"
+      >
+        <Icon icon="tdesign:arrow-up" color="#000" width="40px" />
+      </button>
+    </div>
     <div class="hidden md:block lg:block">
       <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
         <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
@@ -468,8 +482,8 @@
         </div>
 
         <!-- FOTOS -->
-        <div class="mt-20 grid grid-cols-3 mx-auto gap-4 shadow-xl columns-3xs">
-          <div class="lg:w-[400px] md:w-[355px]">
+        <div class="mt-20 grid grid-cols-3 mx-auto gap-6">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-right"
@@ -482,7 +496,7 @@
               alt="Jaguar"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px]">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-left"
@@ -495,7 +509,7 @@
               alt="Jaguar"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px]">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-up"
@@ -508,7 +522,7 @@
               alt="Jaguar"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px]">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-right"
@@ -521,7 +535,7 @@
               alt="Snake"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px]">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-left"
@@ -533,7 +547,7 @@
               src="../assets/img/4n04.png"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px]">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-left"
@@ -545,7 +559,7 @@
               src="../assets/img/4n05.png"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-down"
@@ -558,7 +572,7 @@
               alt="Alligator"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-down"
@@ -571,7 +585,7 @@
               alt="Monkey"
             ></v-img>
           </div>
-          <div class="lg:w-[400px] md:w-[355px] mx-auto mt-6">
+          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-down"
