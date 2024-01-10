@@ -16,7 +16,7 @@
           @click="scrollToTop"
           v-show="showBackToTopButton"
         >
-          <Icon icon="tdesign:arrow-up" color="#000" width="34px" />
+          <Icon icon="tdesign:arrow-up" color="#000" width="33px" />
         </button>
       </div>
 
