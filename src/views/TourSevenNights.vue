@@ -328,7 +328,7 @@
     <!--  -->
 
     <div
-      class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto text-2xl"
+      class="mt-16 lg:w-3/5 md:w-5/6 flex mx-auto text-xl"
       data-aos="fade-right"
       data-aos-delay="200"
     >
@@ -572,7 +572,7 @@
             src="../assets/img/7n04.png"
           ></v-img>
         </div>
-        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+        <div class="lg:w-[270px] md:w-[355px]  shadow-2xl">
           <v-img
             class="flex justify-center items-center mx-auto"
             data-aos="fade-down"
@@ -584,7 +584,7 @@
             src="../assets/img/7n05.png"
           ></v-img>
         </div>
-        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
           <v-img
             class="flex justify-center items-center mx-auto"
             data-aos="fade-down"
@@ -596,7 +596,7 @@
             src="../assets/img/7n06.jpg"
           ></v-img>
         </div>
-        <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
           <v-img
             class="flex justify-center items-center mx-auto"
             data-aos="fade-down"

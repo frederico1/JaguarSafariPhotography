@@ -201,7 +201,7 @@
       <p
         data-aos="fade-right"
         data-aos-delay="200"
-        class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-lg"
+        class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-xl"
       >
         If you wish to make a Pantanal trip photography, you are in the right
         page. In fact, Silva Tour Pantanal is organizing naturalistic tours
@@ -288,20 +288,20 @@
             </h1>
           </div>
           <div class="pt-1">
-            <p class="text-base font-sans">
+            <p class="text-lg font-sans">
               For a Pantanal trip photography or suggestions, contact us by
               e-mail, phone or fill in the formular.
             </p>
           </div>
           <div class="pt-8 flex flex-col gap-4">
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 ">
               <Icon
                 icon="game-icons:smartphone"
                 width="35"
                 height="35"
                 color=""
               />
-              <a class="text-sm font-sans" href="tel:+55 65992764968"
+              <a class="text-base font-sans" href="tel:+55 65992764968"
                 >+55 65992764968
               </a>
             </div>
@@ -321,13 +321,13 @@
                 <span class="elementor-icon-list-icon">
                   <i aria-hidden="true" class="fas fa-mobile-alt"></i>
                 </span>
-                <span class="elementor-icon-list-text">+55 65 99276-4968</span>
+                <span class="elementor-icon-list-text text-base">+55 65 99276-4968</span>
               </a>
             </div>
             <div class="flex items-center gap-2">
               <Icon icon="ic:outline-email" width="35" height="35" color="#" />
               <a
-                class="hover:[#] text-sm font-sans"
+                class="hover:[#] text-base font-sans"
                 href="mailto:http://jaguarsafariphotograph@gmail.com"
                 target="_blanck"
                 >jaguarsafariphotograph@gmail.com

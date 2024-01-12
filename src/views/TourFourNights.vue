@@ -182,10 +182,10 @@
 
           <!-- FOTOS  -->
 
-          <div class="mt-10 flex flex-col gap-4">
+          <div class="mt-10 flex flex-col gap-4 mx-auto">
             <div class="">
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-right"
                 data-aos-delay="120"
                 max-width="350"
@@ -198,7 +198,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-left"
                 data-aos-delay="140"
                 max-width="350"
@@ -211,7 +211,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-up"
                 data-aos-delay="160"
                 max-width="350"
@@ -224,7 +224,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-right"
                 data-aos-delay="180"
                 max-width="350"
@@ -237,7 +237,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-left"
                 data-aos-delay="200"
                 max-width="350"
@@ -250,7 +250,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-up"
                 data-aos-delay="220"
                 max-width="350"
@@ -262,7 +262,7 @@
             </div>
             <div>
               <v-img
-                class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center"
                 data-aos="fade-down"
                 data-aos-delay="240"
                 max-width="350"
@@ -317,7 +317,7 @@
         data-aos="fade-right"
         data-aos-delay="200"
       >
-        <p class="text-center leading-relaxed font-sans text-lg">
+        <p class="text-center leading-relaxed font-sans text-xl">
           First, our company offers Pantanal jaguar expeditions and photography
           starting in Cuiabá. However, we can start your Pantanal jaguar safari
           itinerary immediately upon your arrival. In fact, you have the
@@ -477,7 +477,7 @@
         </div>
 
         <!-- FOTOS -->
-        <div class="mt-20 grid grid-cols-3 mx-auto gap-6">
+        <div class="mt-20 grid grid-cols-3 gap-6">
           <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
@@ -532,7 +532,7 @@
           </div>
           <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
-              class="flex justify-center items-center mx-auto"
+              class="flex justify-center items-center"
               data-aos="fade-left"
               data-aos-delay="260"
               max-width="400"
@@ -554,9 +554,9 @@
               src="../assets/img/4n05.png"
             ></v-img>
           </div>
-          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
-              class="flex justify-center items-center mx-auto"
+              class="flex justify-center items-center"
               data-aos="fade-down"
               data-aos-delay="340"
               max-width="400"
@@ -567,9 +567,9 @@
               alt="Alligator"
             ></v-img>
           </div>
-          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
-              class="flex justify-center items-center mx-auto"
+              class="flex justify-center items-center"
               data-aos="fade-down"
               data-aos-delay="380"
               max-width="400"
@@ -580,9 +580,9 @@
               alt="Monkey"
             ></v-img>
           </div>
-          <div class="lg:w-[270px] md:w-[355px] mx-auto shadow-2xl">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
-              class="flex justify-center items-center mx-auto"
+              class="flex justify-center items-center"
               data-aos="fade-down"
               data-aos-delay="420"
               max-width="400"
