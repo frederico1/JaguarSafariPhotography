@@ -8,7 +8,7 @@
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     "
   >
-    <v-img src="../assets/img/jaguar3.png" height="300px" cover></v-img>
+    <v-img src="../assets/img/avif/Cards/jaguar3.avif" height="300px" cover></v-img>
 
     <v-card-title class="font-serif">
       <div>

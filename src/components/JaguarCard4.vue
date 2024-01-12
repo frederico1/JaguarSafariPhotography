@@ -8,7 +8,7 @@
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     "
   >
-    <v-img src="../assets/img/jaguar1.png" height="300px" cover></v-img>
+    <v-img src="../assets/img/avif/Cards/jaguar1.avif" height="300px" cover></v-img>
 
     <v-card-title class="font-serif text-center">
       Jaguar tour 4 nights / 5 days

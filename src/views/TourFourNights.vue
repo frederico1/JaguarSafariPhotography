@@ -188,11 +188,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-right"
                 data-aos-delay="120"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n.png"
+                src="../assets/img/avif/4n/4n.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
@@ -201,11 +201,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-left"
                 data-aos-delay="140"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n01.png"
+                src="../assets/img/avif/4n/4n01.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
@@ -214,11 +214,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-up"
                 data-aos-delay="160"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n02.png"
+                src="../assets/img/avif/4n/4n02.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
@@ -227,11 +227,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-right"
                 data-aos-delay="180"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n03.png"
+                src="../assets/img/avif/4n/4n03.avif"
                 alt="Snake"
               ></v-img>
             </div>
@@ -240,11 +240,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-left"
                 data-aos-delay="200"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n04.png"
+                src="../assets/img/avif/4n/4n04.avif"
                 alt=""
               ></v-img>
             </div>
@@ -253,11 +253,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-up"
                 data-aos-delay="220"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n05.png"
+                src="../assets/img/avif/4n/4n05.avif"
               ></v-img>
             </div>
             <div>
@@ -265,11 +265,11 @@
                 class="flex justify-center items-center"
                 data-aos="fade-down"
                 data-aos-delay="240"
-                max-width="350"
+                max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/4n06.png"
+                src="../assets/img/avif/4n/4n06.avif"
                 alt="Alligator"
               ></v-img>
             </div>
@@ -487,7 +487,7 @@
               max-height="600"
               aspect-ratio=""
               cover
-              src="../assets/img/4n.png"
+              src="../assets/img/avif/4n/4n.avif"
               alt="Jaguar"
             ></v-img>
           </div>
@@ -495,12 +495,12 @@
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-left"
-              data-aos-delay="140"
+              data-aos-delay="100"
               max-width="400"
               max-height="600"
               aspect-ratio=""
               cover
-              src="../assets/img/4n01.png"
+              src="../assets/img/avif/4n/4n01.avif"
               alt="Jaguar"
             ></v-img>
           </div>
@@ -508,12 +508,12 @@
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-up"
-              data-aos-delay="180"
+              data-aos-delay="100"
               max-width="400"
               max-height="600"
               aspect-ratio=""
               cover
-              src="../assets/img/4n02.png"
+              src="../assets/img/avif/4n/4n02.avif"
               alt="Jaguar"
             ></v-img>
           </div>
@@ -521,12 +521,12 @@
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-right"
-              data-aos-delay="220"
+              data-aos-delay="100"
               max-width="400"
               max-height="600"
               aspect-ratio=""
               cover
-              src="../assets/img/4n03.png"
+              src="../assets/img/avif/4n/4n03.avif"
               alt="Snake"
             ></v-img>
           </div>
@@ -534,36 +534,36 @@
             <v-img
               class="flex justify-center items-center"
               data-aos="fade-left"
-              data-aos-delay="260"
+              data-aos-delay="100"
               max-width="400"
               max-height="600"
               aspect-ratio=""
               cover
-              src="../assets/img/4n04.png"
+              src="../assets/img/avif/4n/4n04.avif"
             ></v-img>
           </div>
           <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
               data-aos="fade-left"
-              data-aos-delay="300"
+              data-aos-delay="100"
               max-width="400"
               max-height="300"
               aspect-ratio=""
               cover
-              src="../assets/img/4n05.png"
+              src="../assets/img/avif/4n/4n05.avif"
             ></v-img>
           </div>
           <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center"
               data-aos="fade-down"
-              data-aos-delay="340"
+              data-aos-delay="100"
               max-width="400"
               max-height="300"
               aspect-ratio=""
               cover
-              src="../assets/img/4n06.png"
+              src="../assets/img/avif/4n/4n06.avif"
               alt="Alligator"
             ></v-img>
           </div>
@@ -571,12 +571,12 @@
             <v-img
               class="flex justify-center items-center"
               data-aos="fade-down"
-              data-aos-delay="380"
+              data-aos-delay="100"
               max-width="400"
               max-height="300"
               aspect-ratio=""
               cover
-              src="../assets/img/4n07.jpg"
+              src="../assets/img/avif/4n/4n07.avif"
               alt="Monkey"
             ></v-img>
           </div>
@@ -584,12 +584,12 @@
             <v-img
               class="flex justify-center items-center"
               data-aos="fade-down"
-              data-aos-delay="420"
+              data-aos-delay="100"
               max-width="400"
               max-height="300"
               aspect-ratio=""
               cover
-              src="../assets/img/4n08.jpg"
+              src="../assets/img/avif/4n/4n08.avif"
               alt=""
             ></v-img>
           </div>
