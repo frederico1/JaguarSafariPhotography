@@ -35,6 +35,7 @@
     "primevue": "^3.42.0",
     "vee-validate": "^4.11.8",
     "vue": "^3.2.13",
+    "vue-material": "^1.0.0-beta-16",
     "vue-router": "^4.0.3",
     "vuetify": "^3.4.1",
     "vuex": "^4.0.0"

@@ -54,7 +54,7 @@
       <JaguarMenuDesktop />
 
       <div class="mt-36">
-        <h1 class="text-4xl tracking-widest font-serif">JAGUAR TOURS</h1>
+        <h1 class="text-5xl tracking-widest font-serif">JAGUAR TOURS</h1>
       </div>
       <div class="pt-32 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>

@@ -180,17 +180,17 @@
       <JaguarMenuDesktop />
     </div>
 
+    <div class="">
+      <button
+        class="bg-#000"
+        id="backToTopBtn"
+        @click="scrollToTop"
+        v-show="showBackToTopButton"
+      >
+        <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
+      </button>
+    </div>
     <div class="mt-28 w-3/5 mx-auto">
-      <div class="">
-        <button
-          class="bg-#000"
-          id="backToTopBtn"
-          @click="scrollToTop"
-          v-show="showBackToTopButton"
-        >
-          <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
-        </button>
-      </div>
       <h1
         class="text-4xl font-serif text-center uppercase tracking-wider"
         data-aos="fade-right"
@@ -213,6 +213,7 @@
     </div>
     <div class="">
       <!-- FORM -->
+
       <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20">
         <!--  -->
         <form
@@ -334,6 +335,46 @@
               </a>
             </div>
           </div>
+
+          <div class="flex mx-auto justify-center items-center gap-10 mt-14">
+      <div class="" >
+        <a href="https://instagram.com/guitophotographs" target="_blanck">
+          <Icon icon="iconoir:instagram" width="37" height="37" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="" >
+        <a
+          href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+          target="_blanck"
+        >
+          <Icon icon="la:whatsapp" width="37" height="37" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#128C7E] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="">
+        <a href="https://www.tripadvisor.com.br/Profile/jaguarsafarip" target="_blanck">
+          <Icon icon="cib:tripadvisor" color="" width="37" height="37" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+      
+      <div>
+        <div class="" >
+          <a
+            href="mailto:http://jaguarsafariphotograph@gmail.com"
+            target="_blanck"
+          >
+            <Icon icon="iconamoon:email-thin" width="37" height="37" />
+            <div class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto "></div>
+          </a>
+        </div>
+      
+      </div>
+      
+      </div>
 
           <div class="">
             <JaguarDivider />
