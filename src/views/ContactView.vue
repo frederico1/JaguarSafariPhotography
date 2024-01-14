@@ -47,8 +47,13 @@
     <div class="pt-8" data-aos="fade-right" data-aos-delay="200">
       <!-- FORM -->
       <div class="pt-8">
+
         <form action="https://formspree.io/f/xeqyqywn" method="POST">
           <v-text-field
+          variant="outlined"
+              clearable
+            class=""
+            
             name="Nome"
             v-model="name.value.value"
             :counter="10"
@@ -57,8 +62,11 @@
           ></v-text-field>
 
           <v-text-field
+
+          variant="outlined"
+              clearable
             name="Phone Number"
-            class="mt-3"
+            class="mt-5"
             v-model="phone.value.value"
             :counter="7"
             :error-messages="phone.errorMessage.value"
@@ -66,14 +74,17 @@
           ></v-text-field>
 
           <v-text-field
+          variant="outlined"
+              clearable
             name="E-mail"
-            class="mt-3"
+            class="mt-5"
             v-model="email.value.value"
             label="E-mail"
           ></v-text-field>
 
           <div class="mt-3">
             <v-textarea
+            counter
               variant="outlined"
               clearable
               clear-icon="mdi-close-circle"
@@ -216,6 +227,8 @@
 
       <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20">
         <!--  -->
+
+        
         <form
           form
           action="https://formspree.io/f/xeqyqywn"
@@ -224,7 +237,8 @@
           data-aos-delay="200"
         >
           <v-text-field
-            class="text-field"
+          variant="outlined"
+              clearable
             name="Nome"
             v-model="name.value.value"
             :counter="10"
@@ -233,8 +247,10 @@
           ></v-text-field>
 
           <v-text-field
+          variant="outlined"
+              clearable
             name="Phone Number"
-            class="mt-3"
+            class="mt-5"
             v-model="phone.value.value"
             :counter="7"
             :error-messages="phone.errorMessage.value"
@@ -242,13 +258,16 @@
           ></v-text-field>
 
           <v-text-field
+          variant="outlined"
+              clearable
             name="E-mail"
-            class="mt-3"
+            class="mt-5"
             v-model="email.value.value"
             label="E-mail"
           ></v-text-field>
           <div class="mt-6">
             <v-textarea
+            counter
               variant="outlined"
               clearable
               clear-icon="mdi-close-circle"
@@ -427,6 +446,11 @@ export default {
       cards: [{ img: "/img-1.jpg", grid: "card-2-1" }],
     };
   },
+
+  data: () => ({
+      rules: [v => v.length <= 25 || 'Max 25 characters'],
+      value: 'Hello!',
+    }),
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
   },
@@ -576,5 +600,11 @@ button:active {
   to {
     transform: translateY(-0.1em);
   }
+}
+
+
+.input-no-focus:focus {
+  outline: none !important; /* Remover a borda ao focar */
+  box-shadow: none !important; /* Remover a sombra ao focar */
 }
 </style>
