@@ -3,12 +3,17 @@ export default {
   content: [
     './index.html',
     './src/**/*.{vue,js,ts,jsx,tsx}',
-    './node_modules/flowbite/**/*.js',
-    'node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx}',
-    'node_modules/flowbite/**/*.{js,jsx,ts,tsx}'
+   
   ],
   theme: {
-    extend: {}
+    extend: {
+      extend: {
+        focus: {
+          outline: 'none', // Remover a borda ao focar
+          boxShadow: 'none', // Remover a sombra ao focar
+        },
+      },
+    },
   },
-  plugins: [require('flowbite/plugin')]
+  plugins: [require('flowbite/plugin')],
 }
