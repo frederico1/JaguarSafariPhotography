@@ -303,7 +303,7 @@
         <Icon icon="tdesign:arrow-up" color="#000" width="45px" />
       </button>
     </div>
-    <div class="hidden md:block lg:block">
+    <div class="hidden md:block lg:block p-3">
       <div class="mt-28" data-aos="fade-right" data-aos-delay="200">
         <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
           Jaguar Expeditions in Porto Jofre
@@ -477,7 +477,7 @@
         </div>
 
         <!-- FOTOS -->
-        <div class="mt-20 grid grid-cols-3 gap-6">
+        <div class="mt-20 lg:grid lg:grid-cols-3 gap-6 md:grid md:grid-cols-2">
           <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
             <v-img
               class="flex justify-center items-center mx-auto"
@@ -580,7 +580,7 @@
               alt="Monkey"
             ></v-img>
           </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+          <div class="lg:w-[270px] md:w-[355px] shadow-2xl lg:block hidden">
             <v-img
               class="flex justify-center items-center"
               data-aos="fade-down"

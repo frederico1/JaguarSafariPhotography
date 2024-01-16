@@ -1,6 +1,6 @@
 <template>
    <!-- eslint-disable -->
-  <div class="hidden lg:block" data-aos="fade-right" data-aos-delay="200">
+  <div class="md:hidden lg:block" data-aos="fade-right" data-aos-delay="200">
     <div class=" p-3 mx-auto flex justify-evenly place-items-center">
       <div class="flex flex-col gap-2">
         <v-img src="../assets/img/Logo.png" height="" width="250px"> </v-img>
@@ -105,7 +105,106 @@
 
  <!-- TABLET FOOTER -->
  <div class="md:block lg:hidden">
-  <div>ddsadsadadada</div>
+  <div class="flex flex-col" data-aos="fade-right" data-aos-delay="200">
+    <div class="grid grid-cols-3">
+      <div class="flex flex-col mx-auto items-center justify-center">
+        <v-img class="relative top-12" src="../assets/img/Logo.png" height="" width="250px"> </v-img>
+        <div class="tracking-wider flex flex-col gap-1">
+          <p class="">Opening Hours</p>
+            <p>
+            Monday to Friday: 08:00 - 18:00
+          </p>
+          <p>
+            Saturday: 08:00 - 12:00
+          </p>
+          <p>
+            Sunday and Holiday: Closed
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col tracking-wider gap-3 justify-center items-center mx-auto">
+       
+          <router-link class="underline" to="/">Home</router-link>
+          <router-link class="underline" to="/about">About Us</router-link>
+          <router-link class="underline" to="/"
+            >Gallery</router-link
+          >
+          <router-link class="underline" to="/contact">Contact</router-link>
+     
+      </div>
+      <div class="flex flex-col justify-center gap-2 tracking-wider">
+        <span> Jaguar Safari Photography </span>
+        <span> CNPJ: 41.785.966/0001-69 </span>
+        <span> Rua Papagaio, 01 Recanto dos Pássaros I,</span>
+        <span> Quadra 25 Cep 78.074-138 Cuiabá-MT | Brasil </span>
+      </div>
+
+
+      <!-- NETWORKS -->
+
+      <div class="flex justify-start items-center gap-4">
+      <div class="" >
+        <a href="https://instagram.com/guitophotographs" target="_blanck">
+          <Icon icon="iconoir:instagram" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="" >
+        <a
+          href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+          target="_blanck"
+        >
+          <Icon icon="la:whatsapp" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#128C7E] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+
+      <div class="">
+        <a href="https://www.tripadvisor.com.br/Profile/jaguarsafarip" target="_blanck">
+          <Icon icon="cib:tripadvisor" color="" width="28" height="28" />
+        </a>
+        <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>
+      </div>
+      
+      <div>
+        <div class="" >
+          <a
+            href="mailto:http://jaguarsafariphotograph@gmail.com"
+            target="_blanck"
+          >
+            <Icon icon="iconamoon:email-thin" width="28" height="28" />
+            <div class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto "></div>
+          </a>
+        </div>
+      
+      </div>
+      
+      </div>
+      <!-- MAPA TABLET -->
+
+      <!-- MAPA DESKTOP -->
+
+
+
+      <div class="mt-14 shadow-lg">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1358.64317959102!2d-56.0343756669456!3d-15.60109107043721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db0056d62e5d9%3A0xc0b3890402833e07!2sSilva%20Tour%20Pantanal!5e0!3m2!1spt-BR!2sbr!4v1700740106143!5m2!1spt-BR!2sbr"
+          height="350"
+          width="480"
+          style="border: 4"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+    
+    </div>
+    <div class="mt-14 mb-6 text-sm flex justify-center items-center tracking-widest">
+      <p>© Jaguar Safari Photography 2024. All rights reserved.</p>
+    </div>
+  </div>
 
  </div>
 </template>
