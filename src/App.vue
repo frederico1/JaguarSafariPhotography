@@ -2,7 +2,7 @@
   <!-- <div class="hidden md:block bg-[#1a2b5a] h-20 md:mt-96 shadow-2xl"></div>  -->
 
   <!-- MOBILE MENUS -->
-
+  <SpeedInsights />
   <router-view />
 </template>
 <script>
@@ -10,7 +10,7 @@
 import JaguarMenu from "../src/components/JaguarMenu.vue";
 import JaguarAnimated from "../src/components/JaguarAnimated.vue";
 import FooterMobile from "../src/components/JaguarFooterMobile.vue";
-
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 export default {
   components: {
     FooterMobile,
