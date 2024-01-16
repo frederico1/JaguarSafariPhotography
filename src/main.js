@@ -13,6 +13,9 @@ import "@mdi/font/css/materialdesignicons.css";
 import "aos/dist/aos.css";
 import PrimeVue from "primevue/config";
 import { MotionPlugin } from "@vueuse/motion";
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 // Vuetify
 import "vuetify/styles";
