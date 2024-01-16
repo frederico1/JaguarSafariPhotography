@@ -108,8 +108,8 @@
   <div class="flex flex-col" data-aos="fade-right" data-aos-delay="200">
     <div class="grid grid-cols-3">
       <div class="flex flex-col mx-auto items-center justify-center">
-        <v-img src="../assets/img/Logo.png" height="" width="250px"> </v-img>
-        <div class="tracking-wider flex flex-col gap-3">
+        <v-img class="relative top-12" src="../assets/img/Logo.png" height="" width="250px"> </v-img>
+        <div class="tracking-wider flex flex-col gap-1">
           <p class="">Opening Hours</p>
             <p>
             Monday to Friday: 08:00 - 18:00
@@ -132,7 +132,7 @@
           <router-link class="underline" to="/contact">Contact</router-link>
      
       </div>
-      <div class="flex flex-col tracking-wider gap-3 justify-center items-center mx-auto">
+      <div class="flex flex-col justify-center gap-2 tracking-wider">
         <span> Jaguar Safari Photography </span>
         <span> CNPJ: 41.785.966/0001-69 </span>
         <span> Rua Papagaio, 01 Recanto dos Pássaros I,</span>

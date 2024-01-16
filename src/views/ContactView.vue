@@ -185,7 +185,7 @@
   </div>
 
   <!-- TABLET & DESKTOP -->
-  <div class="hidden md:block">
+  <div class="hidden md:block p-3">
     <!-- MENU -->
     <div class="p-3">
       <JaguarMenuDesktop />
@@ -201,7 +201,7 @@
         <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
       </button>
     </div>
-    <div class="mt-28 w-3/5 mx-auto">
+    <div class="mt-28 lg:w-3/5 mx-auto">
       <h1
         class="text-4xl font-serif text-center uppercase tracking-wider"
         data-aos="fade-right"
@@ -225,7 +225,7 @@
     <div class="">
       <!-- FORM -->
 
-      <div class="pt-40 w-3/5 mx-auto grid grid-cols-2 gap-20">
+      <div class="lg:pt-40 lg:w-3/5 mx-auto lg:grid lg:grid-cols-2 lg:gap-20 md:gap-8 md:pt-20">
         <!--  -->
 
         
@@ -355,7 +355,7 @@
             </div>
           </div>
 
-          <div class="flex mx-auto justify-center items-center gap-10 mt-14">
+          <div class="mx-auto justify-center items-center gap-10 mt-14 hidden lg:flex">
       <div class="" >
         <a href="https://instagram.com/guitophotographs" target="_blanck">
           <Icon icon="iconoir:instagram" width="37" height="37" />
@@ -395,14 +395,14 @@
       
       </div>
 
-          <div class="">
+          <div class="hidden lg:block">
             <JaguarDivider />
           </div>
         </div>
       </div>
 
       <!-- DIVIDER -->
-      <div class="pt-56">
+      <div class="lg:pt-56 md:pt-20">
         <JaguarDivider />
       </div>
 

@@ -368,7 +368,7 @@
     <!-- TIMELINE JAGUAR TOUR -->
 
     <div class="mt-10 md:p-4" data-aos="fade-up" data-aos-delay="250">
-      <div class="w-2/5 mx-auto">
+      <div class="lg:w-2/5 mx-auto">
         <h1 class="text-4xl text-center font-serif tracking-wide uppercase">
           Premium Wildlife Photography Expedition in the Pantanal: A Week of
           Immersion in the Wild
@@ -527,7 +527,7 @@
       </div>
 
       <!-- FOTOS -->
-      <div class="mt-20 grid grid-cols-3 mx-auto gap-6">
+      <div class="mt-20 lg:grid lg:grid-cols-3 mx-auto gap-6 md:grid md:grid-cols-2">
         <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
           <v-img
             class="flex justify-center items-center mx-auto"
@@ -624,7 +624,7 @@
             src="../assets/img/avif/6n/6n07.avif"
           ></v-img>
         </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
+        <div class="lg:w-[270px] md:w-[355px] shadow-2xl hidden lg:block">
           <v-img
             class="flex justify-center items-center mx-auto"
             data-aos="fade-down"
