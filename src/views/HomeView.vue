@@ -34,7 +34,7 @@
 
     <!-- DESKTOP E TABLET -->
 
-    <div class="hidden md:flex flex-col justify-center items-center mx-auto">
+    <div class="hidden md:flex flex-col justify-center items-center">
       <div class="md:hidden">
         <JaguarMenu />
       </div>
