@@ -23,6 +23,7 @@
     "@fontsource/alegreya-sans": "^5.0.8",
     "@fontsource/didact-gothic": "^5.0.17",
     "@fontsource/merriweather": "^5.0.8",
+    "@vercel/speed-insights": "^1.0.4",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
     "@vueuse/motion": "^2.0.0",
