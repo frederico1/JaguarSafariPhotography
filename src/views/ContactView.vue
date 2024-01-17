@@ -1,6 +1,5 @@
 <template>
   <!-- eslint-disable -->
-
   <!-- MOBILE -->
   <div class="md:hidden p-3">
     <div class="">
@@ -47,13 +46,11 @@
     <div class="pt-8" data-aos="fade-right" data-aos-delay="200">
       <!-- FORM -->
       <div class="pt-8">
-
         <form action="https://formspree.io/f/xeqyqywn" method="POST">
           <v-text-field
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             class=""
-            
             name="Nome"
             v-model="name.value.value"
             :counter="10"
@@ -62,9 +59,8 @@
           ></v-text-field>
 
           <v-text-field
-
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             name="Phone Number"
             class="mt-5"
             v-model="phone.value.value"
@@ -74,8 +70,8 @@
           ></v-text-field>
 
           <v-text-field
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             name="E-mail"
             class="mt-5"
             v-model="email.value.value"
@@ -84,7 +80,7 @@
 
           <div class="mt-3">
             <v-textarea
-            counter
+              counter
               variant="outlined"
               clearable
               clear-icon="mdi-close-circle"
@@ -187,7 +183,7 @@
   <!-- TABLET & DESKTOP -->
   <div class="hidden md:block p-3">
     <!-- MENU -->
-    <div class="p-3">
+    <div class="">
       <JaguarMenuDesktop />
     </div>
 
@@ -212,7 +208,7 @@
       <p
         data-aos="fade-right"
         data-aos-delay="200"
-        class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-xl"
+        class="mt-8 leading-relaxed justify-center mx-auto text-center font-sans text-lg"
       >
         If you wish to make a Pantanal trip photography, you are in the right
         page. In fact, Silva Tour Pantanal is organizing naturalistic tours
@@ -225,10 +221,11 @@
     <div class="">
       <!-- FORM -->
 
-      <div class="lg:pt-40 lg:w-3/5 mx-auto lg:grid lg:grid-cols-2 lg:gap-20 md:gap-8 md:pt-20">
+      <div
+        class="lg:pt-40 lg:w-3/5 mx-auto lg:grid lg:grid-cols-2 lg:gap-20 md:gap-8 md:pt-20"
+      >
         <!--  -->
 
-        
         <form
           form
           action="https://formspree.io/f/xeqyqywn"
@@ -237,8 +234,8 @@
           data-aos-delay="200"
         >
           <v-text-field
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             name="Nome"
             v-model="name.value.value"
             :counter="10"
@@ -247,8 +244,8 @@
           ></v-text-field>
 
           <v-text-field
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             name="Phone Number"
             class="mt-5"
             v-model="phone.value.value"
@@ -258,8 +255,8 @@
           ></v-text-field>
 
           <v-text-field
-          variant="outlined"
-              clearable
+            variant="outlined"
+            clearable
             name="E-mail"
             class="mt-5"
             v-model="email.value.value"
@@ -267,7 +264,7 @@
           ></v-text-field>
           <div class="mt-6">
             <v-textarea
-            counter
+              counter
               variant="outlined"
               clearable
               clear-icon="mdi-close-circle"
@@ -303,9 +300,9 @@
 
         <div class="" data-aos="fade-left" data-aos-delay="200">
           <div class="">
-            <h1 class="text-2xl font-medium tracking-widest font-sans">
+            <h2 class="text-2xl font-medium tracking-widest font-sans">
               Contact US
-            </h1>
+            </h2>
           </div>
           <div class="pt-1">
             <p class="text-lg font-sans">
@@ -314,14 +311,16 @@
             </p>
           </div>
           <div class="pt-8 flex flex-col gap-4">
-            <div class="flex items-center gap-2 ">
+            <div class="flex items-center gap-2">
               <Icon
                 icon="game-icons:smartphone"
                 width="35"
                 height="35"
                 color=""
               />
-              <a class="text-base font-sans" href="tel:+55 65992764968"
+              <a
+                class="text-base font-sans tracking-wider hover:text-[#1b6dc1] ease-in duration-200"
+                href="tel:+55 65992764968"
                 >+55 65992764968
               </a>
             </div>
@@ -341,13 +340,16 @@
                 <span class="elementor-icon-list-icon">
                   <i aria-hidden="true" class="fas fa-mobile-alt"></i>
                 </span>
-                <span class="elementor-icon-list-text text-base">+55 65 99276-4968</span>
+                <span
+                  class="elementor-icon-list-text text-base tracking-wider hover:text-[#1b6dc1] ease-in duration-200"
+                  >+55 65 99276-4968</span
+                >
               </a>
             </div>
             <div class="flex items-center gap-2">
               <Icon icon="ic:outline-email" width="35" height="35" color="#" />
               <a
-                class="hover:[#] text-base font-sans"
+                class="hover:[#] text-base font-sans tracking-wider hover:text-[#1b6dc1] ease-in duration-200"
                 href="mailto:http://jaguarsafariphotograph@gmail.com"
                 target="_blanck"
                 >jaguarsafariphotograph@gmail.com
@@ -355,45 +357,56 @@
             </div>
           </div>
 
-          <div class="mx-auto justify-center items-center gap-10 mt-14 hidden lg:flex">
-      <div class="" >
-        <a href="https://instagram.com/guitophotographs" target="_blanck">
-          <Icon icon="iconoir:instagram" width="37" height="37" />
-        </a>
-        <div class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto "></div>
-      </div>
-
-      <div class="" >
-        <a
-          href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-          target="_blanck"
-        >
-          <Icon icon="la:whatsapp" width="37" height="37" />
-        </a>
-        <div class="mt-1 h-[2px] bg-[#128C7E] w-4/4 flex justify-center items-center mx-auto "></div>
-      </div>
-
-      <div class="">
-        <a href="https://www.tripadvisor.com.br/Profile/jaguarsafarip" target="_blanck">
-          <Icon icon="cib:tripadvisor" color="" width="37" height="37" />
-        </a>
-        <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>
-      </div>
-      
-      <div>
-        <div class="" >
-          <a
-            href="mailto:http://jaguarsafariphotograph@gmail.com"
-            target="_blanck"
+          <div
+            class="mx-auto justify-center items-center gap-10 mt-14 hidden lg:flex"
           >
-            <Icon icon="iconamoon:email-thin" width="37" height="37" />
-            <div class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto "></div>
-          </a>
-        </div>
-      
-      </div>
-      
-      </div>
+            <div class="">
+              <a href="https://instagram.com/guitophotographs" target="_blanck">
+                <Icon icon="iconoir:instagram" width="37" height="37" />
+              </a>
+              <div
+                class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto"
+              ></div>
+            </div>
+
+            <div class="">
+              <a
+                href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
+                target="_blanck"
+              >
+                <Icon icon="la:whatsapp" width="37" height="37" />
+              </a>
+              <div
+                class="mt-1 h-[2px] bg-[#128C7E] w-4/4 flex justify-center items-center mx-auto"
+              ></div>
+            </div>
+
+            <div class="">
+              <a
+                href="https://www.tripadvisor.com.br/Profile/jaguarsafarip"
+                target="_blanck"
+              >
+                <Icon icon="cib:tripadvisor" color="" width="37" height="37" />
+              </a>
+              <div
+                class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto"
+              ></div>
+            </div>
+
+            <div>
+              <div class="">
+                <a
+                  href="mailto:http://jaguarsafariphotograph@gmail.com"
+                  target="_blanck"
+                >
+                  <Icon icon="iconamoon:email-thin" width="37" height="37" />
+                  <div
+                    class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto"
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div class="hidden lg:block">
             <JaguarDivider />
@@ -448,9 +461,9 @@ export default {
   },
 
   data: () => ({
-      rules: [v => v.length <= 25 || 'Max 25 characters'],
-      value: 'Hello!',
-    }),
+    rules: [(v) => v.length <= 25 || "Max 25 characters"],
+    value: "Hello!",
+  }),
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
   },
@@ -601,7 +614,6 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
-
 
 .input-no-focus:focus {
   outline: none !important; /* Remover a borda ao focar */

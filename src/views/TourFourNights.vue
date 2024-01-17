@@ -475,124 +475,125 @@
         <div class="p-3 mx-auto">
           <JaguarDivider />
         </div>
-
-        <!-- FOTOS -->
-        <div class="mt-20 lg:grid lg:grid-cols-3 gap-6 md:grid md:grid-cols-2">
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-right"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="600"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n.avif"
-              alt="Jaguar"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-left"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="600"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n01.avif"
-              alt="Jaguar"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="600"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n02.avif"
-              alt="Jaguar"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-right"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="600"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n03.avif"
-              alt="Snake"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center"
-              data-aos="fade-left"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="600"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n04.avif"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center mx-auto"
-              data-aos="fade-left"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n05.avif"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center"
-              data-aos="fade-down"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n06.avif"
-              alt="Alligator"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-            <v-img
-              class="flex justify-center items-center"
-              data-aos="fade-down"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n07.avif"
-              alt="Monkey"
-            ></v-img>
-          </div>
-          <div class="lg:w-[270px] md:w-[355px] shadow-2xl lg:block hidden">
-            <v-img
-              class="flex justify-center items-center"
-              data-aos="fade-down"
-              data-aos-delay="100"
-              max-width="400"
-              max-height="300"
-              aspect-ratio=""
-              cover
-              src="../assets/img/avif/4n/4n08.avif"
-              alt=""
-            ></v-img>
-          </div>
+      </div>
+      <!-- FOTOS -->
+      <div
+        class="lg:w-4/5 mt-20 lg:grid lg:grid-cols-3 lg:mx-auto lg:place-items-center gap-3 md:grid md:grid-cols-2"
+      >
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-right"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n.avif"
+            alt="Jaguar"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-left"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n01.avif"
+            alt="Jaguar"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-up"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n02.avif"
+            alt="Jaguar"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-right"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n03.avif"
+            alt="Snake"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-left"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="600"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n04.avif"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-left"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n05.avif"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class="flex justify-center items-center"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n06.avif"
+            alt="Alligator"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px]">
+          <v-img
+            class=""
+            data-aos="fade-down"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n07.avif"
+            alt="Monkey"
+          ></v-img>
+        </div>
+        <div class="lg:w-[400px] md:w-[355px] lg:block hidden">
+          <v-img
+            class=""
+            data-aos="fade-down"
+            data-aos-delay="100"
+            max-width="400"
+            max-height="300"
+            aspect-ratio=""
+            cover
+            src="../assets/img/avif/4n/4n08.avif"
+            alt=""
+          ></v-img>
         </div>
       </div>
 
