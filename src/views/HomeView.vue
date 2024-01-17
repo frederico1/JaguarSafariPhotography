@@ -95,7 +95,7 @@
       </div>
       <div class="pt-20 grid gap-7 lg:grid lg:grid-cols-3 lg:gap-20">
         <div>
-          <JaguarCard4 data-aos="fade-right" data-aos-delay="200"></JaguarCard4>
+          <JaguarCard4></JaguarCard4>
         </div>
         <div>
           <JaguarCard6 data-aos="fade-down" data-aos-delay="200"></JaguarCard6>

@@ -122,7 +122,7 @@
     </div>
 
     <div
-      class="lg:w-2/5 mx-auto mt-10 text-center flex flex-col gap-4 leading-relaxed"
+      class="lg:w-3/5 mx-auto mt-10 text-center flex flex-col gap-4 leading-relaxed"
       data-aos="fade-left"
       data-aos-delay="400"
     >

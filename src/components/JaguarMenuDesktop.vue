@@ -1,23 +1,22 @@
 <template>
-       <!-- eslint-disable -->
+  <!-- eslint-disable -->
   <div class="hidden md:flex mx-auto justify-center mt-20">
     <div>
-        <div class="flex gap-20 uppercase font-semibold tracking-widest">
-          <router-link class="underline" to="/">Home</router-link>
-          <router-link class="underline" to="/about">About Us</router-link>          
-          <router-link class="underline" to="/">Gallery</router-link>          
-          <router-link class="underline" to="/contact">Contact</router-link>          
-        </div>
+      <div class="flex gap-20 uppercase font-semibold tracking-widest">
+        <router-link class="underline" to="/">Home</router-link>
+        <router-link class="underline" to="/about">About Us</router-link>
+        <router-link class="underline" to="/">Gallery</router-link>
+        <router-link class="underline" to="/contact">Contact</router-link>
       </div>
+    </div>
   </div>
 </template>
 
 <script>
 /* eslint-disable */
 export default {
-    name: "JaguarMenuDesktop",
-
-}
+  name: "JaguarMenuDesktop",
+};
 </script>
 
 <style scoped>
@@ -49,10 +48,11 @@ export default {
   position: absolute;
   display: block;
   width: 100%;
-  height: 1px;
+  height: 1.5px;
   bottom: 0;
   left: 0;
   top: 10;
+
   background-color: #07396b;
   transform: scaleX(0);
   transform-origin: top left;

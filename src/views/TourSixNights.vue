@@ -525,117 +525,118 @@
       <div class="p-3 mx-auto">
         <JaguarDivider />
       </div>
-
-      <!-- FOTOS -->
-      <div class="mt-20 lg:grid lg:grid-cols-3 mx-auto gap-6 md:grid md:grid-cols-2">
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-right"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="600"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-left"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="600"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n01.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-up"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="600"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n02.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-right"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="600"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n03.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-left"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="600"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n04.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-left"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="300"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n05.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-down"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="300"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n06.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px]  shadow-2xl">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-down"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="300"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n07.avif"
-          ></v-img>
-        </div>
-        <div class="lg:w-[270px] md:w-[355px] shadow-2xl hidden lg:block">
-          <v-img
-            class="flex justify-center items-center mx-auto"
-            data-aos="fade-down"
-            data-aos-delay="100"
-            max-width="400"
-            max-height="300"
-            aspect-ratio=""
-            cover
-            src="../assets/img/avif/6n/6n08.avif"
-          ></v-img>
-        </div>
+    </div>
+    <!-- FOTOS -->
+    <div
+      class="lg:w-4/5 mt-20 lg:grid lg:grid-cols-3 lg:mx-auto lg:place-items-center gap-3 md:grid md:grid-cols-2"
+    >
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-right"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="600"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-left"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="600"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n01.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-up"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="600"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n02.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-right"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="600"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n03.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-left"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="600"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n04.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-left"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="300"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n05.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-down"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="300"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n06.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px]">
+        <v-img
+          class=""
+          data-aos="fade-down"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="300"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n07.avif"
+        ></v-img>
+      </div>
+      <div class="lg:w-[400px] md:w-[355px] hidden lg:block">
+        <v-img
+          class=""
+          data-aos="fade-down"
+          data-aos-delay="100"
+          max-width="400"
+          max-height="300"
+          aspect-ratio=""
+          cover
+          src="../assets/img/avif/6n/6n08.avif"
+        ></v-img>
       </div>
     </div>
 
