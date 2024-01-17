@@ -23,7 +23,7 @@
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="50">
-        <a href="https://www.tripadvisor.com.br/Profile/jaguarsafarip" target="_blanck">
+        <a href="https://www.tripadvisor.com.br/Attraction_Review-g488170-d27133585-Reviews-Jaguar_Safari_Photography-Cuiaba_State_of_Mato_Grosso.html" target="_blanck">
           <Icon icon="cib:tripadvisor" color="" width="28" height="28" />
         </a>
         <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>

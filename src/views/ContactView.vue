@@ -383,7 +383,7 @@
 
             <div class="">
               <a
-                href="https://www.tripadvisor.com.br/Profile/jaguarsafarip"
+                href="https://www.tripadvisor.com.br/Attraction_Review-g488170-d27133585-Reviews-Jaguar_Safari_Photography-Cuiaba_State_of_Mato_Grosso.html"
                 target="_blanck"
               >
                 <Icon icon="cib:tripadvisor" color="" width="37" height="37" />
