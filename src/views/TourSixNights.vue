@@ -528,11 +528,11 @@
     </div>
     <!-- FOTOS -->
     <div
-      class="lg:w-4/5 mt-20 lg:grid lg:grid-cols-3 lg:mx-auto lg:place-items-center gap-3 md:grid md:grid-cols-2"
+      class="lg:w-4/5 mt-20 lg:grid lg:grid-cols-3 lg:mx-auto lg:place-items-center gap-5 md:grid md:grid-cols-2"
     >
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-right"
           data-aos-delay="100"
           max-width="400"
@@ -544,7 +544,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-left"
           data-aos-delay="100"
           max-width="400"
@@ -556,7 +556,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-up"
           data-aos-delay="100"
           max-width="400"
@@ -568,7 +568,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-right"
           data-aos-delay="100"
           max-width="400"
@@ -580,7 +580,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-left"
           data-aos-delay="100"
           max-width="400"
@@ -592,7 +592,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-left"
           data-aos-delay="100"
           max-width="400"
@@ -604,7 +604,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-down"
           data-aos-delay="100"
           max-width="400"
@@ -616,7 +616,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px]">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-down"
           data-aos-delay="100"
           max-width="400"
@@ -628,7 +628,7 @@
       </div>
       <div class="lg:w-[400px] md:w-[355px] hidden lg:block">
         <v-img
-          class=""
+          class="shadow-lg"
           data-aos="fade-down"
           data-aos-delay="100"
           max-width="400"
