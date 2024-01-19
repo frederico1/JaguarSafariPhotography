@@ -36,6 +36,7 @@
     "material-design-icons-iconfont": "^6.7.0",
     "normalize.css": "^8.0.1",
     "primevue": "^3.42.0",
+    "swiper": "^11.0.5",
     "vee-validate": "^4.11.8",
     "vue": "^3.2.13",
     "vue-material": "^1.0.0-beta-16",
