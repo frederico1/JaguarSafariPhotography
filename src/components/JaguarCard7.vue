@@ -1,12 +1,9 @@
 <template>
   <v-card
     hover
-    elevation="16"
+    elevation="5"
     class="mx-auto shadow-xl md:w-[650px] lg:w-[480px] w-[340px]"
-    style="
-      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-        0 8px 10px -6px rgb(0 0 0 / 0.1);
-    "
+   
   >
     <v-img src="../assets/img/avif/Cards/jaguar3.avif" height="300px" cover></v-img>
 
@@ -23,7 +20,7 @@
     <v-card-actions>
       <router-link class="flex justify-center items-center" to="/tour7nights">
         <Icon icon="material-symbols-light:read-more" width="24" height="24" />
-        <v-btn color=""> Read More </v-btn>
+        <v-btn color="" class="hover:text-[#1b6dc1]"> Read More </v-btn>
       </router-link>
 
       <v-spacer></v-spacer>
