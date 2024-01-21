@@ -478,35 +478,6 @@
       </div>
       <!-- FOTOS DESKTOP -->
 
-      <div>
-      <a href="#" @click.prevent="show" class="w-full">
-          <img href="../../src/assets/img/avif/4n/4n.avif" class="w-64" :src="thumbnail">
-      </a>
-      <div class="lightbox fixed pin z-50 flex justify-center items-center" v-if="visible" @click="hide">
-          <div class="fixed pin-r pin-t text-white cursor-pointer text-4xl p-1 mr-2" @click.stop="hide">&times;</div>
-          <div class="flex">
-              <div class="cursor-pointer self-center px-8"
-                   @click.stop="prev"
-                   :class="{'invisible': ! hasPrev()}">
-                  <svg class="pointer-events-none" fill="#fff" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
-                      <path d="M0-.5h24v24H0z" fill="none"/>
-                  </svg>
-              </div>
-              <div class="lightbox-image" @click.stop="">
-                  <img :src="images[index]">
-              </div>
-              <div class="cursor-pointer self-center px-8"
-                   @click.stop="next"
-                   :class="{'invisible': ! hasNext()}">
-                  <svg class="pointer-events-none" fill="#fff" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
-                      <path d="M0-.25h24v24H0z" fill="none"/>
-                  </svg>
-              </div>
-          </div>
-      </div>
-  </div>
       <div
         class="lg:w-4/5 mt-20 lg:grid lg:grid-cols-3 lg:mx-auto lg:place-items-center gap-5 md:grid md:grid-cols-2"
       >
