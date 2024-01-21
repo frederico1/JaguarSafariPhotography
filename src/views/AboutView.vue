@@ -48,7 +48,7 @@
             <a
               class="text-[#07396b] font-semibold cursor-pointer"
               href="https://silvatourpantanal.com"
-              target="_blanck"
+              target="_blank"
             >
               Silva Tour Pantanal </a
             >, a well-established company with a long history in the market and
@@ -145,7 +145,7 @@
             <a
               class="text-[#07396b] font-semibold cursor-pointer"
               href="https://silvatourpantanal.com"
-              target="_blanck"
+              target="_blank"
             >
               Silva Tour Pantanal </a
             >, a well-established company with a long history in the market and
