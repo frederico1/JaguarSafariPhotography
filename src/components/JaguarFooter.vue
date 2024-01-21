@@ -7,11 +7,11 @@
         <div class="tracking-wider flex flex-col gap-3">
           <p class="">Opening Hours</p>
             <p>
-            Monday to Friday: 08:00 - 18:00
+            Monday to Friday: 7:30 AM - 6:00 PM
           </p>
           <p>
-            Saturday: 08:00 - 12:00
-          </p>
+            Saturday: 8:00 AM - 12:30
+PM          </p>
           <p>
             Sunday and Holiday: Closed
           </p>
@@ -112,10 +112,10 @@
         <div class="tracking-wider flex flex-col gap-1">
           <p class="">Opening Hours</p>
             <p>
-            Monday to Friday: 08:00 - 18:00
+            Monday to Friday: 7:30 AM - 6:00 PM
           </p>
           <p>
-            Saturday: 08:00 - 12:00
+            Saturday: 8:00 AM - 12:30 PM
           </p>
           <p>
             Sunday and Holiday: Closed
