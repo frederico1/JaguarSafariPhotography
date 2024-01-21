@@ -149,7 +149,7 @@
             <a
               class="font-sans text-sm"
               href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-              target="_blanck"
+              target="_blank"
             >
               <span class="elementor-icon-list-icon">
                 <i aria-hidden="true" class="fas fa-mobile-alt"></i>
@@ -162,7 +162,7 @@
             <a
               class="hover:[#] text-sm font-sans"
               href="mailto:http://jaguarsafariphotograph@gmail.com"
-              target="_blanck"
+              target="_blank"
               >jaguarsafariphotograph@gmail.com
             </a>
           </div>
@@ -197,6 +197,7 @@
         <Icon icon="line-md:arrow-up" color="#454546" width="45px" />
       </button>
     </div>
+
     <div class="mt-28 lg:w-3/5 mx-auto">
       <h1
         class="text-4xl font-serif text-center uppercase tracking-wider"
@@ -335,7 +336,7 @@
               <a
                 class="font-sans text-sm"
                 href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-                target="_blanck"
+                target="_blank"
               >
                 <span class="elementor-icon-list-icon">
                   <i aria-hidden="true" class="fas fa-mobile-alt"></i>
@@ -351,7 +352,7 @@
               <a
                 class="hover:[#] text-base font-sans tracking-wider hover:text-[#1b6dc1] ease-in duration-200"
                 href="mailto:http://jaguarsafariphotograph@gmail.com"
-                target="_blanck"
+                target="_blank"
                 >jaguarsafariphotograph@gmail.com
               </a>
             </div>
@@ -361,7 +362,7 @@
             class="mx-auto justify-center items-center gap-10 mt-14 hidden lg:flex"
           >
             <div class="">
-              <a href="https://instagram.com/guitophotographs" target="_blanck">
+              <a href="https://instagram.com/guitophotographs" target="_blank">
                 <Icon icon="iconoir:instagram" width="37" height="37" />
               </a>
               <div
@@ -372,7 +373,7 @@
             <div class="">
               <a
                 href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-                target="_blanck"
+                target="_blank"
               >
                 <Icon icon="la:whatsapp" width="37" height="37" />
               </a>
@@ -384,7 +385,7 @@
             <div class="">
               <a
                 href="https://www.tripadvisor.com.br/Attraction_Review-g488170-d27133585-Reviews-Jaguar_Safari_Photography-Cuiaba_State_of_Mato_Grosso.html"
-                target="_blanck"
+                target="_blank"
               >
                 <Icon icon="cib:tripadvisor" color="" width="37" height="37" />
               </a>
@@ -397,7 +398,7 @@
               <div class="">
                 <a
                   href="mailto:http://jaguarsafariphotograph@gmail.com"
-                  target="_blanck"
+                  target="_blank"
                 >
                   <Icon icon="iconamoon:email-thin" width="37" height="37" />
                   <div

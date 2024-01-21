@@ -6,7 +6,7 @@
     <!-- ICONES -->
     <div class="flex justify-center items-center gap-5">
       <div class="" data-aos="fade-right" data-aos-delay="50">
-        <a href="https://instagram.com/guitophotographs" target="_blanck">
+        <a href="https://instagram.com/guitophotographs" target="_blank">
           <Icon icon="iconoir:instagram" width="28" height="28" />
         </a>
         <div class="mt-1 h-[2px] bg-[#E1306C] w-4/4 flex justify-center items-center mx-auto "></div>
@@ -15,7 +15,7 @@
       <div class="" data-aos="fade-down" data-aos-delay="50">
         <a
           href="https://api.whatsapp.com/send?phone=+5565992764968&text=Hello%21"
-          target="_blanck"
+          target="_blank"
         >
           <Icon icon="la:whatsapp" width="28" height="28" />
         </a>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="" data-aos="fade-up" data-aos-delay="50">
-        <a href="https://www.tripadvisor.com.br/Attraction_Review-g488170-d27133585-Reviews-Jaguar_Safari_Photography-Cuiaba_State_of_Mato_Grosso.html" target="_blanck">
+        <a href="https://www.tripadvisor.com.br/Attraction_Review-g488170-d27133585-Reviews-Jaguar_Safari_Photography-Cuiaba_State_of_Mato_Grosso.html" target="_blank">
           <Icon icon="cib:tripadvisor" color="" width="28" height="28" />
         </a>
         <div class="mt-1 h-[2px] bg-[#25D366] w-4/4 flex justify-center items-center mx-auto "></div>
@@ -33,7 +33,7 @@
         <div class="" data-aos="fade-left" data-aos-delay="50">
           <a
             href="mailto:http://jaguarsafariphotograph@gmail.com"
-            target="_blanck"
+            target="_blank"
           >
             <Icon icon="iconamoon:email-thin" width="28" height="28" />
             <div class="mt-1 h-[2px] bg-[#4285F4] w-4/4 flex justify-center items-center mx-auto "></div>
