@@ -32,8 +32,8 @@ const routes = [
   },
 
   {
-    path: "/jaguar-safari",
-    name: "jaguarsafari",
+    path: "/gallery",
+    name: "jaguar-gallery",
     component: () => import("../views/JaguarSafariView.vue"),
   },
 

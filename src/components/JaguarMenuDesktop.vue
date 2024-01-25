@@ -5,7 +5,7 @@
       <div class="flex gap-20 uppercase font-semibold tracking-widest">
         <router-link class="underline" to="/">Home</router-link>
         <router-link class="underline" to="/about">About Us</router-link>
-        <router-link class="underline" to="/">Gallery</router-link>
+        <router-link class="underline" to="/gallery">Gallery</router-link>
         <router-link class="underline" to="/contact">Contact</router-link>
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
   position: absolute;
   display: block;
   width: 100%;
-  height: 1px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -48,7 +48,7 @@ export default {
   position: absolute;
   display: block;
   width: 100%;
-  height: 1.5px;
+  height: 2px;
   bottom: 0;
   left: 0;
   top: 10;

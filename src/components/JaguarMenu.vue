@@ -19,7 +19,7 @@
 
       <router-link to="/about">About US</router-link>
 
-      <router-link to="">Gallery</router-link>
+      <router-link to="/gallery">Gallery</router-link>
 
       <router-link to="/Contact">Contact</router-link>
     </div>
