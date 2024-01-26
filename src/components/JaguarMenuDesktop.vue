@@ -25,7 +25,7 @@ export default {
   position: absolute;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -48,7 +48,7 @@ export default {
   position: absolute;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   top: 10;

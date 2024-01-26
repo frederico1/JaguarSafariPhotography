@@ -30,94 +30,200 @@
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n.avif"
+                src="../assets/img/avif/gallery/g01.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
+               class="flex justify-center items-center mx-auto"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n01.avif"
+                src="../assets/img/avif/gallery/g03.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
-              
+                class="flex justify-center items-center mx-auto"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n02.avif"
+                src="../assets/img/avif/gallery/g04.avif"
                 alt="Jaguar"
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center mx-auto"
                 data-aos="fade-right"
                 data-aos-delay="20"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n03.avif"
+                src="../assets/img/avif/gallery/g05.avif"
                 alt="Snake"
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center mx-auto"
                 data-aos="fade-left"
                 data-aos-delay="80"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n04.avif"
+                src="../assets/img/avif/gallery/g06.avif"
                 alt=""
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="120"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n05.avif"
+                src="../assets/img/avif/gallery/g07.avif"
               ></v-img>
             </div>
             <div>
               <v-img
-              class="flex justify-center items-center mx-auto"
+                class="flex justify-center items-center mx-auto"
                 data-aos="fade-down"
                 data-aos-delay="160"
                 max-width="360"
                 max-height="300"
                 aspect-ratio=""
                 cover
-                src="../assets/img/avif/4n/4n06.avif"
+                src="../assets/img/avif/gallery/g08.avif"
                 alt="Alligator"
               ></v-img>
             </div>
+           
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="160"
+                max-width="360"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/avif/gallery/g10.avif"
+                alt="Alligator"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="160"
+                max-width="360"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/avif/gallery/g11.avif"
+                alt="Alligator"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="160"
+                max-width="360"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/avif/gallery/g12.avif"
+                alt="Alligator"
+              ></v-img>
+            </div>
+            <div>
+              <v-img
+                class="flex justify-center items-center mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="160"
+                max-width="360"
+                max-height="300"
+                aspect-ratio=""
+                cover
+                src="../assets/img/avif/gallery/g13.avif"
+                alt="Alligator"
+              ></v-img>
+            </div>
+
           </div>
 
       <!-- DIVIDER -->
-      <div class="mt-56">
-      <JaguarDivider></JaguarDivider>
+        <div class="pt-56">
+          <JaguarDivider />
+        </div>
+
+    <!-- HOME FOOTER MOBILE -->
+
+    <div class="md:hidden">
+      <JaguarFooterMobile />
     </div>
-      <!-- FOOTER MOBILE-->
-      <div class="mt-10">
-      <JaguarFooterMobile></JaguarFooterMobile>
+  </div>
+
+  <!-- TABLET E DESKTOP -->
+  <div class="hidden md:flex">
+    <!-- MENU -->
+    <div class="flex justify-center items-center mx-auto p-3">
+    <JaguarMenuDesktop></JaguarMenuDesktop>
+
+    <!-- BACKTOTOP -->
+
+    <div class="">
+        <button
+          class="bg-#000"
+          id="backToTopBtn"
+          @click="scrollToTop"
+          v-show="showBackToTopButton"
+        >
+          <Icon icon="line-md:arrow-up" color="#454546" width="33px" />
+        </button>
       </div>
+
+      <!-- HEADER -->
+      <div><h1>GALLERY</h1></div>
+
+      <!-- IMAGENS -->
+      <v-row>
+    <template v-for="(image,imgIdx) in imageLayout" :key="imgIdx">
+      <v-col :cols="image.cols">
+        <v-img
+          :src="`https://picsum.photos/500/300?image=${image.cols * 20}`"
+          cover
+          height="100%"
+        ></v-img>
+      </v-col>
+
+      <v-col v-if="image.children" cols="6" class="d-flex flex-column">
+        <v-row>
+          <v-col v-for="(children,childIdx) in image.children" :key="childIdx" :cols="children.cols">
+            <v-img
+              :src="`https://picsum.photos/500/300?image=${children.cols + childIdx}`"
+              cover
+              height="100%"
+            ></v-img>
+          </v-col>
+        </v-row>
+      </v-col>
+    </template>
+  </v-row>
+  </div>
+
+
   </div>
 
 </template>
